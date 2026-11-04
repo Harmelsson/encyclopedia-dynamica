@@ -1,0 +1,131 @@
+{
+  "note": "INVENTED EXAMPLES ONLY. Nothing here is a real fact, place or source. They exist so the map can show what a card looks like, and they load only at ?examples. They must never be copied into real entries.",
+  "sources": [
+    { "id": "example-source-1", "type": "excavation report", "reference": "[EXAMPLE] Invented excavation report, Site A", "language": "English", "status": "current",
+      "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } },
+    { "id": "example-source-2", "type": "peer-reviewed study", "reference": "[EXAMPLE] Invented radiocarbon study", "language": "English", "status": "current", "peer_review": "peer reviewed",
+      "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } },
+    { "id": "example-source-3", "type": "book", "scholarly": true, "reference": "[EXAMPLE] Invented scholarly book on coins", "language": "English", "status": "current",
+      "checked": null },
+    { "id": "example-source-4", "type": "primary text", "reference": "[EXAMPLE] Invented chronicle, scholarly edition", "language": "Latin", "status": "current", "written": { "from": 1200, "to": 1200, "precision": "approximate" }, "distance": "later",
+      "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } },
+    { "id": "example-source-5", "type": "review or survey", "reference": "[EXAMPLE] Invented review article", "language": "English", "status": "current",
+      "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } }
+  ],
+  "entries": [
+    {
+      "id": "example-site-a",
+      "title": "[EXAMPLE] Cemetery at Site A",
+      "short_title": "[EXAMPLE] Site A",
+      "layer": "dig site",
+      "fact_summary": "[EXAMPLE] An invented cemetery, used only to show how a card is laid out.",
+      "place": { "lon": 48, "lat": 52, "precision": "approximate", "label": "[EXAMPLE] somewhere on the steppe" },
+      "time": { "from": 800, "to": 900, "precision": "range" },
+      "min_zoom": 3,
+      "claims": [
+        { "id": "a-c1", "kind": "evidence", "text": "[EXAMPLE] About 100 graves were excavated.",
+          "sources": [{ "id": "example-source-1", "locator": "p. 12" }],
+          "certainty": "well established", "certainty_reason": "[EXAMPLE] Count reported directly in the excavation report.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } },
+        { "id": "a-c2", "kind": "evidence", "text": "[EXAMPLE] Radiocarbon dates fall in the 9th century.",
+          "sources": [{ "id": "example-source-2", "locator": "Table 3" }],
+          "certainty": "reasonably supported", "certainty_reason": "[EXAMPLE] Only five samples dated.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } },
+        { "id": "a-c3", "kind": "evidence", "text": "[EXAMPLE] Coins in the graves suggest burial after 870.",
+          "sources": [{ "id": "example-source-3", "locator": "ch. 4" }],
+          "certainty": "reasonably supported", "certainty_reason": "[EXAMPLE] Coins give only an earliest possible date.",
+          "checked": null },
+        { "id": "a-i1", "kind": "interpretation", "text": "[EXAMPLE] The cemetery belonged to a group that later moved west.",
+          "sources": [{ "id": "example-source-2", "locator": "Discussion, p. 9" }],
+          "held_by": [{ "who": "[EXAMPLE] Authors of the radiocarbon study", "source": "example-source-2" }],
+          "rests_on": ["a-c1", "a-c2"],
+          "certainty": "disputed or uncertain", "certainty_reason": "[EXAMPLE] Based on object style alone.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } },
+        { "id": "a-i2", "kind": "interpretation", "text": "[EXAMPLE] A long-shot idea that the site was a trading post.",
+          "sources": [{ "id": "example-source-5", "locator": "p. 40" }],
+          "held_by": [{ "who": "[EXAMPLE] One author named in the review", "source": "example-source-5" }],
+          "rests_on": [],
+          "certainty": "speculative", "certainty_reason": "[EXAMPLE] No direct evidence; mentioned once.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } }
+      ],
+      "dating_methods": [
+        { "id": "a-d1", "kind": "evidence", "text": "[EXAMPLE] Radiocarbon dating of bone from five graves.",
+          "sources": [{ "id": "example-source-2", "locator": "Table 3" }],
+          "certainty": "reasonably supported", "certainty_reason": "[EXAMPLE] Small sample.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } }
+      ],
+      "contradictions": [
+        { "id": "a-x1", "claims": ["a-c2", "a-c3"], "what_differs": "[EXAMPLE] Radiocarbon allows dates before 870; the coins do not." }
+      ],
+      "open_questions": [{ "text": "[EXAMPLE] Who was buried here?" }],
+      "links": [{ "entry": "example-chronicle-b" }, { "concept": "radiocarbon-dating", "label": "Radiocarbon dating" }],
+      "review": { "status": "sources to check" }
+    },
+    {
+      "id": "example-chronicle-b",
+      "title": "[EXAMPLE] Chronicle B mentions a river crossing",
+      "short_title": "[EXAMPLE] Chronicle B",
+      "layer": "written source",
+      "fact_summary": "[EXAMPLE] An invented chronicle passage about a river crossing.",
+      "place": { "lon": 33, "lat": 47.5, "precision": "approximate", "label": "[EXAMPLE] a river on the steppe" },
+      "time": { "from": 850, "to": 900, "precision": "approximate" },
+      "min_zoom": 3,
+      "claims": [
+        { "id": "b-c1", "kind": "evidence", "text": "[EXAMPLE] The chronicle says a people crossed the river.",
+          "sources": [{ "id": "example-source-4", "locator": "ch. 7, p. 31" }],
+          "certainty": "well established", "certainty_reason": "[EXAMPLE] The passage was found in the scholarly edition.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } },
+        { "id": "b-c2", "kind": "evidence", "text": "[EXAMPLE] The crossing happened in the 9th century.",
+          "sources": [{ "id": "example-source-4", "locator": "ch. 7, p. 31" }],
+          "certainty": "disputed or uncertain", "certainty_reason": "[EXAMPLE] The chronicle was written about three centuries later and nothing else confirms it.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } }
+      ],
+      "dating_methods": [
+        { "id": "b-d1", "kind": "evidence", "text": "[EXAMPLE] Dated only by the chronicle's own account.",
+          "sources": [{ "id": "example-source-4", "locator": "ch. 7" }],
+          "certainty": "disputed or uncertain", "certainty_reason": "[EXAMPLE] Single later source.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } }
+      ],
+      "open_questions": [{ "text": "[EXAMPLE] Did the chronicler use an older lost text?" }],
+      "links": [{ "entry": "example-site-a" }],
+      "review": { "status": "checked", "by": "[EXAMPLE] invented checker", "on": "2000-01-01" }
+    },
+    {
+      "id": "example-zone-c",
+      "title": "[EXAMPLE] Zone of Group C",
+      "layer": "border",
+      "fact_summary": "[EXAMPLE] An invented zone, to show how a soft border with no hard edge is drawn.",
+      "place": { "precision": "approximate", "label": "[EXAMPLE] a region on the steppe" },
+      "time": { "from": 820, "to": 900, "precision": "approximate" },
+      "min_zoom": 2,
+      "claims": [
+        { "id": "c-c1", "kind": "interpretation", "text": "[EXAMPLE] Group C lived roughly in this region.",
+          "sources": [{ "id": "example-source-5", "locator": "Map 2" }],
+          "held_by": [{ "who": "[EXAMPLE] Author of the review", "source": "example-source-5" }],
+          "rests_on": [],
+          "certainty": "reasonably supported", "certainty_reason": "[EXAMPLE] One scholarly map, no edge described.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } }
+      ],
+      "dating_methods": [
+        { "id": "c-d1", "kind": "evidence", "text": "[EXAMPLE] Dates taken from the review's map caption.",
+          "sources": [{ "id": "example-source-5", "locator": "Map 2 caption" }],
+          "certainty": "reasonably supported", "certainty_reason": "[EXAMPLE] One source.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } }
+      ],
+      "shapes": [
+        { "id": "c-s1", "kind": "interpretation", "shape_kind": "zone",
+          "text": "[EXAMPLE] The zone as drawn on the review's map.",
+          "geometry": { "type": "Polygon", "coordinates": [[[36, 49], [41, 51.5], [46, 50.5], [47, 47.5], [43, 46], [38, 46.5], [36, 49]]] },
+          "drawn_from": { "source": "example-source-5", "locator": "Map 2" },
+          "drawn_by": "[EXAMPLE] invented tracer, 2000-01-01",
+          "valid_from": 820, "valid_to": 900,
+          "sources": [{ "id": "example-source-5", "locator": "Map 2" }],
+          "held_by": [{ "who": "[EXAMPLE] Author of the review", "source": "example-source-5" }],
+          "rests_on": [],
+          "certainty": "reasonably supported", "certainty_reason": "[EXAMPLE] One scholarly map.",
+          "checked": { "by": "[EXAMPLE] invented checker", "on": "2000-01-01" } }
+      ],
+      "review": { "status": "checked", "by": "[EXAMPLE] invented checker", "on": "2000-01-01" }
+    }
+  ]
+}

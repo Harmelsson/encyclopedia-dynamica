@@ -1,0 +1,19 @@
+name: Check data
+
+# Runs the honesty checker on every pull request, so a change that breaks
+# the rules (a claim with no source, a contradiction with a "winner", and so on)
+# shows a red cross before it can be merged.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/check-data.mjs
