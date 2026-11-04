@@ -1,50 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-tint="pure">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Encyclopedia Dynamica</title>
   <meta name="description" content="An interactive map-and-timeline encyclopedia of the world's history, with evidence first.">
-  <style>
-    :root {
-      --bg: #2b2d30;
-      --panel: rgba(70, 72, 76, 0.55);
-      --text: #e4e4e2;
-      --muted: #a3a4a6;
-      --accent: #b8a77a;
-    }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; margin: 0; }
-    body {
-      background: radial-gradient(ellipse at center, #3a3c40 0%, var(--bg) 70%);
-      color: var(--text);
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 16px;
-    }
-    main {
-      max-width: 34rem;
-      background: var(--panel);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 10px;
-      padding: 2rem 2.25rem;
-      line-height: 1.55;
-    }
-    h1 { font-weight: 500; font-size: 1.6rem; margin: 0 0 0.75rem; letter-spacing: 0.01em; }
-    p { margin: 0 0 0.9rem; color: var(--muted); }
-    p.status { color: var(--accent); font-size: 0.9rem; margin: 1.25rem 0 0; }
-  </style>
+  <link rel="stylesheet" href="lib/maplibre-gl/maplibre-gl.css">
+  <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <main>
+  <div id="map" aria-label="Map of Europe and the western steppe"></div>
+
+  <div class="left-col">
+  <!-- Title panel, top left -->
+  <header class="panel title-panel">
     <h1>Encyclopedia Dynamica</h1>
-    <p>An interactive map and timeline of the world's history, where the evidence comes first and every interpretation is optional, labelled and attributed.</p>
-    <p>Every claim links to a source you can check. Where sources disagree, both are shown. Where we are unsure, we say so.</p>
-    <p class="status">Under construction. The first map is on its way.</p>
-  </main>
+    <p class="subtitle">Magyar origins, AD 400 to 1000</p>
+    <p id="example-banner" class="example-banner" hidden>
+      Example mode: everything on this map is invented to show the layout. <a href="./">Leave example mode</a>
+    </p>
+  </header>
+
+  <!-- Layers and settings, left -->
+  <aside class="panel side-panel" aria-label="Layers and settings">
+    <details id="side-details" open>
+    <summary>Layers and settings</summary>
+    <h2>Layers</h2>
+    <div id="layer-list" class="layer-list"></div>
+
+    <h2>How sure are we?</h2>
+    <ul class="legend">
+      <li><span class="dot dot-high"></span>Well established</li>
+      <li><span class="dot dot-medium"></span>Reasonably supported</li>
+      <li><span class="dot dot-low"></span>Disputed or uncertain</li>
+    </ul>
+
+    <label class="switch-row">
+      <input type="checkbox" id="show-unchecked">
+      <span>Show unchecked claims</span>
+    </label>
+    <p class="hint">Claims whose source nobody has checked yet stay hidden unless you turn this on.</p>
+
+    <h2>Panel colour</h2>
+    <div class="tint-row" role="radiogroup" aria-label="Panel colour">
+      <label><input type="radio" name="tint" value="pure" checked> Grey</label>
+      <label><input type="radio" name="tint" value="warm"> Warm</label>
+      <label><input type="radio" name="tint" value="cool"> Cool</label>
+    </div>
+    </details>
+  </aside>
+  </div>
+
+  <!-- Entry card, right -->
+  <section id="card" class="panel card" aria-live="polite">
+    <div id="card-body"></div>
+  </section>
+
+  <!-- Time slider, bottom -->
+  <footer class="panel time-panel">
+    <div class="time-head">
+      <span class="time-label">Time</span>
+      <output id="year-label" for="year">AD 900</output>
+      <span id="count-label" class="count-label"></span>
+    </div>
+    <div class="slider-wrap">
+      <div id="range-band" class="range-band" hidden></div>
+      <input id="year" type="range" min="400" max="1000" step="5" value="900" aria-label="Year">
+    </div>
+    <div class="time-ticks" aria-hidden="true">
+      <span>400</span><span>500</span><span>600</span><span>700</span><span>800</span><span>900</span><span>1000</span>
+    </div>
+    <p class="landscape-note">The landscape shown is today's: modern coastlines, rivers and lakes from Natural Earth.</p>
+  </footer>
+
+  <script src="lib/maplibre-gl/maplibre-gl.js"></script>
+  <script type="module" src="js/app.mjs"></script>
 </body>
 </html>
