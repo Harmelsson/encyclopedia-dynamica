@@ -1,0 +1,157 @@
+{
+  "id": "names-for-the-hungarians",
+  "title": "Names for the Hungarians",
+  "kind": "concept",
+  "aliases": [
+    "Ungri",
+    "Ungarii",
+    "Hungarium",
+    "Magyars"
+  ],
+  "fact_summary": "The written sources on this map call the Hungarians by several names: Ungri, Hungarii, Ungarii, and in Greek “Turks”. They call themselves Magyars.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Annals of St-Bertin, under 862, name raiders “qui Ungri vocantur” (who are called Ungri).",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 862"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Regino of Prüm, under 889, writes of the “gens Hungarium”, the people of the Hungarians.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889 (Kurze ed., pp. 131–132)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The Annals of St Vincent at Metz, under 955, call them “Ungarii”.",
+      "sources": [
+        {
+          "id": "annales-s-vincentii-mettenses",
+          "locator": "s.a. 955"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The Byzantine De Administrando Imperio calls them “Turks” (türkök in Tóth's Hungarian).",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "summary of DAI ch. 38 (exact page not fixed in the copy read)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth summarises and quotes the chapter in Hungarian.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "Modern studies give both names side by side, as in “the Hungarians (Magyars)” and “Hungarians or Magyars”.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        },
+        {
+          "id": "maroti-2022",
+          "locator": "Introduction, p. 2859"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The Ungri of the 862 annal were the Hungarians.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "passage record 5744, ethnonym index"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "The editors of the Mapping Medieval Peoples database, who index the name under the Hungarians",
+          "source": "mmp-database"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A standard identification, but the annal itself says only that these enemies were new.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where do the Latin names Ungri and Hungarii come from, and why did a Greek writer call the Hungarians Turks?"
+    },
+    {
+      "text": "When is the name Magyar first written down?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-annales-bertiniani-862"
+    },
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "entry": "ws-metz-955"
+    },
+    {
+      "entry": "ws-dai-38"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

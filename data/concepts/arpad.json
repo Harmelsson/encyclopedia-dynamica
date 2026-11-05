@@ -1,0 +1,132 @@
+{
+  "id": "arpad",
+  "title": "Árpád",
+  "kind": "person",
+  "aliases": [
+    "Árpád",
+    "Álmos"
+  ],
+  "fact_summary": "The Hungarian prince named in the Byzantine chapter, elected in Etelköz and driven out with his people by the Pechenegs.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The chapter says the Khazar khagan offered Levedi the title of prince; Levedi declined and proposed voivode Álmos or his son instead.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "summary of DAI ch. 38 (exact page not fixed in the copy read)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth summarises and quotes the chapter in Hungarian.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It says Árpád was then installed as prince in Etelköz by being raised on a shield.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "summary of DAI ch. 38 (exact page not fixed in the copy read)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth summarises and quotes the chapter in Hungarian.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "One passage says the Pechenegs fell upon the Turks and drove them out together with their prince, Árpád.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 14, citing DAI 38, line 54"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth summarises and quotes the chapter in Hungarian.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A 2022 genome study calls the 10th and 11th centuries the “early Árpádian Period”, after the ruling house.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "STAR Methods, p. e1"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Using the two generations of leaders, Levedi and Árpád, the son of Álmos, the story told in chapter 38 belongs to the second half of the ninth century.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Sándor László Tóth (2015)",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [
+        "c1",
+        "c2"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Argued by one tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Which source first names Árpád as the founder of the royal house, and when was it written?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-dai-38"
+    },
+    {
+      "concept": "levedia-and-etelkoz"
+    },
+    {
+      "concept": "khazars"
+    },
+    {
+      "concept": "pechenegs"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

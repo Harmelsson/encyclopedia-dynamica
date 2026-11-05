@@ -1,0 +1,115 @@
+{
+  "id": "sarmatians",
+  "title": "Sarmatians",
+  "kind": "people",
+  "aliases": [
+    "Sarmatians",
+    "Sarmatian",
+    "early Sarmatians"
+  ],
+  "fact_summary": "Ancient steppe peoples. A 2022 genome study finds Sarmatian ancestry both in Hun-period graves and in the conquering Hungarians.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The 2022 study reports “prevalent Sarmatian ancestry in 4 Hun period samples”.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2861"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It models the conquerors' core immigrant group as about 50% Mansi and 35% Early or Late Sarmatian ancestry.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "pp. 2863–2864"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "It dates the mixing of the conquerors' ancestors with early Sarmatians to about 643–431 BCE, 53 generations before the conquerors died.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2864; Figure 7 caption, p. 2866"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The ancestors of the conquerors lived in the steppe-forest zone and “admixed with Iranian-speaking early Sarmatians”, probably when the Sarmatians rose to power and drew in neighbouring tribes.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2867"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maróti et al. (2022)",
+          "source": "maroti-2022"
+        }
+      ],
+      "rests_on": [
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One study's reading of its own models. The language of the Sarmatians is the authors' characterisation and is not argued on this page.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "The study names its Sarmatian reference genomes only by code. Where were they found, and how well do they stand for all Sarmatians?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-hun-period"
+    },
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "concept": "huns"
+    },
+    {
+      "concept": "mansi-and-khanty"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}
