@@ -1,0 +1,288 @@
+{
+  "about": "Pictures shown on cards. Each one is a file on Wikimedia Commons, linked, not copied. Author, credit and licence are read from the Commons API by tools/commons-credits.mjs. See js/images.mjs for the rules.",
+  "images": [
+    {
+      "id": "annales-bertiniani-862-waitz-1883",
+      "for": [
+        "ws-annales-bertiniani-862"
+      ],
+      "file": "File:Annales Bertiniani 862 ungri.jpg",
+      "kind": "printed edition",
+      "shows": "Pages 60–61 of Georg Waitz's 1883 printed edition of the Annals of St-Bertin, the edition cited on this card. The entry for 862 is on page 60: “qui Ungri vocantur” (“who are called Ungri”) is near the top, in the blue highlight.",
+      "shows_basis": "Claude read the page heading (“Annales Bertiniani auctore Hincmaro. 862.”) and the words “qui Ungri vocantur” in the picture itself. Commons gives the date 1883 and links the Internet Archive scan it was taken from. The blue highlight was added by the Internet Archive's search tool; it is not in the book.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Annales_Bertiniani_862_ungri.jpg",
+        "author": "Hincmar",
+        "credit": "https://archive.org/stream/annalesbertinia00waitgoog#page/n74/mode/2up/search/ungri",
+        "licence": "Public domain",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Annales_Bertiniani_862_ungri.jpg/960px-Annales_Bertiniani_862_ungri.jpg",
+        "width": 800,
+        "height": 684,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "regino-chronicle-schaffhausen",
+      "for": [
+        "ws-regino-889",
+        "regino-of-prum"
+      ],
+      "file": "File:Chronicon Regino Prumiensis Public Domain.png",
+      "kind": "the text itself",
+      "shows": "The first page of a manuscript of Regino of Prüm's chronicle kept in the Stadtbibliothek Schaffhausen, Switzerland (shelfmark Min. 109). Verses fill the top; lower down a title reads “Chronicum Reginonis Abbatis Prumiensis”.",
+      "shows_basis": "The library and shelfmark come from the Commons description, which links the e-codices page for Schaffhausen Min. 109. Claude read the title in the picture. When this copy was written has not been checked, so no date is given here.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Chronicon_Regino_Prumiensis_Public_Domain.png",
+        "author": "Regino of Prum, 10th century.",
+        "credit": "https://www.e-codices.ch/en/list/one/sbs/min0109",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/74/Chronicon_Regino_Prumiensis_Public_Domain.png",
+        "width": 800,
+        "height": 1122,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "dai-paris-gr-2009",
+      "for": [
+        "de-administrando-imperio"
+      ],
+      "file": "File:Paris, BnF Ms Grec 2009 fol 93r-93v De Administrando Imperio - Chapter XXXII Of the Serbs.jpg",
+      "kind": "the text itself",
+      "shows": "Two pages (folios 93r–93v) of the Greek manuscript of De Administrando Imperio in the Bibliothèque nationale de France, Paris (Ms. grec 2009). These pages are the start of chapter 32, on the Serbs, not chapter 38 on the Hungarians.",
+      "shows_basis": "Library, shelfmark, folios and chapter come from the Commons description, which links the record in the Biblissima portal. Claude read the heading “Περὶ τῶν Σερβλων” (“On the Serbs”) in the picture. Commons dates the manuscript to the 12th century; that date has not been checked here.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Paris,_BnF_Ms_Grec_2009_fol_93r-93v_De_Administrando_Imperio_-_Chapter_XXXII_Of_the_Serbs.jpg",
+        "author": "Unknown author",
+        "credit": "https://portail.biblissima.fr/en/ark%3A/43093/mdata619249cca0cfc729d959bffe37d8ac5165865e15",
+        "licence": "Public domain",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paris%2C_BnF_Ms_Grec_2009_fol_93r-93v_De_Administrando_Imperio_-_Chapter_XXXII_Of_the_Serbs.jpg/960px-Paris%2C_BnF_Ms_Grec_2009_fol_93r-93v_De_Administrando_Imperio_-_Chapter_XXXII_Of_the_Serbs.jpg",
+        "width": 800,
+        "height": 1543,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "hincmar-bnf-latin-2865",
+      "for": [
+        "hincmar-of-reims"
+      ],
+      "file": "File:Hincmarus Remensis, Adversus Hincmarum Laudunensem. - btv1b10550877n (025 of 553).jpg",
+      "kind": "the text itself",
+      "shows": "A page in verse from a manuscript of Hincmar's treatise against his nephew, Hincmar of Laon (Paris, Bibliothèque nationale de France, Latin 2865). The library's catalogue calls the script “French, 9th century, school of Reims”, so the copy may have been made in Hincmar's own lifetime and city.",
+      "shows_basis": "Shelfmark and the catalogue's description of the script are copied on Commons from the BnF catalogue (archivesetmanuscrits.bnf.fr, ark:/12148/cc60667q). The catalogue lists a verse preface on folios 1–5v; Claude saw that this page is in verse but did not check its folio number. “May have been made in his lifetime” is Claude's inference from the catalogue's date, not the catalogue's claim.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Hincmarus_Remensis,_Adversus_Hincmarum_Laudunensem._-_btv1b10550877n_(025_of_553).jpg",
+        "author": "Hincmarus Remensis (0806?-0882). Auteur du texte ISIDORUS HISPALENSIS (s.). Auteur du texte",
+        "credit": "Bibliothèque nationale de France. Département des manuscrits. Latin 2865 {{ARK-BNF{{|}}ark:/12148/btv1b10550877n}}",
+        "licence": "Public domain",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Hincmarus_Remensis%2C_Adversus_Hincmarum_Laudunensem._-_btv1b10550877n_%28025_of_553%29.jpg/960px-Hincmarus_Remensis%2C_Adversus_Hincmarum_Laudunensem._-_btv1b10550877n_%28025_of_553%29.jpg",
+        "width": 800,
+        "height": 970,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "karos-cemetery-1-today",
+      "for": [
+        "site-karos"
+      ],
+      "file": "File:Karos 02.JPG",
+      "kind": "the place today",
+      "shows": "Cemetery no. I at Karos as it looked in 2014, laid out as an open-air park. The carved wooden posts with labels are modern markers, not finds.",
+      "shows_basis": "The Commons description says this is “cemetery Nr. I in Karos” in the Karos visitor centre (Karos Honfoglalás Kori Látogató Központ). That the posts are modern markers is Claude's reading of the photo and of the Commons category “Honfoglaláskori Régészeti Park, Karos” (archaeological park).",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Karos_02.JPG",
+        "author": "Texaner",
+        "credit": "Own work",
+        "licence": "CC BY-SA 3.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Karos_02.JPG/960px-Karos_02.JPG",
+        "width": 800,
+        "height": 596,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "karos-cemetery-reconstruction",
+      "for": [
+        "site-karos"
+      ],
+      "file": "File:Temető rekonstrukció a karosi látogatóközpont udvarán (2015).JPG",
+      "kind": "reconstruction",
+      "shows": "A modern reconstruction of a cemetery in the courtyard of the Karos visitor centre, photographed in 2015: wooden grave posts, wattle fences and an animal skull on a frame. It shows how the park's makers imagine a 10th-century cemetery, not what was found.",
+      "shows_basis": "The Commons description (in Hungarian) calls it “Temető rekonstrukció”, a cemetery reconstruction, in the courtyard of the Karos visitor centre. Which finds, if any, the reconstruction is based on has not been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Temet%C5%91_rekonstrukci%C3%B3_a_karosi_l%C3%A1togat%C3%B3k%C3%B6zpont_udvar%C3%A1n_(2015).JPG",
+        "author": "Bartholomeus Thoth",
+        "credit": "saját munka",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Temet%C5%91_rekonstrukci%C3%B3_a_karosi_l%C3%A1togat%C3%B3k%C3%B6zpont_udvar%C3%A1n_%282015%29.JPG/960px-Temet%C5%91_rekonstrukci%C3%B3_a_karosi_l%C3%A1togat%C3%B3k%C3%B6zpont_udvar%C3%A1n_%282015%29.JPG",
+        "width": 800,
+        "height": 450,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "avar-strap-end-biatorbagy",
+      "for": [
+        "avars"
+      ],
+      "file": "File:Avar belt from grave in Biatorbagy hungary 8th cent IMG 0297.JPG",
+      "kind": "the find itself",
+      "shows": "A decorated belt strap-end on display in a museum. The photographer labels it as part of an Avar belt from a grave at Biatorbágy, Hungary, 8th century.",
+      "shows_basis": "“Avar belt from grave in Biatorbagy, Hungary, 8th century” is the photographer's own file name and category on Commons; the museum's label has not been checked. The photo's recorded position is in central Budapest, where the Hungarian National Museum stands, but Commons does not name the museum.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Avar_belt_from_grave_in_Biatorbagy_hungary_8th_cent_IMG_0297.JPG",
+        "author": "Bjoertvedt",
+        "credit": "Own work",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Avar_belt_from_grave_in_Biatorbagy_hungary_8th_cent_IMG_0297.JPG/960px-Avar_belt_from_grave_in_Biatorbagy_hungary_8th_cent_IMG_0297.JPG",
+        "width": 800,
+        "height": 656,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "hun-cauldron-tortel-replica",
+      "for": [
+        "huns"
+      ],
+      "file": "File:Replica of the hun cauldron from Törtel (1).jpg",
+      "kind": "replica",
+      "shows": "A modern replica of the bronze cauldron found at Törtel, Hungary, one of the cauldrons usually linked with the Huns. It is a copy, photographed in a museum display in 2026.",
+      "shows_basis": "The Commons description says “Replica of the hun cauldron from Törtel”. Where the original is kept, and why it is attributed to the Huns, have not been checked here; “usually linked with the Huns” is how Commons files it (category “Hun Empire”), not a checked claim.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Replica_of_the_hun_cauldron_from_T%C3%B6rtel_(1).jpg",
+        "author": "Elekes Andor",
+        "credit": "Own work",
+        "licence": "CC BY 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by/4.0",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Replica_of_the_hun_cauldron_from_T%C3%B6rtel_%281%29.jpg/960px-Replica_of_the_hun_cauldron_from_T%C3%B6rtel_%281%29.jpg",
+        "width": 800,
+        "height": 1067,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "xiongnu-plaque-three-ibexes",
+      "for": [
+        "xiongnu"
+      ],
+      "file": "File:Plaque with 3 Ibexes, 2nd-1st century BCE, Xiongnu.jpg",
+      "kind": "the find itself",
+      "shows": "An openwork metal plaque with three ibexes, which the Metropolitan Museum of Art, New York, dates to the 2nd–1st century BC and attributes to the Xiongnu.",
+      "shows_basis": "Title, date and the Xiongnu attribution are the Metropolitan Museum's own, released by the museum under CC0 and copied to Commons with a link to the museum's record (metmuseum.org, object 49444). How the museum reached the attribution has not been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Plaque_with_3_Ibexes,_2nd-1st_century_BCE,_Xiongnu.jpg",
+        "author": "Metropolitan Museum of Art",
+        "credit": "Metropolitan Museum of Art Provided under CC0",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Plaque_with_3_Ibexes%2C_2nd-1st_century_BCE%2C_Xiongnu.jpg/960px-Plaque_with_3_Ibexes%2C_2nd-1st_century_BCE%2C_Xiongnu.jpg",
+        "width": 800,
+        "height": 415,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "khazar-coin-spillings",
+      "for": [
+        "khazars"
+      ],
+      "file": "File:Khazar coin Spillings Hoard.jpg",
+      "kind": "the find itself",
+      "shows": "A coin with Arabic-script inscriptions from the Spillings Hoard, a Viking-age hoard found on Gotland, shown at Gotland Museum in Visby, Sweden. The photographer's description calls it a Khazar coin, the so-called “Moses coin”.",
+      "shows_basis": "Hoard, museum and the name “Khazar coin, the so-called Moses coin” come from the photographer's Commons description. Who identified the coin as Khazar, and on what grounds, has not been checked, so treat the identification as the museum's or the photographer's, not ours.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Khazar_coin_Spillings_Hoard.jpg",
+        "author": "W.carter",
+        "credit": "Own work",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Khazar_coin_Spillings_Hoard.jpg/960px-Khazar_coin_Spillings_Hoard.jpg",
+        "width": 800,
+        "height": 800,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "skylitzes-pechenegs-rus",
+      "for": [
+        "pechenegs"
+      ],
+      "file": "File:MadridSkylitzesFol173r.jpg",
+      "kind": "later illustration",
+      "shows": "A page of the illustrated Madrid Skylitzes manuscript (folio 173r). The upper picture shows the Pechenegs killing the Rus of Sviatoslav of Kiev, an event of 972. The painter worked long after that, so the clothes and faces show the painter's ideas, not what Pechenegs looked like.",
+      "shows_basis": "Folio and subject come from the Commons description, which links the Biblioteca Digital Hispánica (Biblioteca Nacional de España) copy and dates the manuscript to the 11th–13th centuries. The year 972 for Sviatoslav's death has not been checked against a source on this map.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:MadridSkylitzesFol173r.jpg",
+        "author": "from the Middle Ages, unknown",
+        "credit": "Biblioteca Digital Hispánica",
+        "licence": "Public domain",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/MadridSkylitzesFol173r.jpg/960px-MadridSkylitzesFol173r.jpg",
+        "width": 800,
+        "height": 1027,
+        "read_on": "2026-11-05"
+      }
+    }
+  ]
+}

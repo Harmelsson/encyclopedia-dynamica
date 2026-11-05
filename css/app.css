@@ -288,3 +288,26 @@ details.speculative { margin-top: 10px; border-top: 1px dashed var(--line); padd
 /* A word in card text that leads to its own topic page. Dotted, so it reads as "learn more". */
 .term-link { color: inherit; text-decoration: underline dotted; text-underline-offset: 3px; }
 .term-link:hover { color: var(--accent, #2a6fdb); text-decoration-style: solid; }
+
+/* Pictures from Wikimedia Commons, with their label and credit underneath */
+.pictures { display: flex; flex-direction: column; gap: 14px; }
+.pic { margin: 0; }
+.pic img {
+  display: block; width: 100%; height: auto; max-height: calc(320px * var(--ts)); object-fit: contain;
+  border-radius: 6px; background: rgba(0, 0, 0, 0.25);
+}
+.pic figcaption { margin-top: 6px; font-size: calc(12.5px * var(--ts)); }
+.pic-kind {
+  display: inline-block; font-size: calc(11px * var(--ts)); padding: 1px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); margin-bottom: 4px;
+}
+/* A picture that is not evidence (replica, reconstruction, later illustration, map) gets a warning-coloured label. */
+.pic-not-evidence .pic-kind { color: var(--warn); border-color: var(--warn); }
+.pic-not-evidence img { outline: 1px dashed var(--warn); outline-offset: 2px; }
+.pic-shows { display: block; }
+.pic-basis { margin-top: 2px; color: var(--muted); }
+.pic-basis summary { cursor: pointer; font-size: calc(12px * var(--ts)); }
+.pic-basis p { margin: 4px 0 0; font-size: calc(12px * var(--ts)); }
+.pic-credit { display: block; margin-top: 4px; color: var(--muted); font-size: calc(11.5px * var(--ts)); overflow-wrap: anywhere; }
+.pic-missing { display: block; padding: 10px; border: 1px dashed var(--line); border-radius: 6px; color: var(--muted); }
+.pic.unchecked { opacity: 0.55; }
