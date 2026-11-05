@@ -281,3 +281,6 @@ details.speculative { margin-top: 10px; border-top: 1px dashed var(--line); padd
 @media (max-width: 760px) and (max-height: 640px) {
   .side-panel { display: none; }
 }
+
+/* The link to the copy of a source that was actually read. Made bold so it is easy to spot. */
+.copy-link { font-weight: 600; white-space: nowrap; }

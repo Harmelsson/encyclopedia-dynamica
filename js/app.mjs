@@ -12,7 +12,7 @@
 import {
   LAYERS, CERT_CLASS, tierOf, sourceChecked, claimChecked, entryChecked,
   overallCertainty, inTime, formatYear,
-} from './rules.mjs';
+} from './rules.mjs?v=2026-11-05b';
 
 const params = new URLSearchParams(location.search);
 const EXAMPLE_MODE = params.has('examples');
@@ -540,7 +540,7 @@ function sourceItem(id, locators) {
     s.link ? el('a', { href: s.link, target: '_blank', rel: 'noopener' }, s.reference) : s.reference,
     el('span', { class: 'src-type' }, ` · ${bits.join(', ')} · at ${[...locators].join('; ')}`),
     ok ? el('span', { class: 'src-check' }, `Checked by ${s.checked.by} on ${s.checked.on}`,
-      s.checked.copy ? [' in ', el('a', { href: s.checked.copy, target: '_blank', rel: 'noopener' }, 'this open copy')] : null,
+      s.checked.copy ? ['. ', el('a', { class: 'copy-link', href: s.checked.copy, target: '_blank', rel: 'noopener' }, 'Open the copy that was checked ↗')] : null,
       s.checked.read_in ? `. ${s.checked.read_in}` : '') : el('span', { class: 'unchecked-note' }, 'Source not yet checked'),
     [s.distance_note, s.tier_note, s.quotes ? `Quotes: ${s.quotes}` : null, s.derives_from_note].filter(Boolean)
       .map(t => el('span', { class: 'src-note' }, t)),
