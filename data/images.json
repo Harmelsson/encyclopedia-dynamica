@@ -4,7 +4,8 @@
     {
       "id": "annales-bertiniani-862-waitz-1883",
       "for": [
-        "ws-annales-bertiniani-862"
+        "ws-annales-bertiniani-862",
+        "names-for-the-hungarians"
       ],
       "file": "File:Annales Bertiniani 862 ungri.jpg",
       "kind": "printed edition",
@@ -281,6 +282,187 @@
         "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/MadridSkylitzesFol173r.jpg/960px-MadridSkylitzesFol173r.jpg",
         "width": 800,
         "height": 1027,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "liudprand-antapodosis-munich-clm-6388",
+      "for": [
+        "liudprand-of-cremona",
+        "ws-liudprand-unknown",
+        "ws-liudprand-943"
+      ],
+      "file": "File:Liutprand Antapodosis Beginning of text Munich Clm 6388 f 10r.jpg",
+      "kind": "the text itself",
+      "shows": "The first page of Liudprand's Antapodosis in a manuscript in the Bavarian State Library, Munich (Clm 6388, folio 10r). The heading reads “Incipit liber primus”, “Here begins the first book”. This page is the opening of the work, not the passage quoted on the card.",
+      "shows_basis": "Shelfmark and folio come from the Commons description, which links the Munich library's digital copy. Claude read the heading in the picture. Commons dates the manuscript to the late 10th century, which has not been checked here.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Liutprand_Antapodosis_Beginning_of_text_Munich_Clm_6388_f_10r.jpg",
+        "author": "Liutprand",
+        "credit": "http://daten.digitale-sammlungen.de/bsb00006691/image_5",
+        "licence": "Public domain",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/35/Liutprand_Antapodosis_Beginning_of_text_Munich_Clm_6388_f_10r.jpg",
+        "width": 800,
+        "height": 1096,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "widukind-editio-princeps-1532",
+      "for": [
+        "ws-widukind-955"
+      ],
+      "file": "File:Witichindi Saxonis Rerum ab Heinrico et Ottone I imp. gestarum libri 3, Basilea 1532.png",
+      "kind": "printed edition",
+      "shows": "The title page of the first printed edition of Widukind's Deeds of the Saxons, published in Basel in 1532 (“Witichindi Saxonis rerum ab Henrico et Ottone I impp. gestarum libri III”). The card quotes a modern English translation, not this edition.",
+      "shows_basis": "Claude read the title and the imprint “Basileae apud Io. Hervagium … M.D.XXXII” in the picture. Commons calls it the editio princeps, the first printed edition, which has not been checked against a catalogue.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Witichindi_Saxonis_Rerum_ab_Heinrico_et_Ottone_I_imp._gestarum_libri_3,_Basilea_1532.png",
+        "author": "Widukindus Herwagen, Johann Frecht, Martin",
+        "credit": "https://gdz.sub.uni-goettingen.de/id/PPN512254001 [ dead link ]",
+        "licence": "CC BY-SA 4.0",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/Witichindi_Saxonis_Rerum_ab_Heinrico_et_Ottone_I_imp._gestarum_libri_3%2C_Basilea_1532.png",
+        "width": 800,
+        "height": 786,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "lechfeld-saxon-world-chronicle",
+      "for": [
+        "ws-widukind-955",
+        "hungarian-raids"
+      ],
+      "file": "File:Lechfeldschlacht in der Sächsischen Weltchronik 002.jpg",
+      "kind": "later illustration",
+      "shows": "The battle on the Lech in 955 as painted in a manuscript of the Saxon World Chronicle, about 300 years after the battle. Riders labelled “Ungari” (Hungarians) face Otto's army. The painter's armour and heraldry are of his own time, so this shows how the battle was imagined, not how it looked.",
+      "shows_basis": "The Commons description gives the manuscript as Gotha, Forschungs- und Landesbibliothek, Ms. Memb. I 90, fol. 87v, dated about 1270, and says the picture was scanned from a book by Matthias Springer. Claude read the label “Ungari” in the picture. The date has not been checked against the library.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Lechfeldschlacht_in_der_S%C3%A4chsischen_Weltchronik_002.jpg",
+        "author": "Unknown author",
+        "credit": "Scan aus Buch: Matthias Springer, 955 als Zeitenwende - Otto I. und die Lechfeldschlacht, in: Matthias Puhle (Hrsg.): Otto der Große. Magdeburg und Europa, S.199-208, hier: S. 201.",
+        "licence": "Public domain",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Lechfeldschlacht_in_der_S%C3%A4chsischen_Weltchronik_002.jpg",
+        "width": 800,
+        "height": 533,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "otto-magdeburg-ivory-met",
+      "for": [
+        "otto-the-great"
+      ],
+      "file": "File:Plaque with Christ Receiving Magdeburg Cathedral from Emperor Otto I MET DT143.jpg",
+      "kind": "the find itself",
+      "shows": "An ivory plaque in the Metropolitan Museum of Art, New York, which the museum titles “Christ Receiving Magdeburg Cathedral from Emperor Otto I” and dates to about 962–968, in Otto's own lifetime. It is a religious image made for a church, not a portrait: the small kneeling figure offering the church is the museum's identification of Otto.",
+      "shows_basis": "Title, date and the CC0 release come from the Metropolitan Museum, via the Commons file it donated (object 41.100.157). That the plaque is not a likeness is the usual reading of such donor images; it is Claude's caution, not the museum's words.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Plaque_with_Christ_Receiving_Magdeburg_Cathedral_from_Emperor_Otto_I_MET_DT143.jpg",
+        "author": "Not stated on Commons",
+        "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Plaque_with_Christ_Receiving_Magdeburg_Cathedral_from_Emperor_Otto_I_MET_DT143.jpg/960px-Plaque_with_Christ_Receiving_Magdeburg_Cathedral_from_Emperor_Otto_I_MET_DT143.jpg",
+        "width": 800,
+        "height": 1000,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "bulgar-khan-boris-baptism-skylitzes",
+      "for": [
+        "bulgars"
+      ],
+      "file": "File:BorisIMichaelBaptism.jpg",
+      "kind": "later illustration",
+      "shows": "The baptism of the Bulgar khan Boris, painted in the Madrid Skylitzes manuscript (folio 68v, detail), long after the event. The Annals of St-Bertin report the Bulgar ruler's baptism under 866.",
+      "shows_basis": "Folio and subject come from the Commons description, which dates the manuscript to the 11th–13th centuries. That this is the same baptism as in the Frankish annals rests on both naming the Bulgar ruler's baptism in the 860s; the Byzantine chronicle itself has not been read for this map.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:BorisIMichaelBaptism.jpg",
+        "author": "from the Middle Ages, unknown",
+        "credit": "en:Madrid Skylitzes",
+        "licence": "Public domain",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/BorisIMichaelBaptism.jpg/960px-BorisIMichaelBaptism.jpg",
+        "width": 800,
+        "height": 390,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "arpad-chronicon-pictum-p21",
+      "for": [
+        "arpad"
+      ],
+      "file": "File:Chronicon Pictum P21.jpg",
+      "kind": "later illustration",
+      "shows": "A page of the Illuminated Chronicle (Chronicon Pictum), made about 1360, nearly five centuries after Árpád. Its large picture shows the Hungarians arriving in Pannonia, with Árpád on a white horse and tasting water from the Danube. It shows a 14th-century story, not evidence of Árpád's life or looks.",
+      "shows_basis": "The Commons description (in Hungarian) gives page 21, the date 1360, and lists the scenes, naming Árpád on the white horse and Árpád tasting the Danube's water. Claude checked that the picture matches that description. The date and the painter's name given on Commons (Márk Kálti) have not been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Chronicon_Pictum_P21.jpg",
+        "author": "Márk Kálti",
+        "credit": "– scanned by user:Csanády",
+        "licence": "Public domain",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chronicon_Pictum_P21.jpg/960px-Chronicon_Pictum_P21.jpg",
+        "width": 800,
+        "height": 1109,
+        "read_on": "2026-11-05"
+      }
+    },
+    {
+      "id": "early-sarmatian-finds-ufa",
+      "for": [
+        "sarmatians"
+      ],
+      "file": "File:Artefacts - Early Sarmatians, mid - second half of 1mill BC - Museum of Archeology and Ethnography, Ufa.jpg",
+      "kind": "the find itself",
+      "shows": "A museum case of finds labelled as Early Sarmatian, from the middle to second half of the 1st millennium BC: daggers, horse bits, bronze mirrors, neck rings, beads and a pottery flask, in the Museum of Archaeology and Ethnography in Ufa, Bashkortostan.",
+      "shows_basis": "The Commons description copies the museum's label, which names the period and lists the objects, including finds from the Bishungarovo and Zagrebalovo burial mounds in Bashkortostan. Claude saw the daggers, bits, mirrors and neck rings in the photo. The label's dates have not been checked against an excavation report.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "note": "Claude looked at the picture and read its Commons description page."
+      },
+      "commons": {
+        "page": "https://commons.wikimedia.org/wiki/File:Artefacts_-_Early_Sarmatians,_mid_-_second_half_of_1mill_BC_-_Museum_of_Archeology_and_Ethnography,_Ufa.jpg",
+        "author": "Лапоть",
+        "credit": "Own work",
+        "licence": "CC0",
+        "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Artefacts_-_Early_Sarmatians%2C_mid_-_second_half_of_1mill_BC_-_Museum_of_Archeology_and_Ethnography%2C_Ufa.jpg/960px-Artefacts_-_Early_Sarmatians%2C_mid_-_second_half_of_1mill_BC_-_Museum_of_Archeology_and_Ethnography%2C_Ufa.jpg",
+        "width": 800,
+        "height": 1101,
         "read_on": "2026-11-05"
       }
     }

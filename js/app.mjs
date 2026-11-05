@@ -12,8 +12,8 @@
 import {
   LAYERS, CERT_CLASS, tierOf, sourceChecked, claimChecked, entryChecked,
   overallCertainty, inTime, formatYear,
-} from './rules.mjs?v=2026-11-05f';
-import { imageFigures } from './images.mjs?v=2026-11-05f';
+} from './rules.mjs?v=2026-11-05g';
+import { imageFigures } from './images.mjs?v=2026-11-05g';
 
 const params = new URLSearchParams(location.search);
 const EXAMPLE_MODE = params.has('examples');
