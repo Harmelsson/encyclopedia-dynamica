@@ -115,6 +115,8 @@ h1, h2, h3 { font-weight: 500; margin: 0; }
   width: min(calc(380px * var(--ts)), calc(100% - 310px));
   overflow-y: auto; padding: 18px 20px;
 }
+/* With no card open, the welcome panel is only as tall as its text. */
+body:not(.card-open) .card { bottom: auto; max-height: calc(100% - 24px - 126px * var(--ts) - 16px); }
 .card .empty h2 { font-size: calc(16px * var(--ts)); margin-bottom: 8px; }
 .card .empty p { color: var(--muted); margin: 0 0 10px; }
 .card-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
@@ -198,6 +200,69 @@ details.speculative { margin-top: 10px; border-top: 1px dashed var(--line); padd
 .maplibregl-ctrl-attrib { background: rgba(30, 32, 35, 0.7) !important; color: var(--muted); }
 .maplibregl-ctrl-attrib a { color: var(--muted); }
 .maplibregl-ctrl-bottom-right { bottom: 0; }
+
+/* Title panel buttons */
+.nav-row { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.nav-btn {
+  min-height: 32px; padding: 4px 10px; border-radius: 7px; border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.06); color: var(--text); font: inherit; font-size: calc(12.5px * var(--ts)); cursor: pointer;
+}
+.nav-btn:hover { background: rgba(255, 255, 255, 0.12); }
+.dot-approx { box-shadow: 0 0 0 5px rgba(232, 228, 216, 0.18); background: var(--cert-high); width: 8px; height: 8px; margin: 0 2px; }
+.dot-cluster {
+  width: 18px; height: 18px; font-size: calc(10px * var(--ts)); line-height: 18px; text-align: center;
+  background: rgba(30, 32, 35, 0.85); border: 1px solid var(--accent); color: var(--text);
+}
+
+/* Card extras */
+.trail { font-size: calc(12px * var(--ts)); color: var(--muted); margin: 0 36px 10px 0; display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+.trail a { color: var(--muted); }
+.trail [aria-current] { color: var(--text); }
+.linkish { background: none; border: 0; padding: 0; color: var(--accent); font: inherit; cursor: pointer; }
+.place-note { margin: 6px 0 0; color: var(--muted); font-size: calc(12px * var(--ts)); font-style: italic; }
+.src-check, .src-note { display: block; color: var(--muted); font-size: calc(12px * var(--ts)); }
+.src-note { font-style: italic; }
+.thread-list { padding-left: 18px; }
+.placeholder { color: var(--muted); }
+.clash { margin-bottom: 10px; }
+.clash-side .meta { display: block; color: var(--muted); font-size: calc(12px * var(--ts)); margin-top: 4px; }
+.search {
+  width: 100%; margin: 10px 0 4px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.2); color: var(--text); font: inherit;
+}
+.list-results h3 { margin-top: 16px; }
+.list { list-style: none; padding: 0 !important; margin: 0; }
+.list li { margin: 0; }
+.list-row {
+  display: flex; gap: 10px; align-items: baseline; padding: 7px 6px; border-radius: 7px; color: var(--text); text-decoration: none;
+}
+.list-row:hover { background: rgba(255, 255, 255, 0.06); }
+.list-row .swatch { width: 9px; height: 9px; border-radius: 50%; flex: none; margin-top: 4px; }
+.list-main { display: flex; flex-direction: column; }
+.list-meta { color: var(--muted); font-size: calc(12px * var(--ts)); }
+
+/* Rough-location pins get a soft ring: "somewhere around here". */
+.marker .halo {
+  position: absolute; width: 40px; height: 40px; border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--pin) 30%, transparent) 0%, transparent 70%);
+  pointer-events: none;
+}
+.marker { position: relative; }
+.marker:focus-visible .pin, .cluster:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* Bubbles that hold several entries */
+.cluster {
+  width: var(--size); height: var(--size); border-radius: 50%; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(30, 32, 35, 0.82); border: 1.5px solid var(--accent); color: var(--text);
+  font: inherit; font-size: calc(12.5px * var(--ts)); font-weight: 500;
+  box-shadow: 0 0 0 5px rgba(184, 167, 122, 0.15);
+}
+.cluster:hover { background: rgba(50, 52, 55, 0.92); }
+
+/* Time spans of all entries under the slider */
+.tick-strip { position: relative; height: 6px; margin: 2px 2px 0; }
+.tick-strip .tick { position: absolute; top: 0; height: 6px; border-radius: 3px; opacity: 0.28; }
 
 /* Phones and narrow windows: panels stack instead of floating side by side. */
 @media (max-width: 760px) {

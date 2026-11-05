@@ -1,0 +1,125 @@
+{
+  "id": "site-uyelgi",
+  "title": "Uyelgi cemetery",
+  "short_title": "Uyelgi",
+  "layer": "dig site",
+  "fact_summary": "A cemetery of the late Kushnarenkovo culture in the Trans-Ural region, used from about the end of the 8th century to the 11th.",
+  "place": {
+    "lon": 61.0,
+    "lat": 55.5,
+    "precision": "approximate",
+    "label": "Trans-Ural region (east of the Ural mountains)",
+    "note": "Pin placed by Claude in the region the studies name ('Trans-Ural'). The cemetery's exact position has not been checked."
+  },
+  "time": {
+    "from": 780,
+    "to": 1100,
+    "precision": "range"
+  },
+  "min_zoom": 3,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Uyelgi is a cemetery of the late Kushnarenkovo culture in the Trans-Ural region, “used from the end of eighth century to the eleventh century”.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Introduction; Figure 1 caption"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study summarising the excavators' work. The excavation report itself has not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It can be divided into at least three chronological horizons.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Results"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "A 2022 study lists “Uyelgi, Karanayevo”, Russia (Ural), as Late Kushnarenkovo and dates them to the 9th–11th centuries.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Table 1, p. 4"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study; the row groups Uyelgi with a second site.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Radiocarbon dates and stable isotope data are reported in the supplementary information of the 2020 study (chapter 2), not yet opened here.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Results and discussion, Primary observations"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Where the dates are is stated in the study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c1",
+        "c3"
+      ],
+      "what_differs": "When the cemetery started: the end of the 8th century (2020 study) or the 9th century (2022 study's table, where Uyelgi shares a row with Karanayevo). The difference may come from that grouping; it is shown rather than settled."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "What does the excavation report say about the graves and grave goods?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-uyelgi"
+    },
+    {
+      "entry": "site-bolshie-tigani"
+    },
+    {
+      "concept": "kushnarenkovo-culture"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

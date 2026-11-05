@@ -1,0 +1,48 @@
+{
+  "id": "magna-hungaria",
+  "title": "Magna Hungaria",
+  "kind": "concept",
+  "fact_summary": "The name for an area in the Volga-Ural region where Hungarians who had not migrated west were reported in the 13th century.",
+  "claims": [
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Hungarians who remained in the Volga-Ural region were reported in the middle of the 13th century; archaeologists associate their heritage with the Chiyalik culture, in the area known as Magna Hungaria.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 2"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Szeifert et al. (2022), summarising earlier research",
+          "source": "szeifert-2022"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A summary in one tier B study. The 13th-century report has not been opened yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Who reported these eastern Hungarians in the 13th century, and what exactly did they write?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-volga-ural"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

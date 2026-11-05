@@ -1,0 +1,158 @@
+{
+  "id": "uralic-languages",
+  "title": "Uralic languages",
+  "kind": "language",
+  "fact_summary": "Hungarian belongs to the Uralic language family. One study groups it with Khanty and Mansi as “Ugric”, but calls that grouping possibly, not certainly, a true branch.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2022 study of the Uralic spread lists Hungarian as one of the branches of the Uralic family.",
+      "sources": [
+        {
+          "id": "grunthal-2022",
+          "locator": "Table 1, p. 3"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One checked tier B source. The table layout in the copy read was hard to follow, so the exact bracketing should be re-checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The same study says that “Ugric (and within it ObUgric = Khanty and Mansi) is at least an areal grouping and possibly genealogical”.",
+      "sources": [
+        {
+          "id": "grunthal-2022",
+          "locator": "Table 1 caption, p. 3"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "It calls the Uralic family “probably about 4500 years old”.",
+      "sources": [
+        {
+          "id": "grunthal-2022",
+          "locator": "p. 3; p. 10"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A genetic study describes Khanty and Mansi as “Ugric speaking”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The Uralic homeland was east of the Urals, in western Siberia, and at first out of contact with Indo-European. There is no linguistic evidence for a Middle Volga homeland or any homeland west of the Urals.",
+      "sources": [
+        {
+          "id": "grunthal-2022",
+          "locator": "Abstract; p. 8"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Grünthal, Heyd, Holopainen, Janhunen, Khanina, Miestamo, Nichols, Saarikivi and Sinnemäki (2022)",
+          "source": "grunthal-2022"
+        }
+      ],
+      "rests_on": [
+        "c3"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Tier B scholars disagree: the study itself says the opposite view was long the majority one.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "The Uralic homeland lay in the Middle Volga region (the Volga bend).",
+      "sources": [
+        {
+          "id": "grunthal-2022",
+          "locator": "pp. 6–8"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Probably the majority view among Uralicists through the 20th century, and still widely taken as the received view by archaeologists, as described by Grünthal et al. (2022). The works holding it have not been opened yet.",
+          "source": "grunthal-2022"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Known here only through a study that argues against it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "i1",
+        "i2"
+      ],
+      "what_differs": "Where the Uralic languages began: east of the Urals in western Siberia, or west of them on the Middle Volga."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Is “Ugric” a real branch, with one shared ancestor of Hungarian, Khanty and Mansi, or a group formed by long contact?"
+    },
+    {
+      "text": "Where was early Hungarian spoken before the migration west?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "entry": "dna-uyelgi"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

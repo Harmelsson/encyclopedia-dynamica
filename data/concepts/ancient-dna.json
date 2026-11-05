@@ -1,0 +1,117 @@
+{
+  "id": "ancient-dna",
+  "title": "Ancient DNA: what the studies on this map measure",
+  "kind": "method",
+  "fact_summary": "Ancient DNA studies read genetic material from skeletons. The studies on this map report three kinds of result, and each answers a different question.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The studies report maternal lineages (mitochondrial DNA), paternal lineages (Y chromosome), and genome-wide or “shotgun” genome data.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Abstract"
+        },
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract"
+        },
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2858"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "All three study types are named in the abstracts read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Ancestry is reported by modelling a group as a mix of reference populations, for example “50% Mansi, 35% Early/Late Sarmatian”, and the time of mixing is estimated in generations before death.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2863"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Samples are often chosen from rich graves. One study sampled individuals “supposed to represent the power/military elit[e]”; another included the 8 richest Avar-period burials.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract"
+        },
+        {
+          "id": "gnecchi-ruscone-2022",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "Results can differ sharply between elite groups and everyone else: one study reports that most individuals in each period were local, while it identifies smaller immigrant core groups whose ancestry came from elsewhere.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2858"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "How far can a few dozen graves, mostly rich ones, stand for a whole people?"
+    },
+    {
+      "text": "Genes, language and the name a group used for itself can travel separately. How do the studies connect them?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-hun-period"
+    },
+    {
+      "entry": "dna-avar-period"
+    },
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "concept": "radiocarbon-dating",
+      "label": "Radiocarbon dating"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

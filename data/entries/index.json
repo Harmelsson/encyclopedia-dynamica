@@ -1,4 +1,17 @@
 {
-  "note": "List of entry files in data/entries/, by id. Empty until the first entries are sourced and checked.",
-  "entries": []
+  "note": "List of entry files in data/entries/, by id.",
+  "entries": [
+    "ws-annales-bertiniani-862",
+    "ws-regino-889",
+    "ws-metz-955",
+    "ws-dai-38",
+    "dna-hun-period",
+    "dna-avar-period",
+    "dna-conquest-period",
+    "dna-uyelgi",
+    "dna-volga-ural",
+    "site-uyelgi",
+    "site-bolshie-tigani",
+    "site-karos"
+  ]
 }

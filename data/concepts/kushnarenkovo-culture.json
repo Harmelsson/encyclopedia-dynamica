@@ -1,0 +1,107 @@
+{
+  "id": "kushnarenkovo-culture",
+  "title": "Kushnarenkovo culture",
+  "kind": "concept",
+  "fact_summary": "An archaeological culture known from cemeteries in the Trans-Ural and Volga regions. Several genetic studies connect some of its cemeteries with the ancient Hungarians.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Uyelgi, in the Trans-Ural region, is described as a cemetery of the late Kushnarenkovo culture, used from the end of the 8th to the 11th century.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Bolshie Tigani and Tankeevka in the Volga region are described as Kushnarenkovo/Karayakupovo culture mixed with early Bulgars.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 10"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "A 2022 study reports long-lasting genetic connections between Kushnarenkovo sites and sites of the later Chiyalik culture.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The Hungarians' homeland was probably in the southern Trans-Ural region, where the Kushnarenkovo culture spread.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Abstract"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Csáky et al. (2020)",
+          "source": "csaky-2020"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study argues it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "An archaeological culture is a style of objects and burials. Can it be matched to a language or a people?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "site-uyelgi"
+    },
+    {
+      "entry": "site-bolshie-tigani"
+    },
+    {
+      "entry": "dna-uyelgi"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

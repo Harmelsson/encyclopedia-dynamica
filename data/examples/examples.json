@@ -19,9 +19,9 @@
       "short_title": "[EXAMPLE] Site A",
       "layer": "dig site",
       "fact_summary": "[EXAMPLE] An invented cemetery, used only to show how a card is laid out.",
-      "place": { "lon": 48, "lat": 52, "precision": "approximate", "label": "[EXAMPLE] somewhere on the steppe" },
+      "place": { "lon": 48, "lat": 52, "precision": "approximate", "label": "[EXAMPLE] somewhere on the steppe", "note": "[EXAMPLE] Pin placed roughly, to show how a rough pin looks." },
       "time": { "from": 800, "to": 900, "precision": "range" },
-      "min_zoom": 3,
+      "min_zoom": 2,
       "claims": [
         { "id": "a-c1", "kind": "evidence", "text": "[EXAMPLE] About 100 graves were excavated.",
           "sources": [{ "id": "example-source-1", "locator": "p. 12" }],
@@ -67,9 +67,9 @@
       "short_title": "[EXAMPLE] Chronicle B",
       "layer": "written source",
       "fact_summary": "[EXAMPLE] An invented chronicle passage about a river crossing.",
-      "place": { "lon": 33, "lat": 47.5, "precision": "approximate", "label": "[EXAMPLE] a river on the steppe" },
+      "place": { "lon": 33, "lat": 47.5, "precision": "approximate", "label": "[EXAMPLE] a river on the steppe", "note": "[EXAMPLE] Pin placed roughly, to show how a rough pin looks." },
       "time": { "from": 850, "to": 900, "precision": "approximate" },
-      "min_zoom": 3,
+      "min_zoom": 2,
       "claims": [
         { "id": "b-c1", "kind": "evidence", "text": "[EXAMPLE] The chronicle says a people crossed the river.",
           "sources": [{ "id": "example-source-4", "locator": "ch. 7, p. 31" }],

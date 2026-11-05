@@ -1,0 +1,165 @@
+{
+  "id": "dna-uyelgi",
+  "title": "DNA from Uyelgi and other Ural cemeteries",
+  "short_title": "Ural DNA",
+  "layer": "ancient DNA",
+  "fact_summary": "A 2020 study of maternal and paternal lineages from early medieval cemeteries on both sides of the Urals reports genetic links between those regions and 10th-century conquerors in Hungary.",
+  "place": {
+    "lon": 61.0,
+    "lat": 55.5,
+    "precision": "approximate",
+    "label": "Trans-Ural region (east of the Ural mountains)",
+    "note": "Pin placed by Claude in the region the studies name ('Trans-Ural'). The cemetery's exact position has not been checked."
+  },
+  "time": {
+    "from": 780,
+    "to": 1000,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The study describes the maternal and paternal lineages of 36 individuals from the Ural regions and nine Hungarian conquest-period individuals from today's Hungary, plus shallow genome data from the Uyelgi cemetery; 22 samples come from Uyelgi.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Abstract; Material and methods, Sampling"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It reports genetic continuity between the three chronological horizons of the Uyelgi cemetery, “a burial place of a rather endogamous population”.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Seven Uyelgi samples most probably belong to the paternal lineage N-Y24365, a subclade the authors say is found almost exclusively in today's Tatarstan, Bashkortostan and Hungary.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Ancient paternal lineages of the South-Ural region"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "It reports a maternal-lineage link between the individual Uyelgi3 and three Hungarian conquerors from the Karos II cemetery.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "The possible maternal genetic connection of South-Ural region's populations and the Hungarian conquerors"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The ancient Hungarians came from the Ural region and migrated through the Middle Volga and the eastern European steppe into the Carpathian Basin in the ninth century. Their homeland was probably in the southern Trans-Ural, where the Kushnarenkovo culture spread.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Abstract"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Csáky et al. (2020)",
+          "source": "csaky-2020"
+        }
+      ],
+      "rests_on": [
+        "c3",
+        "c4"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The authors state it as their starting point and support it with genetic links; one tier B study, no review checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The study's radiocarbon dates and isotope data are given in its supplementary information, chapter 2, which has not been opened here.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Results and discussion, Primary observations"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Where the dates are is stated in the study; the dates themselves are not yet read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "What do the radiocarbon dates in the supplement show, grave by grave?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "site-uyelgi"
+    },
+    {
+      "entry": "site-karos"
+    },
+    {
+      "entry": "dna-volga-ural"
+    },
+    {
+      "concept": "kushnarenkovo-culture"
+    },
+    {
+      "concept": "ancient-dna"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

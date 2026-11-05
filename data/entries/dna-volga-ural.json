@@ -1,0 +1,167 @@
+{
+  "id": "dna-volga-ural",
+  "title": "DNA links between the Volga-Ural region and the conquerors",
+  "short_title": "Volga-Ural DNA",
+  "layer": "ancient DNA",
+  "fact_summary": "A 2022 study of 6th–14th century cemeteries in the Volga-Ural region reports paternal and maternal lineages shared with Hungarian conquerors.",
+  "place": {
+    "lon": 50.0,
+    "lat": 55.0,
+    "precision": "approximate",
+    "label": "Volga region",
+    "note": "Pin placed by Claude in the region the study names ('Russia (Volga)'). The cemetery's exact position has not been checked."
+  },
+  "time": {
+    "from": 500,
+    "to": 1000,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The study reports that the paternal lineage N1a1-M46 “is present at all sites associated with the early Hungarians and among the conquerors”, but not in the Novinki group.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 4"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It reports several maternal lineages that “represent a direct link between the groups from the Volga-Ural region and Carpathian Basin”.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 8"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "It reports long-lasting genetic connections between sites of the Kushnarenkovo and the later Chiyalik cultures.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Most of the early Hungarian tribes originated from the Volga-Kama and South-Ural regions, and conquered the Carpathian Basin around 890.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Abstract"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Szeifert et al. (2022)",
+          "source": "szeifert-2022"
+        }
+      ],
+      "rests_on": [
+        "c1",
+        "c2"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The authors' framing, supported by their genetic links; one tier B study, no review checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "Hungarians who stayed behind in the Volga-Ural region were reported in the mid-13th century; archaeologists associate their remains with the Chiyalik culture, in the area known as Magna Hungaria.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 2"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Szeifert et al. (2022), summarising earlier archaeological research",
+          "source": "szeifert-2022"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A summary of earlier research in one tier B study; the 13th-century report itself has not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The study covers sites from the 6th to the 14th centuries; each site is dated by period in its Table 1.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Title; Table 1, p. 4"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Period labels from one study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "links": [
+    {
+      "entry": "site-bolshie-tigani"
+    },
+    {
+      "entry": "dna-uyelgi"
+    },
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "concept": "magna-hungaria"
+    },
+    {
+      "concept": "ancient-dna"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

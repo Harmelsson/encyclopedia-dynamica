@@ -15,7 +15,11 @@
   <!-- Title panel, top left -->
   <header class="panel title-panel">
     <h1>Encyclopedia Dynamica</h1>
-    <p class="subtitle">Magyar origins, AD 400 to 1000</p>
+    <p class="subtitle">Hungarian history: origins to AD 1000 · alpha</p>
+    <div class="nav-row">
+      <button type="button" class="nav-btn" id="open-list">All entries</button>
+      <button type="button" class="nav-btn" id="open-about">How this works</button>
+    </div>
     <div class="size-row" role="group" aria-label="Text size">
       <span class="size-name">Text size</span>
       <button type="button" class="size-btn" id="size-down" aria-label="Smaller text">A−</button>
@@ -39,7 +43,15 @@
       <li><span class="dot dot-high"></span>Well established</li>
       <li><span class="dot dot-medium"></span>Reasonably supported</li>
       <li><span class="dot dot-low"></span>Disputed or uncertain</li>
+      <li><span class="dot dot-approx"></span>Rough location</li>
+      <li><span class="dot dot-cluster">3</span>Several entries here</li>
     </ul>
+
+    <label class="switch-row">
+      <input type="checkbox" id="show-glow" checked>
+      <span>Glow where finds cluster</span>
+    </label>
+    <p class="hint">A soft glow over areas with many dig sites and DNA samples at this date. It fades as you zoom in.</p>
 
     <label class="switch-row">
       <input type="checkbox" id="show-unchecked">
@@ -70,8 +82,9 @@
       <span id="count-label" class="count-label"></span>
     </div>
     <div class="slider-wrap">
+      <div id="tick-strip" class="tick-strip" aria-hidden="true"></div>
       <div id="range-band" class="range-band" hidden></div>
-      <input id="year" type="range" min="400" max="1000" step="5" value="900" aria-label="Year">
+      <input id="year" type="range" min="400" max="1000" step="1" value="900" aria-label="Year">
     </div>
     <div class="time-ticks" aria-hidden="true">
       <span>400</span><span>500</span><span>600</span><span>700</span><span>800</span><span>900</span><span>1000</span>

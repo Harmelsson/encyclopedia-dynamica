@@ -1,0 +1,249 @@
+{
+  "id": "dna-conquest-period",
+  "title": "Genomes from 10th-century conqueror cemeteries",
+  "short_title": "Conquest-period DNA",
+  "layer": "ancient DNA",
+  "fact_summary": "Genetic studies of 10th-century graves in the Carpathian Basin find that most people were local, while an immigrant group carried ancestry the authors call Mansi-like, alongside Sarmatian and other components.",
+  "place": {
+    "lon": 20.0,
+    "lat": 46.9,
+    "precision": "approximate",
+    "label": "Great Hungarian Plain",
+    "note": "Pin placed by Claude in the middle of the region the study names ('the Great Hungarian Plain'). It is not the position of any one grave."
+  },
+  "time": {
+    "from": 890,
+    "to": 1000,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Maróti and colleagues sequenced 113 samples from the Hungarian conquest period, 48 of them from 10th-century cemeteries of the conquering Hungarian elite.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2858; STAR Methods, p. e1"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "They report that “the majority of the individuals from each period were local residents”.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2858"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "They model their core immigrant group (Conq_Asia_Core1) as about 50% Mansi and 35% Early or Late Sarmatian ancestry, with the rest from Scytho-Siberian, Xiongnu or Hun-related sources.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2863"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "They date the Mansi–Sarmatian mixture to about 53 generations before these people died, and a Mansi–Scythian/Hun-related mixture to about 24 generations before, which they give as 217–315 CE.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2863"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "An earlier study found that 7% of the conqueror elite carried the paternal lineage N1a1a1a1a4-M2118 and 10% carried N1a1a1a1a2-Z1936, “both of which are present in Ugric speaking Khantys and Mansis”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "That study sampled 49 individuals “supposed to represent the power/military elit[e]”, and described the conquerors as “a recently assembled population incorporating un-admixed European, Asian as well as admixed components”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The conquering Hungarians had Ugric ancestry and later mixed with Sarmatians and Huns.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "Highlights; p. 2863"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maróti et al. (2022)",
+          "source": "maroti-2022"
+        }
+      ],
+      "rests_on": [
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Argued with evidence in one tier B study, supported by paternal lineages reported by the same group. No review has been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "The group the conquerors' ancestors mixed with “could be identified with ancestors of European Huns”. The authors note that medieval Hungarian chronicles and folk tradition claim descent from the Huns, but they themselves word the genetic link only as a possibility.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2859 and p. 2867"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maróti et al. (2022)",
+          "source": "maroti-2022"
+        }
+      ],
+      "rests_on": [
+        "c4"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "The authors themselves word it as a possibility ('could be identified').",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The cemeteries are assigned to the 10th century by the study. How each grave was dated has not been checked here.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "STAR Methods, p. e1"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Period label from one study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "d2",
+      "kind": "evidence",
+      "text": "The mixture dates are worked out from the genomes themselves, counted in generations before death (a genetic method, not a calendar record).",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2863"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study; the method has not been checked against other work.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "The sampled graves are mostly elite. What did ordinary 10th-century people of the Carpathian Basin look like genetically?"
+    },
+    {
+      "text": "How should a genetic ancestry share be read against the language the conquerors spoke?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "site-karos"
+    },
+    {
+      "entry": "dna-uyelgi"
+    },
+    {
+      "entry": "dna-volga-ural"
+    },
+    {
+      "entry": "dna-hun-period"
+    },
+    {
+      "concept": "uralic-languages"
+    },
+    {
+      "concept": "ancient-dna"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}
