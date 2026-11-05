@@ -20,6 +20,9 @@ An interactive map-and-timeline encyclopedia of the world's history, built so th
 | `data/entries/` | Real entries on the map, one file each, listed in `index.json` |
 | `data/concepts/` | Topic and method pages (for example "Uralic languages", "Ancient DNA"), which entries link to. Same claim rules, but no place or time. A page's `aliases` are the words that link to it automatically: the first time one appears on a card, it becomes a dotted link to the page |
 | `data/sources.json` | The shared list of sources that entries cite |
+| `data/images.json` | Pictures on cards. Each is a Wikimedia Commons file that we link to, never copy. It says which cards show it, what it shows and how we know, and what kind of picture it is (the real thing, a replica, a reconstruction, a later illustration), with the author and licence read from Commons |
+| `js/images.mjs` | The picture rules (allowed licences, labels) and how a picture is shown on a card |
+| `tools/commons-credits.mjs` | Reads each picture's author, credit and licence from the Commons API. Run with `--write` after adding a picture; run without it to see if anything on Commons changed |
 | `data/examples/` | Invented examples, marked `[EXAMPLE]`, shown only in example mode |
 | `data/basemap/` | The landscape: coastlines, rivers and lakes from Natural Earth |
 | `tools/check-data.mjs` | Checks every data file against the rules; runs automatically on each pull request |
@@ -48,6 +51,7 @@ Every card has its own address, so you can bookmark or share it, and the browser
 ## Credits
 
 - Landscape: [Natural Earth](https://www.naturalearthdata.com/), public domain.
+- Pictures: linked from [Wikimedia Commons](https://commons.wikimedia.org/). Only public domain, CC0, CC BY and CC BY-SA files are used; each picture's author, source and licence are shown under it.
 - Map engine: [MapLibre GL JS](https://maplibre.org/), BSD 3-Clause licence (see `lib/maplibre-gl/LICENSE.txt`).
 - Medieval Latin passages were read through the [Mapping Medieval Peoples database](https://mmp.acdh-dev.oeaw.ac.at/) of the Austrian Academy of Sciences.
 - Historical borders are drawn by this project from cited sources. No ready-made border dataset is used.

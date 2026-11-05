@@ -5,6 +5,7 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { problemsWithEntry, problemsWithSource } from '../js/rules.mjs';
+import { problemsWithImage } from '../js/images.mjs';
 
 const root = new URL('..', import.meta.url).pathname;
 const read = p => JSON.parse(readFileSync(join(root, p), 'utf8'));
@@ -76,6 +77,15 @@ for (const c of concepts) for (const a of c.aliases || []) {
   aliasOwner.set(k, c.id);
 }
 
+// Pictures linked from Wikimedia Commons: free licence, credit, and a label saying what kind of picture it is.
+const images = read('data/images.json').images;
+const imageIds = new Set();
+for (const img of images) {
+  if (imageIds.has(img.id)) problems.push(`image id "${img.id}" is used twice`);
+  imageIds.add(img.id);
+  problems.push(...problemsWithImage(img, new Set([...entryIds, ...conceptIds])));
+}
+
 // Invented examples: same rules, and every text must be labelled [EXAMPLE].
 const ex = read('data/examples/examples.json');
 const nEx = checkSet('examples', ex.entries, ex.sources);
@@ -99,4 +109,4 @@ if (problems.length) {
   for (const p of problems) console.error(`  - ${p}`);
   process.exit(1);
 }
-console.log(`All good: ${nReal} real entries, ${concepts.length} topic and method pages, ${sources.length} sources and ${nEx} invented examples follow the rules.`);
+console.log(`All good: ${nReal} real entries, ${concepts.length} topic and method pages, ${sources.length} sources, ${images.length} pictures and ${nEx} invented examples follow the rules.`);

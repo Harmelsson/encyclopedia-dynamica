@@ -13,6 +13,7 @@ import {
   LAYERS, CERT_CLASS, tierOf, sourceChecked, claimChecked, entryChecked,
   overallCertainty, inTime, formatYear,
 } from './rules.mjs?v=2026-11-05c';
+import { imageFigures } from './images.mjs?v=2026-11-05d';
 
 const params = new URLSearchParams(location.search);
 const EXAMPLE_MODE = params.has('examples');
@@ -34,6 +35,7 @@ const state = {
   entryById: new Map(),
   conceptById: new Map(),
   sourcesById: {},
+  imagesFor: new Map(), // entry or page id -> its pictures from Wikimedia Commons
   view: null,          // { type: 'entry' | 'page' | 'list' | 'about' | 'here', id?, ids? }
   trail: [],           // breadcrumb trail of cards opened by following links
   markers: new Map(),
@@ -74,7 +76,7 @@ async function loadJSON(url) {
 async function loadData() {
   if (EXAMPLE_MODE) {
     const ex = await loadJSON('data/examples/examples.json');
-    return { entries: ex.entries, sources: ex.sources, concepts: [] };
+    return { entries: ex.entries, sources: ex.sources, concepts: [], images: [] };
   }
   const [index, sources, cindex] = await Promise.all([
     loadJSON('data/entries/index.json'),
@@ -85,7 +87,9 @@ async function loadData() {
     Promise.all(index.entries.map(id => loadJSON(`data/entries/${id}.json`))),
     Promise.all(cindex.concepts.map(id => loadJSON(`data/concepts/${id}.json`))),
   ]);
-  return { entries, sources: sources.sources, concepts };
+  // Pictures are optional: if their list cannot be loaded, the cards still work without them.
+  const images = await loadJSON('data/images.json').then(d => d.images, err => { console.warn(err); return []; });
+  return { entries, sources: sources.sources, concepts, images };
 }
 
 // What the reader is allowed to see right now.
@@ -638,6 +642,9 @@ function renderItemCard(e, isPage) {
       el('p', { style: 'margin: 0 0 8px' }, linkTerms(e.fact_summary, used)),
       evidence.length ? el('ul', { class: 'claim-list' }, evidence.map(c => claimLine(c, numbering, used))) : (isPage ? null : el('p', { class: 'hint' }, 'No checked evidence to show yet.'))),
 
+    // Pictures come after the bare fact, so the fact is always read first.
+    imageFigures(state.imagesFor.get(e.id), { el, showUnchecked: state.showUnchecked }),
+
     el('section', {}, el('h3', {}, 'Sources'),
       numbering.size ? el('ol', {}, [...numbering.keys()].map(id => sourceItem(id, locators.get(id)))) : el('p', { class: 'hint' }, 'None shown.')),
 
@@ -754,6 +761,7 @@ function renderAboutCard() {
       el('ul', {},
         el('li', {}, 'Landscape: ', el('a', { href: 'https://www.naturalearthdata.com/', target: '_blank', rel: 'noopener' }, 'Natural Earth'), ', public domain.'),
         el('li', {}, 'Map engine: ', el('a', { href: 'https://maplibre.org/', target: '_blank', rel: 'noopener' }, 'MapLibre GL JS'), ', BSD 3-Clause licence.'),
+        el('li', {}, 'Pictures: linked from ', el('a', { href: 'https://commons.wikimedia.org/', target: '_blank', rel: 'noopener' }, 'Wikimedia Commons'), ', never copied here. Only public domain, CC0, CC BY and CC BY-SA files are used, and each picture shows its author, source and licence underneath, copied from Commons. A label on every picture says whether it shows the real thing, or a replica, reconstruction or later illustration that is not evidence.'),
         el('li', {}, 'Medieval Latin passages read through the ', el('a', { href: 'https://mmp.acdh-dev.oeaw.ac.at/', target: '_blank', rel: 'noopener' }, 'Mapping Medieval Peoples database'), ' of the Austrian Academy of Sciences.'),
         el('li', {}, 'Open-access copies of studies from the repository of the Library of the Hungarian Academy of Sciences (REAL), Scientific Reports, the University of Szeged journals and the University of Helsinki.'))),
   );
@@ -832,6 +840,11 @@ try {
   state.entryById = new Map(data.entries.map(e => [e.id, e]));
   state.conceptById = new Map(data.concepts.map(c => [c.id, c]));
   buildTermLinks();
+  state.imagesFor = new Map();
+  for (const img of data.images) for (const id of img.for || []) {
+    if (!state.imagesFor.has(id)) state.imagesFor.set(id, []);
+    state.imagesFor.get(id).push(img);
+  }
   state.sourcesById = Object.fromEntries(data.sources.map(s => [s.id, s]));
 } catch (err) {
   console.error(err);
