@@ -96,7 +96,7 @@ function figure(img, el) {
       el('span', { class: 'pic-shows' }, img.shows),
       el('details', { class: 'pic-basis' }, el('summary', {}, 'How we know what it shows'), el('p', {}, img.shows_basis)),
       el('span', { class: 'pic-credit' },
-        ext(c.page, `“${name}”`), ' by ', c.attribution || c.author,
+        ext(c.page, `“${name}”`), c.attribution ? ` by ${c.attribution}` : c.author === 'Not stated on Commons' ? ' (author not stated on Commons)' : ` by ${c.author}`,
         c.credit && c.credit !== c.author ? ` (source: ${c.credit})` : '',
         '. ', PD.test(c.licence) ? licence : ['Licence: ', licence], ', via Wikimedia Commons.'),
       imageChecked(img) ? null : el('span', { class: 'unchecked-note' }, 'Picture not yet checked'),
