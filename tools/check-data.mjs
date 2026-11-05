@@ -10,7 +10,7 @@ const root = new URL('..', import.meta.url).pathname;
 const read = p => JSON.parse(readFileSync(join(root, p), 'utf8'));
 const problems = [];
 
-function checkSet(label, entries, sources) {
+function checkSet(label, entries, sources, concepts = []) {
   const byId = {};
   for (const s of sources) {
     if (byId[s.id]) problems.push(`${label}: source id "${s.id}" is used twice`);
@@ -22,6 +22,11 @@ function checkSet(label, entries, sources) {
     if (seen.has(e.id)) problems.push(`${label}: entry id "${e.id}" is used twice`);
     seen.add(e.id);
     problems.push(...problemsWithEntry(e, byId).map(m => `${label}: ${m}`));
+  }
+  for (const c of concepts) {
+    if (seen.has(c.id)) problems.push(`${label}: page id "${c.id}" is used twice`);
+    seen.add(c.id);
+    problems.push(...problemsWithEntry(c, byId, { concept: true }).map(m => `${label} (pages): ${m}`));
   }
   return entries.length;
 }
@@ -38,7 +43,30 @@ const listed = new Set(index.entries.map(id => `${id}.json`));
 for (const f of readdirSync(join(root, 'data/entries'))) {
   if (f !== 'index.json' && f.endsWith('.json') && !listed.has(f)) problems.push(`data/entries/${f} is not listed in data/entries/index.json`);
 }
-const nReal = checkSet('entries', entries, sources);
+// Topic and method pages: same claim rules, but no place or time.
+const cindex = read('data/concepts/index.json');
+const concepts = cindex.concepts.map(id => {
+  const c = read(`data/concepts/${id}.json`);
+  if (c.id !== id) problems.push(`data/concepts/${id}.json: its id is "${c.id}", but the file name says "${id}"`);
+  return c;
+});
+const clisted = new Set(cindex.concepts.map(id => `${id}.json`));
+for (const f of readdirSync(join(root, 'data/concepts'))) {
+  if (f !== 'index.json' && f.endsWith('.json') && !clisted.has(f)) problems.push(`data/concepts/${f} is not listed in data/concepts/index.json`);
+}
+const nReal = checkSet('entries', entries, sources, concepts);
+
+// Every link must point to a real entry or page, or be a labelled placeholder for a page not written yet.
+const entryIds = new Set(entries.map(e => e.id));
+const conceptIds = new Set(concepts.map(c => c.id));
+for (const e of [...entries, ...concepts]) {
+  for (const l of e.links || []) {
+    if (l.entry) { if (!entryIds.has(l.entry)) problems.push(`${e.id}: links to entry "${l.entry}", which does not exist`); }
+    else if (l.concept) { if (!conceptIds.has(l.concept) && !l.label) problems.push(`${e.id}: links to page "${l.concept}", which does not exist yet, so the link needs a label`); }
+    else problems.push(`${e.id}: a link needs an entry or a concept`);
+  }
+  if (entryIds.has(e.id) && conceptIds.has(e.id)) problems.push(`"${e.id}" is used both as an entry id and a page id`);
+}
 
 // Invented examples: same rules, and every text must be labelled [EXAMPLE].
 const ex = read('data/examples/examples.json');
@@ -63,4 +91,4 @@ if (problems.length) {
   for (const p of problems) console.error(`  - ${p}`);
   process.exit(1);
 }
-console.log(`All good: ${nReal} real entries and ${nEx} invented examples follow the rules.`);
+console.log(`All good: ${nReal} real entries, ${concepts.length} topic and method pages, ${sources.length} sources and ${nEx} invented examples follow the rules.`);

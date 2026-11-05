@@ -1,0 +1,112 @@
+{
+  "id": "site-karos",
+  "title": "Karos-Eperjesszög cemeteries",
+  "short_title": "Karos",
+  "layer": "dig site",
+  "fact_summary": "A group of 10th-century conqueror-period cemeteries in north-east Hungary, the source of many of the genetic samples from that period.",
+  "place": {
+    "lon": 21.7,
+    "lat": 48.3,
+    "precision": "approximate",
+    "label": "North-east Hungary",
+    "note": "Pin placed by Claude in north-east Hungary, the region the study names. The cemeteries' exact position has not been checked."
+  },
+  "time": {
+    "from": 900,
+    "to": 1000,
+    "precision": "range"
+  },
+  "min_zoom": 4,
+  "importance": 2,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2020 study calls Karos-Eperjesszög in north-east Hungary “a special site complex”, and says 76% of the conquest-period samples it discusses came from there.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read in the study's introduction. Which set of samples the 76% refers to is Claude's reading of the context.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "A 2019 study took 24 of its 29 conquest-period samples from four nearby cemeteries: Karos 1, 2 and 3, and Kenézlő.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Results, Population genetic analysis"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Three conquerors buried at Karos II share a maternal lineage link with the individual Uyelgi3 from the Trans-Ural region.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "The possible maternal genetic connection of South-Ural region's populations and the Hungarian conquerors"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The 2020 study treats the Karos II individuals as tenth-century Hungarian conquerors.",
+      "sources": [
+        {
+          "id": "csaky-2020",
+          "locator": "section heading on the Uyelgi–conqueror connection"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Period label from one study; the excavation report and its dating evidence have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "The excavation reports have not been opened yet: how many graves are there, what was in them, and how are they dated?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "entry": "dna-uyelgi"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

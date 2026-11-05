@@ -1,0 +1,75 @@
+{
+  "id": "ws-metz-955",
+  "title": "Annals of St Vincent, Metz: Hungarians defeated by Otto, 955",
+  "short_title": "Metz annal, 955",
+  "layer": "written source",
+  "fact_summary": "An annal from Metz for 955 records that the Hungarians, who had entered Lothar's kingdom for the fourth time, were defeated by Otto, whom it calls emperor.",
+  "place": {
+    "precision": "unknown",
+    "label": "The annal names no battle site"
+  },
+  "time": {
+    "from": 955,
+    "to": 955,
+    "precision": "exact"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The entry for 955 reads: “Ungarii, qui iam quarto regnum Lotharii intraverant, ab Ottone imperatore devincuntur”, in Laura Gazzoli's translation “The Hungarians, who had now entered the kingdom of Lothar for the fourth time, were defeated by the Emperor Otto.”",
+      "sources": [
+        {
+          "id": "annales-s-vincentii-mettenses",
+          "locator": "s.a. 955 (Pertz ed., p. 157)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Dated by the year heading of the annal (s.a. 955). The entry gives no day or place.",
+      "sources": [
+        {
+          "id": "annales-s-vincentii-mettenses",
+          "locator": "s.a. 955"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "When, and by whom, was this entry written?"
+    },
+    {
+      "text": "Where was the battle? Other sources still need to be opened for this."
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-regino-889"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

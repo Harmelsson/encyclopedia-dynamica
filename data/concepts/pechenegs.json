@@ -1,0 +1,61 @@
+{
+  "id": "pechenegs",
+  "title": "Pechenegs (Pecinaci)",
+  "kind": "people",
+  "fact_summary": "A people that two of the written sources on this map name as the ones who drove the Hungarians from their earlier homes.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Regino of Prüm, under 889, says the Hungarians were driven from their own homes by neighbouring peoples “qui Pecinaci vocantur”.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889 (MMP passage 5669)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Chapter 38 of the Byzantine De Administrando Imperio says the Pechenegs fell upon the Turks (the Hungarians) and drove them out together with their prince Árpád.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 14"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth quotes the chapter.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Regino in the West and the emperor's informants in Constantinople both blame the Pechenegs. Did they hear the same story, or independent ones?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "entry": "ws-dai-38"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

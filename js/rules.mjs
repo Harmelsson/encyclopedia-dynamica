@@ -79,23 +79,44 @@ export function formatYear(y) {
   return y < 0 ? `${-y} BC` : `AD ${y}`;
 }
 
-// Checks one entry against the rules. Returns a list of plain-language problems.
-export function problemsWithEntry(entry, sourcesById) {
+export const PLACE_PRECISION = ['exact', 'approximate', 'disputed', 'unknown'];
+export const TIME_PRECISION = ['exact', 'approximate', 'range', 'unknown'];
+export const CONCEPT_KINDS = ['concept', 'method', 'people', 'language', 'document'];
+
+// Checks one entry (or, with { concept: true }, one topic or method page) against the rules.
+// Returns a list of plain-language problems.
+export function problemsWithEntry(entry, sourcesById, opts = {}) {
   const p = [];
   const need = (cond, msg) => { if (!cond) p.push(msg); };
   const id = entry.id || '(no id)';
+  const isConcept = !!opts.concept;
 
   need(typeof entry.id === 'string' && /^[a-z0-9-]+$/.test(entry.id), `${id}: id must be lower-case letters, digits and dashes`);
   need(typeof entry.title === 'string' && entry.title.length > 0, `${id}: needs a title`);
-  need(entry.layer in LAYERS, `${id}: layer must be one of ${Object.keys(LAYERS).join(', ')}`);
   need(typeof entry.fact_summary === 'string' && entry.fact_summary.length > 0, `${id}: needs a one-line fact summary`);
-  need(entry.place && ['exact', 'approximate', 'disputed', 'unknown'].includes(entry.place.precision), `${id}: place needs a precision tag`);
-  need(entry.time && typeof entry.time.from === 'number' && typeof entry.time.to === 'number' && entry.time.from <= entry.time.to, `${id}: time needs from and to years, from not after to`);
-  need(entry.time && ['exact', 'approximate', 'range', 'unknown'].includes(entry.time.precision), `${id}: time needs a precision tag`);
-  need(Array.isArray(entry.dating_methods) && entry.dating_methods.length > 0, `${id}: needs at least one dating method`);
-  need(typeof entry.min_zoom === 'number', `${id}: needs a min_zoom`);
   need(entry.review && REVIEW_STATUS.includes(entry.review.status), `${id}: review status must be one of ${REVIEW_STATUS.join(', ')}`);
   need(Array.isArray(entry.claims) && entry.claims.length > 0, `${id}: needs at least one claim`);
+  if (isConcept) {
+    need(CONCEPT_KINDS.includes(entry.kind), `${id}: kind must be one of ${CONCEPT_KINDS.join(', ')}`);
+  } else {
+    need(entry.layer in LAYERS, `${id}: layer must be one of ${Object.keys(LAYERS).join(', ')}`);
+    const pl = entry.place || {};
+    need(PLACE_PRECISION.includes(pl.precision), `${id}: place needs a precision tag`);
+    const hasPoint = typeof pl.lon === 'number' || typeof pl.lat === 'number';
+    if (hasPoint) {
+      need(typeof pl.lon === 'number' && pl.lon >= -180 && pl.lon <= 180 && typeof pl.lat === 'number' && pl.lat >= -90 && pl.lat <= 90, `${id}: place needs both lon and lat, within range`);
+      // An exact pin must say where its position comes from; any other pin must say how rough it is.
+      if (pl.precision === 'exact') need(pl.source && pl.source.id in sourcesById && pl.source.locator, `${id}: an exact place needs a source (id and locator) for its position`);
+      else need(typeof pl.note === 'string' && pl.note.length > 0, `${id}: a pin that is not exact needs a note saying how it was placed`);
+      need(pl.precision !== 'unknown', `${id}: a place with a pin cannot be "unknown"`);
+    }
+    if (pl.source) need(pl.source.id in sourcesById, `${id}: place source "${pl.source.id}" is not in data/sources.json`);
+    need(entry.time && typeof entry.time.from === 'number' && typeof entry.time.to === 'number' && entry.time.from <= entry.time.to, `${id}: time needs from and to years, from not after to`);
+    need(entry.time && TIME_PRECISION.includes(entry.time.precision), `${id}: time needs a precision tag`);
+    need(Array.isArray(entry.dating_methods) && entry.dating_methods.length > 0, `${id}: needs at least one dating method`);
+    need(typeof entry.min_zoom === 'number', `${id}: needs a min_zoom`);
+    if ('importance' in entry) need(typeof entry.importance === 'number' && entry.importance >= 0, `${id}: importance must be a number, 0 or more`);
+  }
 
   const claimIds = new Set();
   const allClaims = allClaimsOf(entry);
@@ -160,5 +181,10 @@ export function problemsWithSource(s) {
   need(typeof s.language === 'string', `source ${id}: needs a language`);
   need(['current', 'corrected', 'retracted', 'superseded'].includes(s.status), `source ${id}: status must be current, corrected, retracted or superseded`);
   if (s.type === 'web page') need(!!s.archived_copy, `source ${id}: web pages need an archived copy`);
+  // Claude may only mark a source checked from a copy anyone can open, so the copy must be linked.
+  if (s.checked && /claude/i.test(s.checked.by || '')) {
+    need(typeof s.checked.copy === 'string' && /^https?:\/\//.test(s.checked.copy), `source ${id}: checked by Claude, so it needs a link to the open copy that was read (checked.copy)`);
+    need(typeof s.checked.read_in === 'string' && s.checked.read_in.length > 0, `source ${id}: checked by Claude, so it needs to say what language or version was read (checked.read_in)`);
+  }
   return p;
 }

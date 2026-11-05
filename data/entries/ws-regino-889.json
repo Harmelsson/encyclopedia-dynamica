@@ -1,0 +1,127 @@
+{
+  "id": "ws-regino-889",
+  "title": "Regino of Prüm on the Hungarians' arrival, 889",
+  "short_title": "Regino, 889",
+  "layer": "written source",
+  "fact_summary": "Regino of Prüm's chronicle, written 900–908, says under 889 that the Hungarian people came out of Scythia and the marshes of the Tanais after neighbouring Pecinaci drove them from their homes.",
+  "place": {
+    "lon": 6.424444,
+    "lat": 50.208056,
+    "precision": "approximate",
+    "role": "written at",
+    "label": "Prüm abbey, where Regino was abbot",
+    "source": {
+      "id": "mmp-database",
+      "locator": "text record 232 (place: Prüm, 50.208056 N, 6.424444 E)"
+    },
+    "note": "The database links the chronicle to Prüm but marks its place of writing as uncertain. The pin marks where the text comes from, not where the events happened."
+  },
+  "time": {
+    "from": 889,
+    "to": 889,
+    "precision": "exact"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Under 889 Regino writes that “gens Hungarium ferocissima et omni belua crudelior”, the most ferocious people of the Hungarians, crueller than any beast, unheard of in earlier ages because it had not even been named, came out of the Scythian realms and the marshes that the Tanais spreads out far and wide.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889 (Kurze ed., pp. 131–132)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources. The English is Claude's own rendering of the Latin.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Before telling of the Hungarians' deeds, Regino says he will describe the land and customs of the Scythians, “following the words of the historians”.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889 (Kurze ed., pp. 131–132)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "He says the people were driven from their own homes by neighbouring peoples “qui Pecinaci vocantur” (who are called Pecinaci), because these were stronger in numbers and courage, and because their native land could not hold their overflowing numbers.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889 (Kurze ed., pp. 131–132; MMP passage 5669)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources. The Latin of the last reason is compressed; whose numbers are meant is Claude's reading.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Regino places the arrival under the year 889. The chronicle itself was compiled between 900 and 908, finished in 906 and dedicated in 908.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889"
+        },
+        {
+          "id": "mmp-database",
+          "locator": "text record 232"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The year heading is in the text; the date of writing comes from one scholarly database.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Regino wrote about 11 to 19 years after 889. What reports did he have, and how did he arrive at that year?"
+    },
+    {
+      "text": "How much of his description comes from older books about the Scythians rather than from the Hungarians themselves?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-annales-bertiniani-862"
+    },
+    {
+      "entry": "ws-dai-38"
+    },
+    {
+      "concept": "pechenegs"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": "ws-dai-38",
+  "title": "The emperor's chapter on the “Turks” (De Administrando Imperio, ch. 38)",
+  "short_title": "Emperor's chapter 38",
+  "layer": "written source",
+  "fact_summary": "Chapter 38 of De Administrando Imperio, compiled under the Byzantine emperor Constantine VII between 948 and 952, tells the earlier history of the people it calls “Turks”: the Hungarians before they settled in the Carpathian Basin.",
+  "place": {
+    "precision": "unknown",
+    "label": "The places the chapter names, Levedia and Etelköz, are not located in the sources read so far"
+  },
+  "time": {
+    "from": 850,
+    "to": 900,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The chapter says that the people of the Turks once settled near Khazaria (in Tóth's Hungarian: “a türkök népe régen Kazáriához közel szerzett magának lakóhelyet”).",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 6"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth quotes and translates the chapter into Hungarian; the Greek edition itself has not been opened yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It says they lived together with the Khazars for three years and fought alongside the Khazars in all their wars (“együttlaktak a kazárokkal három esztendeig, s minden háborújukban együtt harcoltak a kazárokkal”).",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 7; Jenkins's English 'for three years' cited in note 32, p. 8"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth quotes and translates the chapter into Hungarian; the Greek edition itself has not been opened yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "One passage says the Pechenegs fell upon the Turks and drove them out together with their prince, Árpád.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 14, citing DAI 38, line 54"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth quotes and translates the chapter into Hungarian; the Greek edition itself has not been opened yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The chapter tells of two settlements, Levedia and Etelköz; a Khazar episode with an alliance and the Khazar marriage of Levedi; a visit of Levedi to Khazaria; the election of a prince in Etelköz; and Pecheneg attacks on the Hungarians.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "As summarised by Tóth; the full chapter has not been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The “three years” should be taken as written. In the oldest copy (Codex Parisinus Graecus 2009) the number is spelled out as a word, not written as a letter-numeral, so he does not accept that a copyist made a mistake. The alliance with the Khazars can then be dated to 859–861 or about 870–880.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "pp. 9–12 and English abstract, p. 18"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Sándor László Tóth (2015)",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [
+        "c2"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Tier B scholars openly disagree about the number (see the clash below).",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "The “three years” is a copying error. Most researchers have corrected it to 200 or 300 years; others to 30 or 33 years, or to about 50 years of Khazar rule.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 8 and English abstract, p. 18"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Most researchers, as summarised by Tóth (2015, p. 8). Their own works have not been opened yet.",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [
+        "c2"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Known here only through Tóth's summary of other scholars, and openly disputed by him.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "interpretation",
+      "text": "The chapter was put together from two separate reports, each with a settlement, a Khazar episode and a Pecheneg attack, and the story it tells belongs to the second half of the ninth century.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Sándor László Tóth (2015)",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [
+        "c4"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Argued with evidence by one tier B study; other views have not been checked yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The chapter was compiled under Emperor Constantine VII between 948 and 952.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One checked tier B source.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "d2",
+      "kind": "evidence",
+      "text": "The chapter gives no years for the events. Tóth counts six expressions of time in it ('of old', 'at that time', 'a short while afterwards', 'some years later' and so on); the only exact one is the “three years” with the Khazars.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One checked tier B source.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "i1",
+        "i2"
+      ],
+      "what_differs": "How long the Hungarians lived with the Khazars: three years, as the text reads, or a much longer span after correcting a supposed copying error."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where were Levedia and Etelköz?"
+    },
+    {
+      "text": "Did the emperor's informants describe one migration or two?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "concept": "pechenegs"
+    },
+    {
+      "concept": "khazars",
+      "label": "Khazars"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

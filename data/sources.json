@@ -1,4 +1,179 @@
 {
-  "note": "The shared source list. Each source is written up once here and cited by id from entries.",
-  "sources": []
+  "note": "The shared source list. Each source is written up once here and cited by id from entries. 'checked' says who opened it, when, which copy they read and in what language. Claude may mark a source checked only after reading the passage in a copy anyone can open (source standards, decided by Marc on 4 Nov 2026); Marc spot-checks a sample.",
+  "sources": [
+    {
+      "id": "annales-bertiniani",
+      "type": "primary text",
+      "reference": "Annales Bertiniani (Annals of St-Bertin), the part for 862–882 written by Hincmar, archbishop of Reims. Latin edition: G. Waitz (ed.), Monumenta Germaniae Historica, Scriptores rerum Germanicarum 5 (Hanover, 1883), pp. 55–154. English translation: J. L. Nelson, The Annals of St-Bertin (Manchester, 1991).",
+      "link": "https://mmp.acdh-dev.oeaw.ac.at/archiv/text/detail/581",
+      "language": "Latin",
+      "status": "current",
+      "written": { "from": 862, "to": 882, "precision": "range" },
+      "distance": "contemporary",
+      "distance_note": "Hincmar's part of the annals covers 862 to 882 and dates from the second half of the 9th century (Mapping Medieval Peoples database, text record 581).",
+      "edition_used": "Waitz 1883, as transcribed passage by passage in the Mapping Medieval Peoples database",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5744",
+        "read_in": "Latin original. English renderings on this map are Claude's own and have not yet been compared with Nelson's translation."
+      }
+    },
+    {
+      "id": "regino-chronicon",
+      "type": "primary text",
+      "reference": "Regino of Prüm, Chronicon. Latin edition: F. Kurze (ed.), Reginonis abbatis Prumiensis Chronicon cum continuatione Treverensi, Monumenta Germaniae Historica, Scriptores rerum Germanicarum in usum scholarum 50 (Hanover, 1890); the year 889 is on pp. 131–132. English translation: S. MacLean, History and Politics in Late Carolingian and Ottonian Europe: The Chronicle of Regino of Prüm and Adalbert of Magdeburg (publisher and year not yet checked).",
+      "link": "https://mmp.acdh-dev.oeaw.ac.at/archiv/text/detail/232",
+      "language": "Latin",
+      "status": "current",
+      "written": { "from": 900, "to": 908, "precision": "range" },
+      "distance": "within living memory",
+      "distance_note": "Compiled 900–908: finished in 906 and dedicated to Bishop Adalbero of Augsburg in 908, according to the Mapping Medieval Peoples database (text record 232). The year 889 is therefore about 11 to 19 years before the time of writing.",
+      "edition_used": "Kurze 1890, as transcribed passage by passage in the Mapping Medieval Peoples database",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5651",
+        "read_in": "Latin original (passages 5651 and 5669). English renderings on this map are Claude's own and have not yet been compared with MacLean's translation."
+      }
+    },
+    {
+      "id": "annales-s-vincentii-mettenses",
+      "type": "primary text",
+      "reference": "Annales sancti Vincentii Mettenses (Annals of St Vincent, Metz), entry for 955. Latin edition by G. H. Pertz, p. 157, as cited in the Mapping Medieval Peoples database (the database does not state the volume). English translation by Laura Gazzoli, given in the same database record.",
+      "link": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5650",
+      "language": "Latin",
+      "status": "current",
+      "written": { "from": 955, "to": 1000, "precision": "unknown" },
+      "distance": "unknown",
+      "distance_note": "Not yet established. The database labels the text with the years 901–930, but this entry is for 955, so when this part was written still needs checking.",
+      "edition_used": "Pertz, as transcribed in the Mapping Medieval Peoples database",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5650",
+        "read_in": "Latin original, with Gazzoli's English translation from the same record."
+      }
+    },
+    {
+      "id": "toth-2015",
+      "type": "peer-reviewed study",
+      "reference": "Tóth, Sándor László (2015). A De Administrando Imperio 38. fejezete időviszonyai és a magyar őstörténet [Time relations in chapter 38 of De Administrando Imperio and Hungarian early history]. Acta Historica (Szeged) 137, pp. 3–18. In Hungarian, with an English abstract on p. 18.",
+      "link": "https://ojs.bibl.u-szeged.hu/index.php/acthist/article/view/10582",
+      "language": "Hungarian",
+      "status": "current",
+      "peer_review": "not stated on the journal page",
+      "tier_note": "Counted as tier B because it is a university scholarly journal with footnotes that can be traced (source standards, question 2). Whether it was peer reviewed is not stated on the article page.",
+      "quotes": "De Administrando Imperio, ch. 38 (Greek; Moravcsik and Jenkins edition, Dumbarton Oaks, 1967). The Greek edition itself has not been opened for this map; its chapter 38 is read here only as Tóth quotes and translates it.",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://ojs.bibl.u-szeged.hu/index.php/acthist/article/download/10582/10474/10939",
+        "read_in": "Hungarian original and English abstract. Page numbers were taken from the running footers of the PDF and may be off by one."
+      }
+    },
+    {
+      "id": "maroti-2022",
+      "type": "peer-reviewed study",
+      "reference": "Maróti, Zoltán; Neparáczki, Endre; Schütz, Oszkár; et al.; Török, Tibor (2022). The genetic origin of Huns, Avars, and conquering Hungarians. Current Biology 32(13), pp. 2858–2870.",
+      "doi": "10.1016/j.cub.2022.04.093",
+      "link": "https://doi.org/10.1016/j.cub.2022.04.093",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Shares several authors with neparaczki-2019 (same research group in Szeged), so the two are not fully independent.",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://real.mtak.hu/159253/1/1-s2.0-S0960982222007321-main.pdf",
+        "read_in": "English original (open-access copy in the repository of the Hungarian Academy of Sciences library, CC BY)."
+      }
+    },
+    {
+      "id": "neparaczki-2019",
+      "type": "peer-reviewed study",
+      "reference": "Neparáczki, Endre; Maróti, Zoltán; Kalmár, Tibor; et al.; Török, Tibor (2019). Y-chromosome haplogroups from Hun, Avar and conquering Hungarian period nomadic people of the Carpathian Basin. Scientific Reports 9, article 16569.",
+      "doi": "10.1038/s41598-019-53105-5",
+      "link": "https://www.nature.com/articles/s41598-019-53105-5",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Same research group as maroti-2022.",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://www.nature.com/articles/s41598-019-53105-5",
+        "read_in": "English original (open access)."
+      }
+    },
+    {
+      "id": "csaky-2020",
+      "type": "peer-reviewed study",
+      "reference": "Csáky, Veronika; Gerber, Dániel; Szeifert, Bea; et al.; Szécsényi-Nagy, Anna (2020). Early medieval genetic data from Ural region evaluated in the light of archaeological evidence of ancient Hungarians. Scientific Reports 10, article 19137.",
+      "doi": "10.1038/s41598-020-75910-z",
+      "link": "https://www.nature.com/articles/s41598-020-75910-z",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Same research group as szeifert-2022 (Institute of Archaeogenomics, Budapest).",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://www.nature.com/articles/s41598-020-75910-z",
+        "read_in": "English original (open access). The supplementary information, which holds the radiocarbon dates, was not opened."
+      }
+    },
+    {
+      "id": "szeifert-2022",
+      "type": "peer-reviewed study",
+      "reference": "Szeifert, Bea; Gerber, Dániel; Csáky, Veronika; Langó, Péter; Stashenkov, Dmitrii A.; Egyed, Balázs; Mende, Balázs Gusztáv; Türk, Attila; Szécsényi-Nagy, Anna (2022). Tracing genetic connections of ancient Hungarians to the 6th–14th century populations of the Volga-Ural region. Human Molecular Genetics 31(19), pp. 3266–3280.",
+      "doi": "10.1093/hmg/ddac106",
+      "link": "https://doi.org/10.1093/hmg/ddac106",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Same research group as csaky-2020.",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "http://real.mtak.hu/160205/1/734.pdf",
+        "read_in": "English original (open-access copy in the repository of the Hungarian Academy of Sciences library, CC BY-NC). Page numbers were taken from the running headers and may be off by one."
+      }
+    },
+    {
+      "id": "gnecchi-ruscone-2022",
+      "type": "peer-reviewed study",
+      "reference": "Gnecchi-Ruscone, Guido Alberto; Szécsényi-Nagy, Anna; Koncz, István; et al. (2022). Ancient genomes reveal origin and rapid trans-Eurasian migration of 7th century Avar elites. Cell 185(8), pp. 1402–1413.",
+      "doi": "10.1016/j.cell.2022.03.007",
+      "link": "https://doi.org/10.1016/j.cell.2022.03.007",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "A different lead team from maroti-2022, but Anna Szécsényi-Nagy and Veronika Csáky are also authors of csaky-2020 and szeifert-2022.",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://pubmed.ncbi.nlm.nih.gov/35366416",
+        "read_in": "English. Only the abstract was read, not the full article."
+      }
+    },
+    {
+      "id": "grunthal-2022",
+      "type": "peer-reviewed study",
+      "reference": "Grünthal, Riho; Heyd, Volker; Holopainen, Sampsa; Janhunen, Juha; Khanina, Olesya; Miestamo, Matti; Nichols, Johanna; Saarikivi, Janne; Sinnemäki, Kaius. Drastic demographic events triggered the Uralic spread. Diachronica (the copy read is marked 'to appear in Diachronica').",
+      "link": "https://www.mv.helsinki.fi/home/matmies/publications/UralicSpread_Text&Supplements_Accepted.pdf",
+      "language": "English",
+      "status": "current",
+      "peer_review": "accepted for publication, as the copy states ('to appear'); the final published version has not been compared",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://www.mv.helsinki.fi/home/matmies/publications/UralicSpread_Text&Supplements_Accepted.pdf",
+        "read_in": "English, author's pre-publication copy. Page numbers are those of that copy."
+      }
+    },
+    {
+      "id": "mmp-database",
+      "type": "dataset",
+      "reference": "Mapping Medieval Peoples (MMP) database of early medieval texts and the places and peoples they name, Austrian Academy of Sciences.",
+      "link": "https://mmp.acdh-dev.oeaw.ac.at/",
+      "language": "English, German, Latin",
+      "status": "current",
+      "checked": {
+        "by": "Claude", "on": "2026-11-05",
+        "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/text/detail/232",
+        "read_in": "Text records 232 (Regino) and 581 (Annals of St-Bertin), and passage records 5650, 5651, 5669 and 5744."
+      }
+    }
+  ]
 }

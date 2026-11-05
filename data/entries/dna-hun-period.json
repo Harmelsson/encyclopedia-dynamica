@@ -1,0 +1,150 @@
+{
+  "id": "dna-hun-period",
+  "title": "Genomes from Hun-period graves",
+  "short_title": "Hun-period DNA",
+  "layer": "ancient DNA",
+  "fact_summary": "Genetic studies of a few people buried in the Carpathian Basin in the Hun period (5th century) report ancestry that the authors link to the Xiongnu.",
+  "place": {
+    "lon": 20.0,
+    "lat": 46.9,
+    "precision": "approximate",
+    "label": "Great Hungarian Plain",
+    "note": "Pin placed by Claude in the middle of the region the study names ('the Great Hungarian Plain'). It is not the position of any one grave."
+  },
+  "time": {
+    "from": 400,
+    "to": 500,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Maróti and colleagues sequenced 9 samples from the Hun period, which they date to the 5th century.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2858; STAR Methods, p. e1"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "They describe two Hun-period individuals as “immigrants with no European background”, and report prevalent Sarmatian ancestry in four other Hun-period samples.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "pp. 2860–2861"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "In an earlier study from the same group, Y-chromosome lineages from the Hun age were reported as “consistent with Xiongnu ancestry of European Huns”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The European Huns had Xiongnu ancestry. The authors say their data agree with what several historians have claimed.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2860 (section heading) and p. 2866"
+        },
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maróti et al. (2022)",
+          "source": "maroti-2022"
+        },
+        {
+          "who": "Neparáczki et al. (2019)",
+          "source": "neparaczki-2019"
+        }
+      ],
+      "rests_on": [
+        "c2",
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Argued with evidence in two tier B studies, but by overlapping authors and from only nine Hun-period samples. No review has been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The samples are assigned to the Hun period by the study (5th century). How each grave was dated is described in the paper's methods, which have not been read in detail.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "STAR Methods, p. e1"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Period label from one study; the dating evidence for each grave has not been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "How well can nine people stand for everyone who lived under Hun rule?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-avar-period"
+    },
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "concept": "ancient-dna"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "site-bolshie-tigani",
+  "title": "Bolshie Tigani cemetery",
+  "short_title": "Bolshie Tigani",
+  "layer": "dig site",
+  "fact_summary": "A 9th–10th century cemetery in the Volga region where archaeologists identified a Hungarian component in the burial customs and grave goods.",
+  "place": {
+    "lon": 50.0,
+    "lat": 55.0,
+    "precision": "approximate",
+    "label": "Volga region",
+    "note": "Pin placed by Claude in the region the study names ('Russia (Volga)'). The cemetery's exact position has not been checked."
+  },
+  "time": {
+    "from": 800,
+    "to": 1000,
+    "precision": "range"
+  },
+  "min_zoom": 3,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2022 study lists Bolshie Tigani in Russia (Volga), dates it to the 9th–10th centuries, and assigns it to the Late Kushnarenkovo/Karayakupovo culture of the early Volga-Kama Bulghar period.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Table 1, p. 4"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study; the excavation report has not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The study says the maternal lineages of Bolshie Tigani connect it to sites of the later Chiyalik culture (11th–14th centuries), with numerous identical maternal lineages between them.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 9"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "In the cemeteries of Bolshie Tigani and Tankeevka, a Hungarian ethnic component can be identified from burial customs and grave goods.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 10"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Szeifert et al. (2022), reporting archaeological research",
+          "source": "szeifert-2022"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Reported in one tier B study; the archaeological publications behind it have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Dated to the 9th–10th centuries in the study's site table.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Table 1, p. 4"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Period label from one study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-volga-ural"
+    },
+    {
+      "entry": "site-uyelgi"
+    },
+    {
+      "concept": "kushnarenkovo-culture"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

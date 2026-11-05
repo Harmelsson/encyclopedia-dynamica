@@ -1,0 +1,130 @@
+{
+  "id": "ws-annales-bertiniani-862",
+  "title": "Annals of St-Bertin, 862: raiders “who are called Ungri”",
+  "short_title": "Ungri raid, 862",
+  "layer": "written source",
+  "fact_summary": "Under the year 862, the Annals of St-Bertin report that enemies unknown to those peoples before, “who are called Ungri”, ravaged King Louis's kingdom.",
+  "place": {
+    "lon": 4.0347,
+    "lat": 49.2628,
+    "precision": "exact",
+    "role": "written at",
+    "label": "Reims, the see of Hincmar, who wrote this part of the annals",
+    "source": {
+      "id": "mmp-database",
+      "locator": "text record 581 (place: Reims, 49.2628 N, 4.0347 E)"
+    },
+    "note": "The pin marks where the text comes from, not where the raid happened. The annal names no place for the raid."
+  },
+  "time": {
+    "from": 862,
+    "to": 862,
+    "precision": "exact"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The annal for 862 says: “Sed et hostes antea illis populis inexperti, qui Ungri vocantur, regnum eiusdem populantur”, that is, “and enemies previously unknown to those peoples, who are called Ungri, also ravage the kingdom of the same [Louis]”.",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 862 (Nelson's translation, p. 102)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources. The English is Claude's own rendering of the Latin.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The same annal tells how Louis (Hludowicus) marched against the Winedi, came back to his palace at Frankfurt on the Main, and how Danes plundered a large part of his kingdom with fire and sword.",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 862"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The Ungri of this annal were the Hungarians (Magyars).",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "passage record 5744, ethnonym index"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Mapping Medieval Peoples database, which indexes 'Ungri' here as Hungarians",
+          "source": "mmp-database"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One scholarly database makes this identification. A review stating that it is the consensus has not been checked yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Dated by the year heading of the annal (s.a. 862). The passage gives no day, month or place for the raid.",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 862"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where did the raid strike, and where had the raiders come from?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "entry": "ws-dai-38"
+    },
+    {
+      "concept": "names-for-the-hungarians",
+      "label": "Names for the Hungarians in medieval texts"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

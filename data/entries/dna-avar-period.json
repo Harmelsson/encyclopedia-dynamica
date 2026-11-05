@@ -1,0 +1,180 @@
+{
+  "id": "dna-avar-period",
+  "title": "Genomes of the Avar-period elite",
+  "short_title": "Avar-period DNA",
+  "layer": "ancient DNA",
+  "fact_summary": "Two genetic studies by different teams report that elite Avar-period burials in the Carpathian Basin (7th century) belonged to people with mainly East or Northeast Asian ancestry.",
+  "place": {
+    "lon": 20.0,
+    "lat": 46.9,
+    "precision": "approximate",
+    "label": "Great Hungarian Plain",
+    "note": "Pin placed by Claude in the middle of the region the study names ('the Great Hungarian Plain'). It is not the position of any one grave."
+  },
+  "time": {
+    "from": 600,
+    "to": 700,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Gnecchi-Ruscone and colleagues produced genome-wide data from 66 pre-Avar and Avar-period individuals from the Carpathian Basin, including the 8 richest Avar-period burials.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2022",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "They report that these individuals “carried Northeast Asian ancestry matching the profile of preceding Mongolian Steppe populations”, particularly a genome from the Rouran period.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2022",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Maróti and colleagues, a different team, sequenced 143 Avar-period samples, 40 of them from the early Avar period (7th century). They report that a mostly elite group among them was derived from East Asia, most likely from present-day Mongolia.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2858; p. 2861; STAR Methods, p. e1"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The Avar elite reached the Carpathian Basin through a rapid, long-distance migration from the Mongolian steppe.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2022",
+          "locator": "Abstract"
+        },
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2861"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gnecchi-Ruscone et al. (2022)",
+          "source": "gnecchi-ruscone-2022"
+        },
+        {
+          "who": "Maróti et al. (2022), who say 'most likely from present day Mongolia'",
+          "source": "maroti-2022"
+        }
+      ],
+      "rests_on": [
+        "c2",
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Two tier B studies from different teams point the same way. Only the abstract of the first was read, and no review has been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "European Avars were related to the Huns.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "Highlights"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maróti et al. (2022)",
+          "source": "maroti-2022"
+        }
+      ],
+      "rests_on": [
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Stated in one tier B study's highlights; the full argument has not been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Both studies assign the elite graves to the 7th century.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2022",
+          "locator": "Title"
+        },
+        {
+          "id": "maroti-2022",
+          "locator": "STAR Methods, p. e1"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Period labels from the studies; the dating evidence for each grave has not been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Did ordinary people of the Avar period share this ancestry? Maróti and colleagues report that most people in each period were local."
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-hun-period"
+    },
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "concept": "ancient-dna"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}
