@@ -12,7 +12,7 @@
 import {
   LAYERS, CERT_CLASS, tierOf, sourceChecked, claimChecked, entryChecked,
   overallCertainty, inTime, formatYear,
-} from './rules.mjs?v=2026-11-05c';
+} from './rules.mjs?v=2026-11-05d';
 
 const params = new URLSearchParams(location.search);
 const EXAMPLE_MODE = params.has('examples');
@@ -642,7 +642,7 @@ function renderItemCard(e, isPage) {
       numbering.size ? el('ol', {}, [...numbering.keys()].map(id => sourceItem(id, locators.get(id)))) : el('p', { class: 'hint' }, 'None shown.')),
 
     dating.length ? el('section', {}, el('h3', {}, 'How it is dated'),
-      el('ul', { class: 'claim-list' }, dating.map(c => claimLine(c, numbering)))) : null,
+      el('ul', { class: 'claim-list' }, dating.map(c => claimLine(c, numbering, used)))) : null,
 
     mainInterps.length || specInterps.length ? el('section', {},
       el('details', { class: 'interps' },

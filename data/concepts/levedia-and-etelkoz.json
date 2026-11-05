@@ -1,0 +1,113 @@
+{
+  "id": "levedia-and-etelkoz",
+  "title": "Levedia and Etelköz",
+  "kind": "region",
+  "aliases": [
+    "Levedia",
+    "Etelköz",
+    "Atelkuzu"
+  ],
+  "fact_summary": "Two earlier homes of the Hungarians named in the Byzantine chapter on them. Where exactly they lay is not settled by the sources read so far.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The chapter says the Turks (Hungarians) once lived near Khazaria in a place “named Levedia after their first voivode” (“melyet elsô vajdájuk nevérôl Levediának neveznek”).",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "summary of DAI ch. 38 (exact page not fixed in the copy read)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth summarises and quotes the chapter in Hungarian.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Tóth summarises the chapter as saying that the western part of the people settled in Etelköz, the land of “Atelkuzu”, under Levedi's leadership.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "summary of DAI ch. 38 (exact page not fixed in the copy read)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Tóth's own summary of the chapter.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The chapter places the election of the prince, Árpád, in Etelköz.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "summary of DAI ch. 38 (exact page not fixed in the copy read)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth summarises and quotes the chapter in Hungarian.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The story of the two settlements comes from two separate reports joined in chapter 38, each with its own settlement, Khazar episode and Pecheneg attack.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Sándor László Tóth (2015)",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Argued by one tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where were Levedia and Etelköz? No pin is drawn until a checked source places them."
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-dai-38"
+    },
+    {
+      "concept": "arpad"
+    },
+    {
+      "concept": "khazars"
+    },
+    {
+      "concept": "pechenegs"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}
