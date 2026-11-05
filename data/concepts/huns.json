@@ -1,0 +1,122 @@
+{
+  "id": "huns",
+  "title": "Huns",
+  "kind": "people",
+  "aliases": [
+    "Huns",
+    "Hun period",
+    "Hun-period",
+    "Hun age",
+    "Hun-age",
+    "European Huns"
+  ],
+  "fact_summary": "A steppe people who held the Carpathian Basin in the first half of the 5th century. Genetic studies link part of them to the Xiongnu of Inner Asia.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2022 study notes “the appearance of Huns in European written sources ca 370 CE”.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "Introduction, p. 2859"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One study's summary of the written record.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "A 2019 study says that “Between 400–453 AD the Huns held possession of the region”, meaning the Carpathian Basin.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One study's summary of the written record.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The same study reports that paternal lineages from the Hun age “are consistent with Xiongnu ancestry of European Huns”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The European Huns descended at least in part from the Xiongnu.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract; Introduction"
+        },
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2860; p. 2866"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Neparáczki et al. (2019) and Maróti et al. (2022), one research group in Szeged",
+          "source": "maroti-2022"
+        }
+      ],
+      "rests_on": [
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Two studies, but from the same research group, so not independent. Based on a handful of Hun-period graves.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Medieval Hungarian chronicles claim descent from the Huns. Where does that claim first appear?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-hun-period"
+    },
+    {
+      "concept": "xiongnu"
+    },
+    {
+      "concept": "carpathian-basin"
+    },
+    {
+      "concept": "avars"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

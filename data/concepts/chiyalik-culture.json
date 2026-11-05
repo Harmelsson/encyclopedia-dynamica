@@ -1,0 +1,121 @@
+{
+  "id": "chiyalik-culture",
+  "title": "Chiyalik culture",
+  "kind": "concept",
+  "aliases": [
+    "Chiyalik culture",
+    "Chiyalik"
+  ],
+  "fact_summary": "An archaeological culture of the 11th to 14th centuries in the Volga-Ural region. Some researchers think it was left by Hungarians who stayed in the East.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2022 study lists the Gulyukovo, Novo Hozyatovo and Gornovo cemeteries as belonging to the Chiyalik culture and dates it to the 11th–14th centuries.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 10"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The study reports genetic connections between the earlier Bolshie Tigani population and later Chiyalik sites, and dates the split between the ancestors of the Chiyalik group and the conquering Hungarians to the ninth century.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 9"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Chiyalik communities “may have been later communities of the Hungarians who remained in the East”.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 10"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Szeifert et al. (2022)",
+          "source": "szeifert-2022"
+        }
+      ],
+      "rests_on": [
+        "c2"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The authors themselves word it as a possibility.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "Part of the Chiyalik population “was most probably assimilated into the Bashkirs during the Middle Ages”.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 10"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Szeifert et al. (2022)",
+          "source": "szeifert-2022"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Is a shared genetic line enough to say that the Chiyalik people spoke Hungarian?"
+    }
+  ],
+  "links": [
+    {
+      "concept": "magna-hungaria"
+    },
+    {
+      "concept": "kushnarenkovo-culture"
+    },
+    {
+      "entry": "dna-volga-ural"
+    },
+    {
+      "entry": "site-bolshie-tigani"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

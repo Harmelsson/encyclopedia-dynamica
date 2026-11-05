@@ -68,6 +68,14 @@ for (const e of [...entries, ...concepts]) {
   if (entryIds.has(e.id) && conceptIds.has(e.id)) problems.push(`"${e.id}" is used both as an entry id and a page id`);
 }
 
+// A word in card text can link to only one page, so no two pages may claim the same alias.
+const aliasOwner = new Map();
+for (const c of concepts) for (const a of c.aliases || []) {
+  const k = a.toLowerCase();
+  if (aliasOwner.has(k) && aliasOwner.get(k) !== c.id) problems.push(`alias "${a}" is claimed by both ${aliasOwner.get(k)} and ${c.id}`);
+  aliasOwner.set(k, c.id);
+}
+
 // Invented examples: same rules, and every text must be labelled [EXAMPLE].
 const ex = read('data/examples/examples.json');
 const nEx = checkSet('examples', ex.entries, ex.sources);

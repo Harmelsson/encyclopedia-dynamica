@@ -6,7 +6,9 @@
   <title>Encyclopedia Dynamica</title>
   <meta name="description" content="An interactive map-and-timeline encyclopedia of the world's history, with evidence first.">
   <link rel="stylesheet" href="lib/maplibre-gl/maplibre-gl.css">
-  <link rel="stylesheet" href="css/app.css">
+  <!-- The ?v=... after css/app.css and js/app.mjs (and rules.mjs inside app.mjs) is a version tag.
+       Change it with every release, so browsers fetch the new files instead of an old saved copy. -->
+  <link rel="stylesheet" href="css/app.css?v=2026-11-05c">
 </head>
 <body>
   <div id="map" aria-label="Map of Europe and the western steppe"></div>
@@ -93,6 +95,6 @@
   </footer>
 
   <script src="lib/maplibre-gl/maplibre-gl.js"></script>
-  <script type="module" src="js/app.mjs"></script>
+  <script type="module" src="js/app.mjs?v=2026-11-05c"></script>
 </body>
 </html>

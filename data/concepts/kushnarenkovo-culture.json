@@ -96,6 +96,9 @@
     },
     {
       "entry": "dna-uyelgi"
+    },
+    {
+      "concept": "chiyalik-culture"
     }
   ],
   "review": {
@@ -103,5 +106,9 @@
     "by": "Claude",
     "on": "2026-11-05",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
-  }
+  },
+  "aliases": [
+    "Kushnarenkovo culture",
+    "Kushnarenkovo"
+  ]
 }

@@ -1,0 +1,62 @@
+{
+  "id": "hincmar-of-reims",
+  "title": "Hincmar of Reims",
+  "kind": "person",
+  "aliases": [
+    "Hincmar of Reims",
+    "Hincmar"
+  ],
+  "fact_summary": "Archbishop of Reims (806–882) who kept the Annals of St-Bertin in his last two decades. The annals name the Hungarians in 862.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Mapping Medieval Peoples database gives his dates as 806 to 882 and describes him as “Archbishop of Rheims, politician, annalist”.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "text record 581, author details"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the database record says, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It dates the part of the annals linked to him to 862–882.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "text record 581"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the database record says, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "The database record for the annals does not itself name an author. Which edition or study sets out who wrote which part?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-annales-bertiniani-862"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

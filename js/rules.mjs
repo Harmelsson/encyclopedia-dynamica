@@ -81,7 +81,7 @@ export function formatYear(y) {
 
 export const PLACE_PRECISION = ['exact', 'approximate', 'disputed', 'unknown'];
 export const TIME_PRECISION = ['exact', 'approximate', 'range', 'unknown'];
-export const CONCEPT_KINDS = ['concept', 'method', 'people', 'language', 'document'];
+export const CONCEPT_KINDS = ['concept', 'method', 'people', 'person', 'region', 'language', 'document'];
 
 // Checks one entry (or, with { concept: true }, one topic or method page) against the rules.
 // Returns a list of plain-language problems.
@@ -98,6 +98,8 @@ export function problemsWithEntry(entry, sourcesById, opts = {}) {
   need(Array.isArray(entry.claims) && entry.claims.length > 0, `${id}: needs at least one claim`);
   if (isConcept) {
     need(CONCEPT_KINDS.includes(entry.kind), `${id}: kind must be one of ${CONCEPT_KINDS.join(', ')}`);
+    // Aliases are the words in card text that turn into a link to this page.
+    if ('aliases' in entry) need(Array.isArray(entry.aliases) && entry.aliases.every(a => typeof a === 'string' && a.trim().length >= 3), `${id}: aliases must be a list of words, each at least 3 letters`);
   } else {
     need(entry.layer in LAYERS, `${id}: layer must be one of ${Object.keys(LAYERS).join(', ')}`);
     const pl = entry.place || {};

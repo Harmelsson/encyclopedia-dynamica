@@ -1,0 +1,132 @@
+{
+  "id": "khazars",
+  "title": "Khazars",
+  "kind": "people",
+  "aliases": [
+    "Khazars",
+    "Khazar",
+    "Khazaria",
+    "Chazars"
+  ],
+  "fact_summary": "A steppe power north of the Caucasus. The Byzantine chapter on the Hungarians says the two peoples once lived and fought together.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Chapter 38 of De Administrando Imperio says the “Turks” (the Hungarians) once settled near Khazaria, lived with the Khazars “for three years” and fought alongside them in all their wars.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "pp. 5–7"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth reports it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The same chapter tells of the Khazar marriage of Levedi, a Hungarian leader, and of his visit to Khazaria.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read only as Tóth reports it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The alliance between the Hungarians and the Khazars was short, and can be dated either to 859–861 or to about 870–880.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Sándor László Tóth (2015)",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Rests on reading the chapter's “three years” as written, which many scholars do not accept.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "The “three years” is a copying error for a much longer time, such as 200 or 300 years.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 8; English abstract, p. 18"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Most earlier researchers, as reported by Tóth (2015). Their works have not been opened yet.",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Known here only through a study that argues against it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "i1",
+        "i2"
+      ],
+      "what_differs": "How long the Hungarians lived with the Khazars: three years, as the oldest copy has it, or centuries."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Do any Khazar or Arabic sources mention the Hungarians?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-dai-38"
+    },
+    {
+      "concept": "de-administrando-imperio"
+    },
+    {
+      "concept": "pechenegs"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

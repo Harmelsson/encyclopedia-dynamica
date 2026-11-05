@@ -1,0 +1,114 @@
+{
+  "id": "carpathian-basin",
+  "title": "Carpathian Basin",
+  "kind": "region",
+  "aliases": [
+    "Carpathian Basin"
+  ],
+  "fact_summary": "The lowland ringed by the Carpathian mountains, roughly today's Hungary and its neighbours. Huns, Avars and Hungarians each arrived there from the Eurasian steppes.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2019 study says that Hun, Avar and conquering Hungarian groups “arrived to the Carpathian Basin from the Eurasian Steppes”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "A 2022 study from the same group says these groups “arrived in three successive waves in the Carpathian Basin between the 5th and 9th centuries”.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "Summary, p. 2858"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The 2019 study gives this outline: “Between 400–453 AD the Huns held possession of the region”; “From 568 AD the Avars established an empire in the region lasting nearly for 250 years”; the Hungarians were present “from 862 AD” and “between 895–905 they took full command of the region”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One study's summary of the written record. The written sources behind these dates are not cited on this page yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A study of the Byzantine chapter on the Hungarians dates their settlement in the Carpathian Basin to “between 895 and 900”.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study, stated in passing.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c3",
+        "c4"
+      ],
+      "what_differs": "When the Hungarian settlement ended: by 900, or by 905. The two studies may be measuring slightly different things (settling in, or taking full command)."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Which written sources fix the years 862, 895 and 905, and how sure are they?"
+    }
+  ],
+  "links": [
+    {
+      "concept": "huns"
+    },
+    {
+      "concept": "avars"
+    },
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "entry": "ws-annales-bertiniani-862"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

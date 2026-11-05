@@ -1,0 +1,139 @@
+{
+  "id": "avars",
+  "title": "Avars",
+  "kind": "people",
+  "aliases": [
+    "Avars",
+    "Avar period",
+    "Avar-period",
+    "Avar-age",
+    "Avar elite",
+    "Avar elites"
+  ],
+  "fact_summary": "A steppe people who ruled an empire in the Carpathian Basin from 568 for about 250 years. Genome studies trace their elite to the Mongolian steppe.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2019 study says that “From 568 AD the Avars established an empire in the region lasting nearly for 250 years”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One study's summary of the written record.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It reports that most Avar-age men it sampled carry eastern Eurasian paternal lineages “typical for modern north-eastern Siberian and Buryat populations”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "A separate team produced genome data from 66 pre-Avar and Avar-period individuals, including the 8 richest Avar-period burials, and reports that these individuals “carried Northeast Asian ancestry matching the profile of preceding Mongolian Steppe populations”.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2022",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "Read in the abstract only.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The arrival of the Avars in Europe in the 6th century “broadly correlates with the collapse of the Rouran Empire” in Mongolia.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "Introduction, p. 2859"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maróti et al. (2022), following earlier historians",
+          "source": "maroti-2022"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A match in timing, not proof of a link.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "The Avar elite reached the Carpathian Basin by a rapid, long-distance migration from the Mongolian steppe.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2022",
+          "locator": "Abstract"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gnecchi-Ruscone et al. (2022)",
+          "source": "gnecchi-ruscone-2022"
+        }
+      ],
+      "rests_on": [
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Argued by one team, from the abstract; the full article has not been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Was the Avar elite a small ruling group over a mostly local population, as the genome studies suggest?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-avar-period"
+    },
+    {
+      "concept": "huns"
+    },
+    {
+      "concept": "carpathian-basin"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}
