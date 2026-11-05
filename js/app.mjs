@@ -389,6 +389,20 @@ function setTint(t) {
   for (const r of document.querySelectorAll('input[name="tint"]')) r.checked = r.value === t;
 }
 
+// Text size: 90% to 160%, in steps, remembered in this browser.
+const SIZES = [0.9, 1, 1.1, 1.2, 1.3, 1.45, 1.6];
+function setTextSize(i) {
+  i = Math.max(0, Math.min(SIZES.length - 1, i));
+  document.documentElement.style.setProperty('--ts', SIZES[i]);
+  $('#size-label').textContent = `${Math.round(SIZES[i] * 100)}%`;
+  $('#size-down').disabled = i === 0;
+  $('#size-up').disabled = i === SIZES.length - 1;
+  store('textSize', String(SIZES[i]));
+  setTextSize.current = i;
+}
+$('#size-down').addEventListener('click', () => setTextSize(setTextSize.current - 1));
+$('#size-up').addEventListener('click', () => setTextSize(setTextSize.current + 1));
+
 $('#year').addEventListener('input', ev => { state.year = +ev.target.value; update(false); });
 $('#show-unchecked').addEventListener('change', ev => { state.showUnchecked = ev.target.checked; update(); });
 for (const r of document.querySelectorAll('input[name="tint"]')) r.addEventListener('change', ev => setTint(ev.target.value));
@@ -404,6 +418,7 @@ map.on('mouseleave', 'zone-fill', () => { map.getCanvas().style.cursor = ''; });
 // ---------- start ----------
 
 setTint(store('tint') || 'pure');
+{ const saved = SIZES.indexOf(Number(store('textSize'))); setTextSize(saved >= 0 ? saved : 1); }
 if (matchMedia('(max-width: 760px)').matches) $('#side-details').open = false;
 $('#example-banner').hidden = !EXAMPLE_MODE;
 
