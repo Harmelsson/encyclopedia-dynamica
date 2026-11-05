@@ -8,12 +8,17 @@
       "link": "https://mmp.acdh-dev.oeaw.ac.at/archiv/text/detail/581",
       "language": "Latin",
       "status": "current",
-      "written": { "from": 862, "to": 882, "precision": "range" },
+      "written": {
+        "from": 862,
+        "to": 882,
+        "precision": "range"
+      },
       "distance": "contemporary",
       "distance_note": "Hincmar's part of the annals covers 862 to 882 and dates from the second half of the 9th century (Mapping Medieval Peoples database, text record 581).",
       "edition_used": "Waitz 1883, as transcribed passage by passage in the Mapping Medieval Peoples database",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5744",
         "read_in": "Latin original. English renderings on this map are Claude's own and have not yet been compared with Nelson's translation."
       }
@@ -25,12 +30,17 @@
       "link": "https://mmp.acdh-dev.oeaw.ac.at/archiv/text/detail/232",
       "language": "Latin",
       "status": "current",
-      "written": { "from": 900, "to": 908, "precision": "range" },
+      "written": {
+        "from": 900,
+        "to": 908,
+        "precision": "range"
+      },
       "distance": "within living memory",
       "distance_note": "Compiled 900–908: finished in 906 and dedicated to Bishop Adalbero of Augsburg in 908, according to the Mapping Medieval Peoples database (text record 232). The year 889 is therefore about 11 to 19 years before the time of writing.",
       "edition_used": "Kurze 1890, as transcribed passage by passage in the Mapping Medieval Peoples database",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5651",
         "read_in": "Latin original (passages 5651 and 5669). English renderings on this map are Claude's own and have not yet been compared with MacLean's translation."
       }
@@ -42,12 +52,17 @@
       "link": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5650",
       "language": "Latin",
       "status": "current",
-      "written": { "from": 955, "to": 1000, "precision": "unknown" },
+      "written": {
+        "from": 955,
+        "to": 1000,
+        "precision": "unknown"
+      },
       "distance": "unknown",
       "distance_note": "Not yet established. The database labels the text with the years 901–930, but this entry is for 955, so when this part was written still needs checking.",
       "edition_used": "Pertz, as transcribed in the Mapping Medieval Peoples database",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5650",
         "read_in": "Latin original, with Gazzoli's English translation from the same record."
       }
@@ -63,7 +78,8 @@
       "tier_note": "Counted as tier B because it is a university scholarly journal with footnotes that can be traced (source standards, question 2). Whether it was peer reviewed is not stated on the article page.",
       "quotes": "De Administrando Imperio, ch. 38 (Greek; Moravcsik and Jenkins edition, Dumbarton Oaks, 1967). The Greek edition itself has not been opened for this map; its chapter 38 is read here only as Tóth quotes and translates it.",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://ojs.bibl.u-szeged.hu/index.php/acthist/article/download/10582/10474/10939",
         "read_in": "Hungarian original and English abstract. Page numbers were taken from the running footers of the PDF and may be off by one."
       }
@@ -79,7 +95,8 @@
       "peer_review": "peer reviewed",
       "derives_from_note": "Shares several authors with neparaczki-2019 (same research group in Szeged), so the two are not fully independent.",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://real.mtak.hu/159253/1/1-s2.0-S0960982222007321-main.pdf",
         "read_in": "English original (open-access copy in the repository of the Hungarian Academy of Sciences library, CC BY)."
       }
@@ -95,7 +112,8 @@
       "peer_review": "peer reviewed",
       "derives_from_note": "Same research group as maroti-2022.",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://www.nature.com/articles/s41598-019-53105-5",
         "read_in": "English original (open access)."
       }
@@ -111,7 +129,8 @@
       "peer_review": "peer reviewed",
       "derives_from_note": "Same research group as szeifert-2022 (Institute of Archaeogenomics, Budapest).",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://www.nature.com/articles/s41598-020-75910-z",
         "read_in": "English original (open access). The supplementary information, which holds the radiocarbon dates, was not opened."
       }
@@ -127,7 +146,8 @@
       "peer_review": "peer reviewed",
       "derives_from_note": "Same research group as csaky-2020.",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "http://real.mtak.hu/160205/1/734.pdf",
         "read_in": "English original (open-access copy in the repository of the Hungarian Academy of Sciences library, CC BY-NC). Page numbers were taken from the running headers and may be off by one."
       }
@@ -143,7 +163,8 @@
       "peer_review": "peer reviewed",
       "derives_from_note": "A different lead team from maroti-2022, but Anna Szécsényi-Nagy and Veronika Csáky are also authors of csaky-2020 and szeifert-2022.",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://pubmed.ncbi.nlm.nih.gov/35366416",
         "read_in": "English. Only the abstract was read, not the full article."
       }
@@ -157,9 +178,54 @@
       "status": "current",
       "peer_review": "accepted for publication, as the copy states ('to appear'); the final published version has not been compared",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://www.mv.helsinki.fi/home/matmies/publications/UralicSpread_Text&Supplements_Accepted.pdf",
         "read_in": "English, author's pre-publication copy. Page numbers are those of that copy."
+      }
+    },
+    {
+      "id": "liudprand-antapodosis",
+      "type": "primary text",
+      "reference": "Liudprand of Cremona, Antapodosis (Liber retributionis). Latin edition by J. Becker, as cited in the Mapping Medieval Peoples database (volume and year not yet checked). English translation by P. Squatriti, as cited in the same database (publication details not yet checked).",
+      "link": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5749",
+      "language": "Latin",
+      "status": "current",
+      "written": {
+        "from": 958,
+        "to": 962,
+        "precision": "range"
+      },
+      "distance": "later",
+      "distance_note": "Written 958–962, according to the Mapping Medieval Peoples database. Book I looks back to the 870s and 880s, about 80 years earlier; book V reaches the 940s, within living memory.",
+      "edition_used": "Becker, as transcribed passage by passage in the Mapping Medieval Peoples database (passages 5749 and 5750)",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/stelle/detail/5749",
+        "read_in": "Latin original (passages 5749 and 5750), with Squatriti's English as given in the database."
+      }
+    },
+    {
+      "id": "widukind-res-gestae",
+      "type": "primary text",
+      "reference": "Widukind of Corvey, Res gestae Saxonicae (Deeds of the Saxons), book III, sections 44–45. English translation by Raymund F. Wood, unpublished doctoral dissertation, University of California, Berkeley, 1949, pp. 389–393, as given in the Internet Medieval Sourcebook (Fordham University).",
+      "link": "https://sourcebooks.web.fordham.edu/source/955Lechfeld-widukind.asp",
+      "language": "Latin (read in English translation)",
+      "status": "current",
+      "written": {
+        "from": 955,
+        "to": 980,
+        "precision": "unknown"
+      },
+      "distance": "within living memory",
+      "distance_note": "The Sourcebook gives Widukind's life as c. 925 to after 973, so he was alive at the time of the battle. When he wrote this book is not established in the sources read so far.",
+      "edition_used": "Wood's English translation (1949), as reproduced in the Internet Medieval Sourcebook",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05",
+        "copy": "https://sourcebooks.web.fordham.edu/source/955Lechfeld-widukind.asp",
+        "read_in": "English translation only. The excerpt ends before the close of the battle. The Sourcebook's own introduction, which repeats outside summaries, was not used."
       }
     },
     {
@@ -170,7 +236,8 @@
       "language": "English, German, Latin",
       "status": "current",
       "checked": {
-        "by": "Claude", "on": "2026-11-05",
+        "by": "Claude",
+        "on": "2026-11-05",
         "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/text/detail/232",
         "read_in": "Text records 232 (Regino) and 581 (Annals of St-Bertin), and passage records 5650, 5651, 5669 and 5744."
       }

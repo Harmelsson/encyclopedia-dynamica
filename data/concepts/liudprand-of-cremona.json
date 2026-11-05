@@ -1,0 +1,86 @@
+{
+  "id": "liudprand-of-cremona",
+  "title": "Liudprand of Cremona",
+  "kind": "person",
+  "aliases": [
+    "Liudprand of Cremona",
+    "Liudprand",
+    "Antapodosis"
+  ],
+  "fact_summary": "A historian whose Antapodosis, written around 958–962, tells of the Hungarians' raids in Italy and the West.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Mapping Medieval Peoples database dates the Antapodosis to 958–962.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "passages 5749 and 5750"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the database record says, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The work looks back over a long period: the database dates the events of book I, chapter 5 to 870–887 and those of book V, chapter 19 to 943.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "passages 5749 and 5750"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the database record says, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "In book V he addresses a reader whose king lived at Córdoba (“in qua rex vester moratur, Cordobam”).",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "V.19 (MMP passage 5750)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Who was the reader in Spain, and why did Liudprand write for him?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-liudprand-unknown"
+    },
+    {
+      "entry": "ws-liudprand-943"
+    },
+    {
+      "concept": "hungarian-raids"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

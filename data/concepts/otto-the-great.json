@@ -1,0 +1,95 @@
+{
+  "id": "otto-the-great",
+  "title": "Otto the Great",
+  "kind": "person",
+  "aliases": [
+    "Otto",
+    "King Otto"
+  ],
+  "fact_summary": "The king whose army defeated the Hungarians in 955. The sources on this map disagree on whether to call him king or emperor for that year.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Liudprand calls him “sanctissimi atque invictissimi regis Ottonis”, the most holy and unconquered king Otto, whose power now terrifies the Hungarians.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "I.5 (MMP passage 5749)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The Metz annal for 955 says the Hungarians were defeated “ab Ottone imperatore”, by the Emperor Otto.",
+      "sources": [
+        {
+          "id": "annales-s-vincentii-mettenses",
+          "locator": "s.a. 955"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Widukind, describing the 955 campaign, calls him the king and places him in the fifth, “Royal”, legion.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae",
+          "locator": "III.44 (Wood trans., p. 391)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "Read in English translation in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c2",
+        "c3"
+      ],
+      "what_differs": "His title in 955: the Metz annal calls him emperor, Widukind calls him king. This may only show when each was written, not a disagreement about events."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "When was Otto crowned emperor, and was the Metz entry written after that?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-widukind-955"
+    },
+    {
+      "entry": "ws-metz-955"
+    },
+    {
+      "concept": "hungarian-raids"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

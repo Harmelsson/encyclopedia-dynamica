@@ -1,0 +1,110 @@
+{
+  "id": "hungarian-raids",
+  "title": "Hungarian raids in the West",
+  "kind": "concept",
+  "aliases": [
+    "Hungarian raids"
+  ],
+  "fact_summary": "From the 860s to the 950s, Latin writers record Hungarian armies raiding Frankish lands, Italy and beyond. The written sources on this map follow them from first appearance to defeat.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Annals of St-Bertin, under 862, record enemies “previously unknown”, called Ungri, ravaging the kingdom of Louis.",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 862"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Liudprand of Cremona, writing around 960, says that almost all nations had experienced the Hungarians' savagery.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "I.5 (MMP passage 5749)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "He reports that in 943 King Hugh of Italy paid them to make peace and sent them on towards Spain.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "V.19 (MMP passage 5750)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A Metz annal says that by 955 they had entered Lothar's kingdom for the fourth time, and that Otto defeated them that year.",
+      "sources": [
+        {
+          "id": "annales-s-vincentii-mettenses",
+          "locator": "s.a. 955"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Why did the raids happen: for plunder, for payment, or as hired troops in other rulers' wars?"
+    },
+    {
+      "text": "Did the raids end because of one defeat in 955, or for wider reasons?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-annales-bertiniani-862"
+    },
+    {
+      "entry": "ws-liudprand-unknown"
+    },
+    {
+      "entry": "ws-liudprand-943"
+    },
+    {
+      "entry": "ws-metz-955"
+    },
+    {
+      "entry": "ws-widukind-955"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

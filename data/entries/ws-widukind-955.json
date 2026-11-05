@@ -1,0 +1,136 @@
+{
+  "id": "ws-widukind-955",
+  "title": "Widukind of Corvey: the battle on the Lech, 955",
+  "short_title": "Widukind on the Lech, 955",
+  "layer": "written source",
+  "fact_summary": "Widukind of Corvey, in his Deeds of the Saxons, describes King Otto's army marching against the Hungarians near Augsburg in 955, the Hungarians crossing the river Lech, and Duke Conrad turning the fight.",
+  "place": {
+    "lon": 10.898,
+    "lat": 48.366,
+    "precision": "approximate",
+    "label": "Near Augsburg, on the river Lech",
+    "note": "Pinned by Claude at the city of Augsburg, which Widukind names as the place near which the camp was set up. The battlefield itself is not located by the passage read."
+  },
+  "time": {
+    "from": 955,
+    "to": 955,
+    "precision": "exact"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Widukind writes that the camp was set up “in the vicinity of Augsburg” and that the Hungarians “did not delay but crossed the Lech River”.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae",
+          "locator": "III.44 (Wood trans., pp. 390 and 392)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Raymund F. Wood's English translation in the open copy linked under Sources. The Latin has not been compared yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He says the king's army marched out “in number about eight legions”, with the king himself in the fifth, the “Royal Legion”, a Frankish fourth legion, and Swabian sixth and seventh legions.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae",
+          "locator": "III.44 (Wood trans., p. 391)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Raymund F. Wood's English translation in the open copy linked under Sources. The Latin has not been compared yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "He says the king sent Duke Conrad with the fourth legion, who recovered the prisoners, and that Conrad “returned to the king bearing the standards of victory”.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae",
+          "locator": "III.44 (Wood trans., pp. 392–393)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Raymund F. Wood's English translation in the open copy linked under Sources. The Latin has not been compared yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A Metz annal for the same year says the Hungarians, who had entered Lothar's kingdom for the fourth time, were defeated by Otto.",
+      "sources": [
+        {
+          "id": "annales-s-vincentii-mettenses",
+          "locator": "s.a. 955 (Pertz ed., p. 157)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Widukind places Otto's return to Saxony, when Hungarian envoys arrived, at “about the Kalends of July”. The translator adds the year 955 in brackets, and the Metz annal puts Otto's defeat of the Hungarians under 955.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae",
+          "locator": "III.44 (Wood trans., pp. 389–390)"
+        },
+        {
+          "id": "annales-s-vincentii-mettenses",
+          "locator": "s.a. 955"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The year rests on the translator's note and on a separate annal; the Latin text has not been checked for a year.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "The excerpt read stops before the end of the battle. What does the rest of Widukind's account say about its outcome?"
+    },
+    {
+      "text": "Where exactly was the battlefield?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-metz-955"
+    },
+    {
+      "entry": "ws-liudprand-unknown"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}
