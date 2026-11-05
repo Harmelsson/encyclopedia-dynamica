@@ -284,3 +284,7 @@ details.speculative { margin-top: 10px; border-top: 1px dashed var(--line); padd
 
 /* The link to the copy of a source that was actually read. Made bold so it is easy to spot. */
 .copy-link { font-weight: 600; white-space: nowrap; }
+
+/* A word in card text that leads to its own topic page. Dotted, so it reads as "learn more". */
+.term-link { color: inherit; text-decoration: underline dotted; text-underline-offset: 3px; }
+.term-link:hover { color: var(--accent, #2a6fdb); text-decoration-style: solid; }

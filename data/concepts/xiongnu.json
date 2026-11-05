@@ -1,0 +1,85 @@
+{
+  "id": "xiongnu",
+  "title": "Xiongnu",
+  "kind": "people",
+  "aliases": [
+    "Xiongnu",
+    "Xiongnus"
+  ],
+  "fact_summary": "A steppe people of Inner Asia known from Chinese sources. Genetic studies on this map compare Hun-period and conqueror-period graves with them.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2019 study calls them “Inner Asian Xiongnus” and says that “Recent genetic data connect European Huns” to them.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "A 2022 study refers to “the disappearance of Xiongnus from Chinese sources” when discussing where the Huns came from.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "Introduction, p. 2859"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A passing remark; the Chinese sources themselves are not cited here.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The same 2022 study counts “descendants of late Xiongnus” among the ancestors of the conquering Hungarians' immigrant core.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "Summary, p. 2858"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "When and where do the Chinese sources stop mentioning the Xiongnu?"
+    }
+  ],
+  "links": [
+    {
+      "concept": "huns"
+    },
+    {
+      "entry": "dna-hun-period"
+    },
+    {
+      "entry": "dna-conquest-period"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

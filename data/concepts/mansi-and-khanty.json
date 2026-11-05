@@ -1,0 +1,85 @@
+{
+  "id": "mansi-and-khanty",
+  "title": "Mansi and Khanty",
+  "kind": "people",
+  "aliases": [
+    "Mansi",
+    "Mansis",
+    "Khanty",
+    "Khantys",
+    "Khanty and Mansi"
+  ],
+  "fact_summary": "Two peoples of western Siberia whose languages are the closest relatives of Hungarian. Genetic studies use them as a reference for the conquerors' eastern ancestry.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A study of the Uralic languages groups Khanty and Mansi together as Ob-Ugric, within Ugric.",
+      "sources": [
+        {
+          "id": "grunthal-2022",
+          "locator": "Table 1 caption, p. 3"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "A 2019 genetic study found two paternal lineages among the conqueror elite, “both of which are present in Ugric speaking Khantys and Mansis”.",
+      "sources": [
+        {
+          "id": "neparaczki-2019",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "A 2022 study says the “immigrant core” of the conquering Hungarians “derived from an earlier admixture of Mansis, early Sarmatians, and descendants of late Xiongnus”.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "Summary, p. 2858"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Modern Mansi are used as a stand-in for ancient people. How much have the Mansi themselves changed in a thousand years?"
+    }
+  ],
+  "links": [
+    {
+      "concept": "uralic-languages"
+    },
+    {
+      "entry": "dna-conquest-period"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

@@ -12,7 +12,7 @@
 import {
   LAYERS, CERT_CLASS, tierOf, sourceChecked, claimChecked, entryChecked,
   overallCertainty, inTime, formatYear,
-} from './rules.mjs?v=2026-11-05b';
+} from './rules.mjs?v=2026-11-05c';
 
 const params = new URLSearchParams(location.search);
 const EXAMPLE_MODE = params.has('examples');
@@ -20,7 +20,8 @@ const YEAR_MIN = 400, YEAR_MAX = 1000;
 const MAX_ZOOM = 9;
 
 const KIND_LABEL = {
-  concept: 'Topic page', method: 'Method page', people: 'People', language: 'Language', document: 'Document',
+  concept: 'Topic page', method: 'Method page', people: 'People', person: 'Person', region: 'Region',
+  language: 'Language', document: 'Document',
 };
 
 const state = {
@@ -498,17 +499,48 @@ function sourceMarkers(refs, numbering) {
   return el('span', { class: 'markers' }, (refs || []).map(r => `[${numbering.get(r.id)}]`).join(' '));
 }
 
-function claimLine(c, numbering) {
+function claimLine(c, numbering, used = new Set()) {
   const ok = claimChecked(c, state.sourcesById);
   return el('li', { class: `claim${ok ? '' : ' unchecked'}` },
     el('span', { class: `dot dot-${CERT_CLASS[c.certainty] || 'low'}`, title: `${c.certainty}: ${c.certainty_reason}` }),
     el('span', {},
-      c.text, ' ', sourceMarkers(c.sources, numbering),
+      linkTerms(c.text, used), ' ', sourceMarkers(c.sources, numbering),
       el('span', { class: 'reason' }, `${cap(c.certainty)}. ${c.certainty_reason}`),
       ok ? null : el('span', { class: 'unchecked-note' }, 'Source not yet checked'),
     ));
 }
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+// ---------- words in card text that link to topic pages ----------
+// Each topic page lists its aliases (for example "Avar period"). The first time one appears on a
+// card it becomes a link to that page, so a reader can follow any unfamiliar term.
+function buildTermLinks() {
+  const terms = [];
+  for (const c of state.concepts) for (const a of c.aliases || []) terms.push({ a, id: c.id });
+  terms.sort((x, y) => y.a.length - x.a.length); // longest first, so "Avar period" beats "Avar"
+  state.termById = new Map(terms.map(t => [t.a.toLowerCase(), t.id]));
+  const esc = t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  state.termRe = terms.length ? new RegExp(`(?<![\\p{L}-])(${terms.map(t => esc(t.a)).join('|')})(?![\\p{L}])`, 'giu') : null;
+}
+
+// Turns plain text into text with links. `used` holds the pages already linked on this card.
+function linkTerms(text, used) {
+  if (!state.termRe || typeof text !== 'string') return text;
+  const out = []; let last = 0;
+  for (const m of text.matchAll(state.termRe)) {
+    const id = state.termById.get(m[1].toLowerCase());
+    const page = state.conceptById.get(id);
+    if (!page || used.has(id) || !allowed(page)) continue;
+    used.add(id);
+    out.push(text.slice(last, m.index),
+      el('a', { class: 'term-link', href: viewToHash({ type: 'page', id }), title: page.title,
+        onclick: ev => { ev.preventDefault(); go({ type: 'page', id }, { fromLink: true }); } }, m[1]));
+    last = m.index + m[1].length;
+  }
+  if (!out.length) return text;
+  out.push(text.slice(last));
+  return out;
+}
 
 function linkTo(l) {
   if (l.entry) {
@@ -573,8 +605,10 @@ function renderItemCard(e, isPage) {
   const mainInterps = interps.filter(c => c.certainty !== 'speculative');
   const specInterps = interps.filter(c => c.certainty === 'speculative');
 
+  // A page never links to itself, and each term is linked only once per card.
+  const used = new Set(isPage ? [e.id] : []);
   const interpBlock = c => el('div', { class: 'interp' },
-    el('div', {}, c.text, ' ', sourceMarkers(c.sources, numbering)),
+    el('div', {}, linkTerms(c.text, used), ' ', sourceMarkers(c.sources, numbering)),
     el('span', { class: 'meta' }, 'Held by: ', (c.held_by || []).map(h => h.who).join('; ')),
     (c.rests_on || []).length ? el('span', { class: 'meta' }, 'Rests on: ', c.rests_on.map(id => claimById[id]?.text || id).join(' · ')) : null,
     el('span', { class: 'meta' }, `${cap(c.certainty)}. ${c.certainty_reason}`),
@@ -601,8 +635,8 @@ function renderItemCard(e, isPage) {
     p.note ? el('p', { class: 'place-note' }, p.note) : null,
 
     el('section', {}, el('h3', {}, isPage ? 'In short' : 'The fact'),
-      el('p', { style: 'margin: 0 0 8px' }, e.fact_summary),
-      evidence.length ? el('ul', { class: 'claim-list' }, evidence.map(c => claimLine(c, numbering))) : (isPage ? null : el('p', { class: 'hint' }, 'No checked evidence to show yet.'))),
+      el('p', { style: 'margin: 0 0 8px' }, linkTerms(e.fact_summary, used)),
+      evidence.length ? el('ul', { class: 'claim-list' }, evidence.map(c => claimLine(c, numbering, used))) : (isPage ? null : el('p', { class: 'hint' }, 'No checked evidence to show yet.'))),
 
     el('section', {}, el('h3', {}, 'Sources'),
       numbering.size ? el('ol', {}, [...numbering.keys()].map(id => sourceItem(id, locators.get(id)))) : el('p', { class: 'hint' }, 'None shown.')),
@@ -797,6 +831,7 @@ try {
   state.concepts = data.concepts;
   state.entryById = new Map(data.entries.map(e => [e.id, e]));
   state.conceptById = new Map(data.concepts.map(c => [c.id, c]));
+  buildTermLinks();
   state.sourcesById = Object.fromEntries(data.sources.map(s => [s.id, s]));
 } catch (err) {
   console.error(err);

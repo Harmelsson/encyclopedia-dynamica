@@ -1,0 +1,142 @@
+{
+  "id": "de-administrando-imperio",
+  "title": "De Administrando Imperio",
+  "kind": "document",
+  "aliases": [
+    "De Administrando Imperio"
+  ],
+  "fact_summary": "A Byzantine handbook on foreign peoples, compiled for Emperor Constantine VII's son around 950. Its chapter 38 is one of the oldest accounts of Hungarian early history.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "It was compiled between 948 and 952 under Emperor Constantine VII Porphyrogennetos (reigned 944–959) for his son Romanos.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 3; English abstract, p. 18"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study states it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Chapter 38 is about the origin and history of the Hungarians before they settled in the Carpathian Basin.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "English abstract, p. 18"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The oldest surviving copy is a manuscript in Paris, Codex Parisinus Graecus 2009.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 3; English abstract, p. 18"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "That Paris copy was made at the end of the 11th century.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 3"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "The earlier dating, as reported by Tóth (2015)",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Tóth reports a more recent dating to the 12th century.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "That Paris copy was made in the 12th century.",
+      "sources": [
+        {
+          "id": "toth-2015",
+          "locator": "p. 3"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "More recent scholarship, as reported by Tóth (2015)",
+          "source": "toth-2015"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Who proposed it is not named here yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "i1",
+        "i2"
+      ],
+      "what_differs": "When the oldest copy was written: late 11th century or 12th century."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "The Greek text itself has not been opened for this map. A free copy of the Moravcsik and Jenkins edition would let chapter 38 be checked directly."
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-dai-38"
+    },
+    {
+      "concept": "khazars"
+    },
+    {
+      "concept": "pechenegs"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

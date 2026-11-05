@@ -18,7 +18,7 @@ An interactive map-and-timeline encyclopedia of the world's history, built so th
 | `index.html`, `css/`, `js/` | The map page |
 | `js/rules.mjs` | The honesty rules (what counts as checked, how certainty is worked out), shared by the page and the checker |
 | `data/entries/` | Real entries on the map, one file each, listed in `index.json` |
-| `data/concepts/` | Topic and method pages (for example "Uralic languages", "Ancient DNA"), which entries link to. Same claim rules, but no place or time |
+| `data/concepts/` | Topic and method pages (for example "Uralic languages", "Ancient DNA"), which entries link to. Same claim rules, but no place or time. A page's `aliases` are the words that link to it automatically: the first time one appears on a card, it becomes a dotted link to the page |
 | `data/sources.json` | The shared list of sources that entries cite |
 | `data/examples/` | Invented examples, marked `[EXAMPLE]`, shown only in example mode |
 | `data/basemap/` | The landscape: coastlines, rivers and lakes from Natural Earth |

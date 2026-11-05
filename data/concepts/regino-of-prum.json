@@ -1,0 +1,65 @@
+{
+  "id": "regino-of-prum",
+  "title": "Regino of Prüm",
+  "kind": "person",
+  "aliases": [
+    "Regino of Prüm",
+    "Regino"
+  ],
+  "fact_summary": "A Frankish abbot and chronicler (about 840–915). His chronicle, finished in 906, records the Hungarians' arrival in the West.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Mapping Medieval Peoples database gives his dates as 840 to 915 and describes him as “Abbot of Prüm and St Martin's Trier, Chronicler”.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "text record 232, author details"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the database record says, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It says his chronicle “was finished in 906 and dedicated to Bishop Adalbero of Augsburg in 908”, and that its place of writing is uncertain.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "text record 232"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the database record says, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where did Regino get his information about the Hungarians and the Pechenegs?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "concept": "pechenegs"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}
