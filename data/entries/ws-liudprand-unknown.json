@@ -1,0 +1,112 @@
+{
+  "id": "ws-liudprand-unknown",
+  "title": "Liudprand of Cremona: a people once “unknown to all of us”",
+  "short_title": "Liudprand, Antapodosis I.5",
+  "layer": "written source",
+  "fact_summary": "Writing around 960, Liudprand says the Hungarians, whose savagery almost every nation had felt, had once been unknown in the West, shut off behind barriers the common people called “clusae”.",
+  "place": {
+    "precision": "unknown",
+    "label": "The passage names no place; where Liudprand wrote is not fixed in the sources read so far"
+  },
+  "time": {
+    "from": 870,
+    "to": 887,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Liudprand writes: “Ungariorum gens, cuius omnes poene nationes expertae sunt saevitiam … nobis omnibus tunc temporis habebatur ignota”, that is, the Hungarian people, whose savagery almost all nations have experienced, was at that time unknown to all of us.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "I.5 (Becker ed.; MMP passage 5749)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He explains that they were separated “by certain very troublesome barriers, which the common people call clusae”, so that they could go out neither to the south nor to the west.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "I.5 (Becker ed.; MMP passage 5749)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "In the same sentence he says that now, terrified by the power of King Otto, they “do not dare even to whisper”.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "I.5 (Becker ed.; MMP passage 5749)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The database dates the period this passage describes to 870–887, and the writing of the Antapodosis to 958–962. The passage itself gives no year.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "passage record 5749"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The period is the database editors' reading of where the passage sits in the narrative.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Which barriers did Liudprand mean by “clusae”: mountain passes, or defences built against the Hungarians?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-annales-bertiniani-862"
+    },
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "entry": "ws-liudprand-943"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "ws-liudprand-943",
+  "title": "Liudprand of Cremona: King Hugh pays off the Hungarians, 943",
+  "short_title": "Liudprand, Antapodosis V.19",
+  "layer": "written source",
+  "fact_summary": "Liudprand reports that King Hugh of Italy made peace with the Hungarians for ten measures of coins, took hostages, and sent them on towards Spain with a guide.",
+  "place": {
+    "precision": "unknown",
+    "label": "Italy, with a march towards Spain; no single place is named for the peace"
+  },
+  "time": {
+    "from": 943,
+    "to": 943,
+    "precision": "exact"
+  },
+  "min_zoom": 2,
+  "importance": 2,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Liudprand writes: “Hoc in tempore rex Hugo datis decem nummorum modiis pacem cum Hungariis fecit”, that is, at this time King Hugh made peace with the Hungarians by giving ten measures of coins.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "V.19 (Becker ed., p. 141; MMP passage 5750)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He says Hugh took hostages, drove them out of Italy, and sent them towards Spain with a guide he provided.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "V.19 (Becker ed., p. 141; MMP passage 5750)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "He says they never reached Spain or Córdoba, because after three days crossing a waterless region they feared they would die of thirst, beat the guide to death, and turned back faster than they had come.",
+      "sources": [
+        {
+          "id": "liudprand-antapodosis",
+          "locator": "V.19 (Becker ed., p. 141; MMP passage 5750)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Liudprand says only “at this time”. The database dates the passage to 943.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "passage record 5750"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The year is the database editors' dating of the passage.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Liudprand addresses the story to someone whose king lived in Córdoba. Who was he writing for, and does that shape the tale?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-liudprand-unknown"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

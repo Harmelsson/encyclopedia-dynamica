@@ -1,0 +1,108 @@
+{
+  "id": "scythia",
+  "title": "Scythia, as medieval writers used it",
+  "kind": "concept",
+  "aliases": [
+    "Scythia",
+    "Scythians"
+  ],
+  "fact_summary": "When the Hungarians appeared, Regino of Prüm described them by copying an ancient Roman account of the Scythians. The label says more about his books than about the Hungarians.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Under 889 Regino begins: “Scythia, ut aiunt, in oriente extensa”, Scythia, so they say, stretches to the east, bounded by the Pontus, the Riphean mountains, Asia and the river Ithasis.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889 (Kurze ed., pp. 131–132; MMP passage 5663)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He describes the Scythians as herders without houses who carry wives and children in wagons, live on milk and honey, and dress in animal skins.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889 (MMP passage 5663)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "He credits them with driving out the Persian king Darius and killing Cyrus with his whole army.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "a. 889 (MMP passage 5663)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Regino took this description from Justin's Epitome, an ancient Roman work, and used it to describe the Hungarians.",
+      "sources": [
+        {
+          "id": "mmp-database",
+          "locator": "passage record 5663, comment"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "The editors of the Mapping Medieval Peoples database",
+          "source": "mmp-database"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A note in the database. Justin's text has not been opened to compare the wording.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "How much of what Regino says about the Hungarians comes from what he heard, and how much from old books?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "concept": "regino-of-prum"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

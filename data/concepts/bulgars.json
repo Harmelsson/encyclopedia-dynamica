@@ -1,0 +1,104 @@
+{
+  "id": "bulgars",
+  "title": "Bulgars",
+  "kind": "people",
+  "aliases": [
+    "Bulgars",
+    "Bulgari",
+    "early Bulgars",
+    "Bulghar"
+  ],
+  "fact_summary": "The name Bulgar appears in two places on this map: in the Frankish annals, for a people ruled by a khan who became Christian in the 860s, and in archaeology of the Volga region. Whether and how the two are connected is not settled by the sources read so far.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Annals of St-Bertin, under 853, say the Bulgars, allied with the Slavs and lured, so it was said, by Frankish bribes, moved against King Louis of Germany and were defeated.",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 853 (MMP passage 5745)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Under 864 they say Louis marched to meet the khan of the Bulgars, who had promised to become a Christian. The khan's name is missing in the manuscript; the database supplies Boris.",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 864 (Waitz ed., p. 72; MMP passage 5746)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Under 866 they report the Bulgar ruler's baptism (“sacrum baptisma suscepit”).",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 866 (Waitz ed., pp. 85–86; MMP passage 5747)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A 2022 genetic study describes the Bolshie Tigani and Tankeevka cemeteries in the Volga region as Kushnarenkovo/Karayakupovo culture “mixed with early Bulgars”.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "p. 10"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-05"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "How were the Bulgars on the Danube related to the Bulgars on the Volga?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "site-bolshie-tigani"
+    },
+    {
+      "entry": "ws-annales-bertiniani-862"
+    },
+    {
+      "concept": "kushnarenkovo-culture"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-05",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}
