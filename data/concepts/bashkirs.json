@@ -1,0 +1,140 @@
+{
+  "id": "bashkirs",
+  "title": "Bashkirs",
+  "kind": "people",
+  "aliases": [
+    "Bashkirs",
+    "Bashkir",
+    "Bashkortostan"
+  ],
+  "fact_summary": "A Turkic-speaking people of the southern Urals. Genetic studies find among them the closest living paternal relatives of the Árpád kings, and suggest that Hungarians who stayed in the East were absorbed into the peoples of the region.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2020 study found that the closest living paternal relatives of the Árpád kings, among the populations it tested, are Bashkirs “predominantly from the Burzyansky and Abzelilovsky districts of Bashkortostan”.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Results; Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The study counts the Bashkirs among groups “speaking Iranian or Turkic languages”, and notes that they “live in close proximity with Finno-Ugric speaking populations”.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "It estimates that the Bashkir line and the line of the Árpáds separated “about 2000 years ago”.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A date worked out by counting mutations; the authors themselves call such numbers estimates.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Part of the Chiyalik population “was most probably assimilated into the Bashkirs during the Middle Ages”.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Szeifert et al. (2022)",
+          "source": "szeifert-2022"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study, worded as “most probably”.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "Hungarian-speaking groups lived on the lower Kama until the 16th century, when “they were absorbed into the Late Medieval populations of modern-day Bashkortostan, Tatarstan, and Udmurtia”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The authors rest this on place-names and on works they cite, which have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "A shared paternal line 2,000 years old says little about peoples a thousand years later. What do whole genomes of medieval people from Bashkortostan show?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-bela-iii"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "concept": "chiyalik-culture"
+    },
+    {
+      "concept": "magna-hungaria"
+    },
+    {
+      "concept": "arpad-dynasty"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

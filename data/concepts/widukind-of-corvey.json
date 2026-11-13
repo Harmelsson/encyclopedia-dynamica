@@ -1,0 +1,108 @@
+{
+  "id": "widukind-of-corvey",
+  "title": "Widukind of Corvey",
+  "kind": "person",
+  "aliases": [
+    "Widukind of Corvey",
+    "Widukind"
+  ],
+  "fact_summary": "A Saxon monk of Corvey whose Deeds of the Saxons, written in the 960s, tells of the wars of King Henry and King Otto against the Hungarians.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "His editor says it is well established, and stated by Widukind himself, that he was a Saxon and a monk of Corvey, received under Abbot Folcmar, who led the abbey from 917 to 942. Nothing else certain is known of his life, not even the year he died.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "Waitz ed., preface"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "This records what the editor's preface says, read in Latin in the scanned edition linked under Sources. It is the editor's judgement, and the studies he cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The editor says Widukind saw much of what he describes himself and copied almost nothing from other books, but that for the early years of King Henry he was not yet born or a small child and “could draw only on tradition”, including popular songs.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "Waitz ed., preface"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "This records what the editor's preface says, read in Latin in the scanned edition linked under Sources. It is the editor's judgement, and the studies he cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Widukind explains the Hungarians to his reader like this: “Avares, quos modo Ungarios vocamus” (the Avars, whom we now call Hungarians), and adds that the Avars, “as some think”, were what was left of the Huns.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.17–18 (Waitz ed., p. 16)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "He says he tells all this so that the princess he writes for may know what kind of enemies her grandfather and father had to fight.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.19 (Waitz ed., p. 17)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Widukind wrote for the daughter of the king whose victories he describes. How does that shape his account?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-widukind-933"
+    },
+    {
+      "entry": "ws-widukind-955"
+    },
+    {
+      "concept": "otto-the-great"
+    },
+    {
+      "concept": "henry-the-fowler"
+    },
+    {
+      "concept": "huns"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

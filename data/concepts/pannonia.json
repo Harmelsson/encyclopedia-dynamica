@@ -1,0 +1,125 @@
+{
+  "id": "pannonia",
+  "title": "Pannonia",
+  "kind": "region",
+  "aliases": [
+    "Pannonia",
+    "Transdanubia"
+  ],
+  "fact_summary": "The old Roman name for the land west of the Danube in today's Hungary. In the sources on this map it goes from a Frankish border province to the Hungarians' home.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Annals of Fulda say that in 894 the Hungarians destroyed “the whole of Pannonia”, and that in 896 the emperor gave Pannonia to his duke Brazlavo to defend.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 894 and 896 (Kurze ed., pp. 125 and 130)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Under 900 the same annals say the Hungarians returned from Bavaria “to their own, into Pannonia”.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 134)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Widukind says the Avars, after ravaging their neighbours, “at last began to live in Pannonia”.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.18 (Waitz ed., p. 17)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The edition of Thietmar calls Waic (Stephen) “rex Pannonicus”, king of Pannonia.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "Kurze ed., index of names"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the edition's index says.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "A 2024 genetic study says the former Pannonian provinces, “i.e., Transdanubia (corresponding to the territory of today's Western Hungary)”, became part of the Carolingian Empire after the Avar realm broke up.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the history, not its own finding.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Between 894 and 900 Pannonia changes, in one set of annals, from a land the Hungarians destroy to the land they go home to. What happened in those six years?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "entry": "ws-fulda-900"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "concept": "carpathian-basin"
+    },
+    {
+      "concept": "moravians"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

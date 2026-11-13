@@ -27,11 +27,78 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2025 genetic study reports that a late medieval group of the Chiyalik culture on the lower Kama stayed within the same cluster of relatives as the early Hungarians, with radiocarbon dates in the late 14th century.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "“We assume that the Low Kama region near the Belaya-Kama confluence was the area that was called Magna Hungaria by Friar Julian in the 13th century.”",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The authors word this as an assumption. Friar Julian's report, which they cite, has not been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "interpretation",
+      "text": "Place-names suggest Hungarian-speaking groups lived there “until the 16th century”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Rests on place-name studies the authors cite, which have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
     {
-      "text": "Who reported these eastern Hungarians in the 13th century, and what exactly did they write?"
+      "text": "A 2025 study names Friar Julian as the 13th-century reporter. What exactly did he write, and where does his report survive? It has not been read yet."
     }
   ],
   "links": [
@@ -40,12 +107,21 @@
     },
     {
       "concept": "chiyalik-culture"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "concept": "karayakupovo-horizon"
+    },
+    {
+      "concept": "bashkirs"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   },
   "aliases": [

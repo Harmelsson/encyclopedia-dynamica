@@ -1,0 +1,235 @@
+{
+  "id": "ws-fulda-894",
+  "title": "Annals of Fulda, 892–896: Hungarians in Moravia, Pannonia and Bulgaria",
+  "short_title": "Annals of Fulda, 892–896",
+  "layer": "written source",
+  "fact_summary": "The Bavarian continuation of the Annals of Fulda records Hungarians joining King Arnulf's campaign in Moravia in 892, laying Pannonia waste in 894, and fighting the Bulgars with Byzantine help in 895–896. It calls them “Avars, who are called Hungarians”.",
+  "place": {
+    "lon": 12.1,
+    "lat": 49.02,
+    "precision": "approximate",
+    "role": "written at",
+    "label": "Regensburg, where the editor places this continuation of the annals",
+    "note": "Pinned by Claude at the city of Regensburg. Kurze's preface says this continuation was written there. The pin marks where the text comes from, not where the events happened."
+  },
+  "time": {
+    "from": 892,
+    "to": 896,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Under 892 the annals say that King Arnulf entered Moravia in July with Franks, Bavarians and Alamans and spent four weeks burning the land, “the Hungarians also coming to him there with an army”.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 892 (Kurze ed., p. 121)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Under 894 they say that “Avari, qui dicuntur Ungari” (Avars, who are called Hungarians) roamed beyond the Danube in those days, killing men and old women, carrying off the young women, and destroying the whole of Pannonia.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 894 (Kurze ed., p. 125)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The same entry, just before, records the death of Zwentibald, duke of the Moravians.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 894 (Kurze ed., p. 125)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "Under 895 they say that the Avars, invading the borders of the Bulgars, were forestalled by them, and a great part of their army was killed.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 895 (Kurze ed., p. 126)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "Under 896 they tell a longer story: the Greeks made peace with the “Avars, who are called Hungarians”; the Bulgars took this badly and ravaged as far as the gate of Constantinople; the Greeks then sent ships and carried the Avars across the Danube into the Bulgar kingdom. After several battles the Bulgars won a bloody victory, in which 20,000 Bulgar horsemen are said to have been found dead.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 896 (Kurze ed., pp. 129–130)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "The same entry says that, while these conflicts pressed in those parts, the emperor entrusted Pannonia, with the “city of the marshes” (urbs Paludarum), to his duke Brazlavo to defend.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 896 (Kurze ed., p. 130)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "A 2024 genetic study, in its historical introduction, says that around 896 Prince Braslav was charged by King Arnulf with reinforcing the settlement at Zalavár (Mosaburg) “due to the arrival of the Hungarian conquerors”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read in the study. This is the study's summary of the history, not its own finding, and the works it rests on have not been opened. That the annal's “city of the marshes” is Zalavár is not stated in the passages read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The fights between Hungarians and Bulgars told under 896 did not all happen in that year but between 893 and 896; fuller news seems to have reached Bavaria only in 896, through the Byzantine envoy, Bishop Lazarus.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "Kurze ed., p. 129, note 3"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Friedrich Kurze, editor (1891), citing Dümmler",
+          "source": "annales-fuldenses"
+        }
+      ],
+      "rests_on": [
+        "c4",
+        "c5"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "An editor's note in a scholarly edition. The study by Dümmler that it cites has not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The annals are arranged year by year, and each entry opens with its year in Roman numerals (for example “DCCCXCII” for 892).",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "Kurze ed., pp. 121–130"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Were the Hungarians who came to King Arnulf's side in 892 the same groups who laid Pannonia waste in 894?"
+    },
+    {
+      "text": "Why does the annalist call them Avars? Did he think they were the old Avars, or was it simply the familiar name for horsemen from that direction?"
+    },
+    {
+      "text": "The figure of 20,000 dead appears here and again under 900. How literally should such round numbers be taken?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-900"
+    },
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "concept": "annals-of-fulda"
+    },
+    {
+      "concept": "arnulf"
+    },
+    {
+      "concept": "moravians"
+    },
+    {
+      "concept": "pannonia"
+    },
+    {
+      "concept": "bulgars"
+    },
+    {
+      "concept": "names-for-the-hungarians"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

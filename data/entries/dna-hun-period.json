@@ -3,9 +3,9 @@
   "title": "Genomes from Hun-period graves",
   "short_title": "Hun-period DNA",
   "layer": "ancient DNA",
-  "fact_summary": "Genetic studies of a few people buried in the Carpathian Basin in the Hun period (5th century) report ancestry that the authors link to the Xiongnu.",
+  "fact_summary": "Genetic studies of people buried in the Carpathian Basin in the Hun period (5th century) report ancestry that the authors link to the Xiongnu. A larger 2025 study finds direct family lines to the Xiongnu elite for a few individuals, but no large eastern community.",
   "place": {
-    "lon": 20.0,
+    "lon": 20,
     "lat": 46.9,
     "precision": "approximate",
     "label": "Great Hungarian Plain",
@@ -104,6 +104,84 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A 2025 study brings together “35 newly sequenced and published genomic data for a total of 370 individuals” from the 5th–6th-century Carpathian Basin, Central Asia and the Xiongnu-period Mongolian steppe, “including 10 Hun-period eastern-type burials”.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "Surveying 371 people from other 5th–6th-century contexts in the Carpathian Basin, it finds “only 26 individuals (6%) with signatures of North East Asian or Steppe admixture”, and says the eastern-type graves are few, solitary or in small groups, and scattered mainly east of the Danube.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "Long shared DNA segments form a network of 97 people reaching “from the late Xiongnu period in the Mongolian steppe” through Central Asian steppe burials to the late-4th to 6th-century Carpathian Basin.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Results, “Trans-Eurasian Genomic Connections”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "Long shared segments directly connect “some individuals of the highest Xiongnu-period elite with 5th to 6th century CE Carpathian Basin individuals, showing that some European Huns descended from them”. But there is “no evidence for the presence of a large eastern/steppe descent community”, and the evidence indicates “a more complex process of mobility and admixture than a one-off long-distance migration”.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Abstract; Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gnecchi-Ruscone et al. (2025)",
+          "source": "gnecchi-ruscone-2025"
+        }
+      ],
+      "rests_on": [
+        "c5",
+        "c6"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study with a much larger sample than the earlier ones. No reply or review has been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "dating_methods": [
@@ -127,7 +205,10 @@
   ],
   "open_questions": [
     {
-      "text": "How well can nine people stand for everyone who lived under Hun rule?"
+      "text": "How well can a handful of graves stand for everyone who lived under Hun rule? The 2025 study finds eastern ancestry in only 6% of the people it surveyed."
+    },
+    {
+      "text": "Written sources give the Huns an empire. Why did they leave so few graves of eastern type?"
     }
   ],
   "links": [
@@ -139,12 +220,34 @@
     },
     {
       "concept": "ancient-dna"
+    },
+    {
+      "concept": "huns"
+    },
+    {
+      "concept": "xiongnu"
+    },
+    {
+      "concept": "shared-dna-segments"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
-  }
+  },
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "i1",
+        "i2"
+      ],
+      "what_differs": "How far the Xiongnu link reaches. The earlier studies speak of the European Huns in general as having Xiongnu ancestry. The 2025 study finds direct lines of descent for some individuals only, a mixed origin for the newcomers, and very few people of eastern ancestry in the population as a whole."
+    }
+  ]
 }

@@ -1,0 +1,403 @@
+{
+  "id": "dna-southern-urals-2025",
+  "title": "Shared DNA segments link the conquerors to the southern Urals (2025 study)",
+  "short_title": "Southern Urals DNA, 2025",
+  "layer": "ancient DNA",
+  "fact_summary": "A 2025 study of 131 newly sequenced people finds that many 10th-century Hungarians in the Carpathian Basin were distant relatives of people buried on both sides of the southern Urals in the 8th–10th centuries. It disputes the reference groups used by an earlier study.",
+  "place": {
+    "lon": 57.5,
+    "lat": 54.5,
+    "precision": "approximate",
+    "label": "Southern Urals, on both sides of the mountains",
+    "note": "Pin placed by Claude in the southern Ural mountains, between the Cis-Ural and Trans-Ural sites the study names. It is not the position of any one cemetery."
+  },
+  "time": {
+    "from": 750,
+    "to": 1000,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The study reports new genome-wide data for 131 people: 120 from 40 sites around the Urals, dated from the Late Bronze Age to about 1400 CE, and 11 from the 10th-century Carpathian Basin.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, opening paragraph"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It introduces the name “Karayakupovo Horizon” for burial traditions of the southern Urals “dated to 750–1000 CE and associated with putative Early Medieval Magyars”, naming Uyelgi as the reference cemetery east of the Urals and Bolshie Tigany as “a key site” on the European side.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "In a network of 1,332 ancient people joined by long shared stretches of DNA, 118 early medieval people from both the Volga-Ural region and the Carpathian Basin formed one cluster, which the authors call “Urals-Carpathian Early Middle Ages”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, “Genetic diversity in the Volga-Ural region”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The authors “identified 28 pairs of individuals sharing more than two genome segments of 12 cM or longer” between the two regions, and say most of these strong connections of the Hungarian individuals are with people of the Karayakupovo Horizon.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, “Early Medieval Magyars Fall within the Genetic Diversity of the Volga-Ural Region”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "People from the Szakony-Kavicsbánya site in western Hungary “displayed the highest similarities to the Volga-Uralic population”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "Not all 10th-century people fit this cluster: some fall into a separate East Asian cluster, “reflecting a genetically diverse migration into the region”, and a mobility analysis points to three possible source regions: Europe, the Urals, and “somewhere in Central Asia”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, same two sections"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "The study finds “a low level of IBD connection” between the Karayakupovo people and medieval groups on the river Ob in western Siberia, whom it calls “possibly proto-Ob-Ugric”, “despite their close geographical proximity”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c8",
+      "kind": "evidence",
+      "text": "The later Chiyalik group on the lower Kama “shows strong continuity” within the same cluster, with radiocarbon dates in the late 14th century, while Chiyalik people on the river Belaya are more mixed and fall outside it.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c9",
+      "kind": "evidence",
+      "text": "Under “Limitations”, the authors write that there are few medieval genomes “from Eastern Europe to Western Siberia”, and that finding the origin of the conquerors' other eastern component (“the Baikal Neolithic-type ancestry”) “is challenging with the available data”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Limitations of the study"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c10",
+      "kind": "evidence",
+      "text": "The earlier study being answered modelled its core immigrant group as about 50% Mansi and 35% Early or Late Sarmatian ancestry, with the rest from Scytho-Siberian, Xiongnu or Hun-related sources.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2863"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "“These combined findings provide the first compelling genetic evidence supporting a dominant Uralic origin for a significant portion of the ancestry of 10th-century Magyars in the Carpathian Basin.”",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Argued from a large new dataset in one tier B study. No reply from the group it criticises, and no review, has been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "“The Hungarian language was most probably brought from the Southern Ural region (by descendants of the members of the Karayakupovo archaeological horizon)”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [
+        "c3",
+        "c4"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "DNA does not record what language a person spoke. The authors word this as “most probably” and stress in the same paragraph that the graves “likely reflect multiethnic/multilingual communities”.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "interpretation",
+      "text": "The tight links indicate “a rapid migration from the Volga-Ural to the Carpathian Basin and a rather short stop in the North-Pontic area”; some people “may have migrated rapidly, possibly within the span of a single generation”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [
+        "c4",
+        "c5"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study. The authors themselves say the steppe in between is barely sampled.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "interpretation",
+      "text": "The reference groups used here are “much closer to the actual sources” than those of Maróti and colleagues, “which suggested using modern Mansis, early/late Sarmatians, and Xiongnu as proxies”; searching through many possible sources as that study did carries a “high risk of false-discovery rates”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion; also Introduction"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [
+        "c3",
+        "c4"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A criticism of method made in one tier B study, citing a separate methods paper that has not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The study says that “dating based on archaeological context and radiocarbon analysis (Table S1G)” shows most shared segments link people who lived within a couple of hundred years of each other.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, “Early Medieval Magyars Fall within the Genetic Diversity of the Volga-Ural Region”"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read in the study. The table of dates is in the supplement, which was not opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "d2",
+      "kind": "evidence",
+      "text": "Long shared DNA segments show that two people had a common ancestor not long before; the authors note that, with broad date ranges, a pair may be ancestor and descendant or cousins through a shared ancestor.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, same section"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The method as the authors describe it; it has not been checked against a methods paper.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c10",
+        "i4"
+      ],
+      "what_differs": "Which reference groups describe the conquerors' eastern ancestry. The 2022 study used living Mansi, Sarmatians and Xiongnu or Hun-related groups, and read the result as Ugric ancestry later mixed with Sarmatians and Huns. The 2025 study uses older groups from the Ural region itself and says the earlier choices “do not align with prevailing linguistic and archaeological interpretations”."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where did the conquerors' second eastern component come from? The authors say it was picked up outside the Ural region, on the way west."
+    },
+    {
+      "text": "Has the Szeged group answered this criticism of its 2022 models?"
+    },
+    {
+      "text": "Almost no medieval genomes exist from the steppe between the Urals and the Carpathians. What will they show?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "entry": "dna-uyelgi"
+    },
+    {
+      "entry": "dna-volga-ural"
+    },
+    {
+      "entry": "site-uyelgi"
+    },
+    {
+      "entry": "site-bolshie-tigani"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "concept": "karayakupovo-horizon"
+    },
+    {
+      "concept": "shared-dna-segments"
+    },
+    {
+      "concept": "magna-hungaria"
+    },
+    {
+      "concept": "chiyalik-culture"
+    },
+    {
+      "concept": "uralic-languages"
+    },
+    {
+      "concept": "mansi-and-khanty"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

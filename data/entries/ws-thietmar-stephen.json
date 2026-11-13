@@ -1,0 +1,165 @@
+{
+  "id": "ws-thietmar-stephen",
+  "title": "Thietmar of Merseburg: Waic receives a crown and a blessing",
+  "short_title": "Thietmar on Waic's crown",
+  "layer": "written source",
+  "fact_summary": "Thietmar, bishop of Merseburg, records in one sentence that Waic, son-in-law of the duke of the Bavarians, set up bishoprics in his kingdom and received a crown and blessing by the emperor's favour. The edition identifies Waic as Stephen, king of Hungary.",
+  "place": {
+    "lon": 11.99,
+    "lat": 51.36,
+    "precision": "approximate",
+    "role": "written at",
+    "label": "Merseburg, where Thietmar was bishop",
+    "note": "Pinned by Claude at the city of Merseburg, Thietmar's see according to the edition's title. The pin marks where the text comes from, not where the crowning happened; the passage names no place for it."
+  },
+  "time": {
+    "from": 1000,
+    "to": 1000,
+    "precision": "approximate"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Thietmar writes: “By the favour and urging of the aforesaid emperor, the son-in-law of Henry, duke of the Bavarians, Waic, setting up bishops' sees in his own kingdom, received a crown and blessing” (coronam et benediccionem accepit).",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "IV.59 (Kurze ed., p. 97)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The edition's index of names identifies Waic with Stephen: “Waic (= Stephanus) rex Pannonicus”, king of Pannonia.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "Kurze ed., index of names, under “Waic” and “Stephanus”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the edition's index says, read in the scanned edition linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The editor's margin marks this passage as “man. D al. temp.”, and prints it in square brackets, with the name Waic in brackets of its own.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "IV.59 (Kurze ed., p. 97, margin)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The marks were read in the scan. Claude takes them to mean that the passage was added to the manuscript by a different hand at another time; the edition's key to its signs has not been read to confirm this.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The chapter before, speaking of the Polish ruler Boleslav, says he “took a wife from Hungary” (ab Ungaria), had a son by her, and sent her away.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "IV.58 (Kurze ed., p. 96)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Thietmar gives no year for the crowning. He speaks of “the aforesaid emperor”; the chapter before dates another event to 992 “in the reign of the third Otto”.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "IV.58–59 (Kurze ed., pp. 96–97)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read in Latin. That “the aforesaid emperor” is Otto III is Claude's reading of the context, not something the sentence states.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "d2",
+      "kind": "evidence",
+      "text": "A 2021 genetic study, in its historical summary, says the Hungarians “founded the Hungarian Kingdom around 1000AD”. The pin's year on the timeline follows that round figure.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A passing statement in a genetics paper, not a historical study. No source that dates the crowning itself has been read yet.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "In which year, and where, was the crown received? No source that gives the date has been read yet."
+    },
+    {
+      "text": "Thietmar credits the emperor. Who sent the crown, and what do Hungarian sources say?"
+    },
+    {
+      "text": "Why does Thietmar call him Waic and not Stephen?"
+    }
+  ],
+  "links": [
+    {
+      "concept": "stephen-of-hungary"
+    },
+    {
+      "concept": "thietmar-of-merseburg"
+    },
+    {
+      "concept": "otto-iii"
+    },
+    {
+      "concept": "arpad-dynasty"
+    },
+    {
+      "concept": "pannonia"
+    },
+    {
+      "entry": "dna-bela-iii"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

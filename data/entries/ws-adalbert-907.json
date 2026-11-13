@@ -1,0 +1,158 @@
+{
+  "id": "ws-adalbert-907",
+  "title": "Continuation of Regino, 907–910: the Bavarians cut down and Duke Liutbald killed",
+  "short_title": "Continuation of Regino, 907",
+  "layer": "written source",
+  "fact_summary": "The chronicle that continues Regino's opens with a run of short entries: in 907 the Bavarians were beaten by the Hungarians with great slaughter and their duke was killed; raids on Saxony, Thuringia and Alamannia follow, and a Frankish defeat in 910.",
+  "place": {
+    "lon": 6.65,
+    "lat": 49.76,
+    "precision": "approximate",
+    "role": "written at",
+    "label": "Trier: the editor says the continuation was written by a monk of St Maximin there",
+    "note": "Pinned by Claude at the city of Trier. Kurze's preface says the writer was a monk of St Maximin at Trier, now generally held to be Adalbert, who later moved elsewhere; where he was when he wrote is not stated in the part read. The annal names no place for the battle of 907."
+  },
+  "time": {
+    "from": 907,
+    "to": 910,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Under 907: “The Bavarians met the Hungarians and were laid low with great slaughter; in that encounter Duke Liutbald was killed, and his son Arnolf succeeded him in the duchy.”",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 907 (Kurze ed., p. 154)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Under 908 the Hungarians “again crossed the borders” and devastated Saxony and Thuringia; under 909 they entered Alamannia.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 908–909 (Kurze ed., p. 154)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Under 910 the Franks met the Hungarians on the border of Bavaria and Francia and were “wretchedly beaten or put to flight”; Count Gebhard fell there.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 910 (Kurze ed., p. 154)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A twelfth-century hand in one manuscript of Regino's chronicle adds a list of its own: 906, the Hungarians devastated Saxony; 908, “Duke Liutbold was killed by the Hungarians”; 909, Duke Burchard was killed by the Hungarians; 915, the Hungarians came ravaging as far as Fulda.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "Kurze ed., p. 153, note * (printed just before the continuation begins)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the manuscript note says, read in Latin in the scanned edition linked under Sources. Kurze says the list was taken from the Annals of Hersfeld, which have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Each entry opens with its year in Roman numerals. Kurze's margin marks the 907 entry as drawn from two older sets of annals that disagree on the year: the Annales Augienses under 907 and the Annales Laubacenses under 908.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 907 (Kurze ed., p. 154, margin and note 1)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The year headings were read in the edition. That the entry was put together from those two older annals is the editor's judgement; neither has been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c1",
+        "c4"
+      ],
+      "what_differs": "The year the duke was killed: 907 in the continuation, 908 in the note added to another manuscript. The editor shows that the older annals behind them already disagreed."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where was the battle of 907? The continuation names no place. Which source does?"
+    },
+    {
+      "text": "The continuation was written decades later from older annals. What did those annals say in their own words?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-900"
+    },
+    {
+      "entry": "ws-widukind-933"
+    },
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "concept": "liutpold"
+    },
+    {
+      "concept": "adalbert-of-magdeburg"
+    },
+    {
+      "concept": "hungarian-raids"
+    },
+    {
+      "concept": "regino-of-prum"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

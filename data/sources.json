@@ -241,6 +241,242 @@
         "copy": "https://mmp.acdh-dev.oeaw.ac.at/archiv/text/detail/232",
         "read_in": "Text records 232 (Regino) and 581 (Annals of St-Bertin), and passage records 5650, 5651, 5669 and 5744."
       }
+    },
+    {
+      "id": "annales-fuldenses",
+      "type": "primary text",
+      "reference": "Annales Fuldenses (Annals of Fulda), with the Bavarian continuations for 882–901. Latin edition: F. Kurze (ed.), Annales Fuldenses sive Annales regni Francorum orientalis, Scriptores rerum Germanicarum in usum scholarum (Hanover, 1891). The years 892–896 are on pp. 121–130 (Regensburg continuation) and 900–901 on pp. 134–135 (Altaich continuation).",
+      "link": "https://archive.org/details/annalesfuldense00einh",
+      "language": "Latin",
+      "status": "current",
+      "written": {
+        "from": 882,
+        "to": 901,
+        "precision": "range"
+      },
+      "distance": "contemporary",
+      "distance_note": "Kurze's preface says the first Bavarian continuation was added at Regensburg from 882 onwards, and that a third version was put together at Altaich, “as it seems”, in 897 and carried on by two short continuations to 901. How soon after each year its entry was written is not stated in the part read; for 896 Kurze notes that news of the eastern wars seems to have reached Bavaria only that year.",
+      "edition_used": "Kurze 1891, in the Internet Archive scan of the University of Toronto copy",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://archive.org/details/annalesfuldense00einh",
+        "read_in": "Latin original, in the machine-read text of the Internet Archive scan. The letter recognition makes small slips, so Latin is quoted only where it reads cleanly. English renderings on this map are Claude's own and have not been compared with a published translation."
+      }
+    },
+    {
+      "id": "adalbert-continuatio",
+      "type": "primary text",
+      "reference": "Continuation of Regino's chronicle for the years 907–967 (Continuatio Reginonis), attributed to Adalbert, later archbishop of Magdeburg. Latin edition: F. Kurze (ed.), Reginonis abbatis Prumiensis Chronicon cum continuatione Treverensi, Scriptores rerum Germanicarum in usum scholarum (Hanover, 1890), pp. 154–179.",
+      "link": "https://archive.org/details/reginonisabbatis00regiuoft",
+      "language": "Latin",
+      "status": "current",
+      "written": {
+        "from": 955,
+        "to": 981,
+        "precision": "unknown"
+      },
+      "distance": "unknown",
+      "distance_note": "Not established from the part read. Kurze's preface says the continuation runs from 907 to the end of 967, was written by a monk of St Maximin at Trier, and that its author is now generally held to be Adalbert, who died in 981. Kurze's margins mark the early entries (907–934) as taken from older annals, the Annales Augienses and Annales Laubacenses.",
+      "edition_used": "Kurze 1890, in the Internet Archive scan of the University of Toronto copy",
+      "derives_from_note": "Printed in the same volume as Regino's chronicle (regino-chronicon), but a separate text by a later writer.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://archive.org/details/reginonisabbatis00regiuoft",
+        "read_in": "Latin original, in the machine-read text of the Internet Archive scan. The letter recognition makes small slips, so Latin is quoted only where it reads cleanly. English renderings on this map are Claude's own and have not been compared with a published translation."
+      }
+    },
+    {
+      "id": "widukind-res-gestae-latin",
+      "type": "primary text",
+      "reference": "Widukind of Corvey, Res gestae Saxonicae (Deeds of the Saxons). Latin edition: G. Waitz (ed.), Widukindi rerum gestarum Saxonicarum libri tres, third edition, Scriptores rerum Germanicarum in usum scholarum (Hanover, 1882). Book I.17–20 is on pp. 16–18, I.38–39 on pp. 31–33, and III.44–49 on pp. 71–75.",
+      "link": "https://archive.org/details/widukindirerumge60widu",
+      "language": "Latin",
+      "status": "current",
+      "written": {
+        "from": 965,
+        "to": 968,
+        "precision": "approximate"
+      },
+      "distance": "within living memory",
+      "distance_note": "Waitz's preface calls Widukind a Saxon and a monk of Corvey, received under Abbot Folcmar (917–942), and places the writing after the death of Archbishop Bruno (October 965), while Otto and his son were in Italy. For 955 that is about ten years after the events. For 933 it is over thirty years: Waitz says that in Henry's early years Widukind was not yet born or a small child and could draw only on tradition.",
+      "edition_used": "Waitz 1882 (third edition), in the Internet Archive scan of the University of Toronto copy",
+      "derives_from_note": "The same work as widukind-res-gestae, which is Wood's English translation of two sections. This record is the Latin text.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://archive.org/details/widukindirerumge60widu",
+        "read_in": "Latin original, in the machine-read text of the Internet Archive scan. The letter recognition makes small slips, so Latin is quoted only where it reads cleanly. English renderings on this map are Claude's own and have not been compared with a published translation."
+      }
+    },
+    {
+      "id": "thietmar-chronicon",
+      "type": "primary text",
+      "reference": "Thietmar, bishop of Merseburg, Chronicon. Latin edition: F. Kurze (ed.), Thietmari Merseburgensis episcopi Chronicon, Scriptores rerum Germanicarum in usum scholarum (Hanover, 1889). Book IV, chapters 58–59 are on pp. 96–97.",
+      "link": "https://archive.org/details/thietmarimersebu00thieuoft",
+      "language": "Latin",
+      "status": "current",
+      "written": {
+        "from": 1012,
+        "to": 1018,
+        "precision": "range"
+      },
+      "distance": "within living memory",
+      "distance_note": "Kurze's preface says Thietmar began writing in 1012, wrote book IV, chapters 55–69 in 1017, and died on 1 December 1018. The chapter on the Hungarian crown is therefore written under twenty years after the reign it describes.",
+      "edition_used": "Kurze 1889, in the Internet Archive scan of the University of Toronto copy",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://archive.org/details/thietmarimersebu00thieuoft",
+        "read_in": "Latin original, in the machine-read text of the Internet Archive scan. The letter recognition makes small slips, so Latin is quoted only where it reads cleanly. English renderings on this map are Claude's own and have not been compared with a published translation."
+      }
+    },
+    {
+      "id": "liudprand-opera-1877",
+      "type": "primary text",
+      "reference": "Liudprand of Cremona, Antapodosis, in: E. Dümmler (ed.), Liudprandi episcopi Cremonensis opera omnia, second edition, Scriptores rerum Germanicarum in usum scholarum (Hanover, 1877). Book II.7–15 is on pp. 32–35 and II.28–31 on pp. 39–40.",
+      "link": "https://archive.org/details/liudprandiepisco00liuduoft",
+      "language": "Latin",
+      "status": "current",
+      "written": {
+        "from": 958,
+        "to": 962,
+        "precision": "range"
+      },
+      "distance": "later",
+      "distance_note": "Written 958–962, as given in the record liudprand-antapodosis from the Mapping Medieval Peoples database; Dümmler's preface likewise has Liudprand begin the work at Frankfurt in 958. The battle on the Brenta (899) is about sixty years before the time of writing; the battle near Merseburg (933) is about twenty-five years before.",
+      "edition_used": "Dümmler 1877 (second edition), in the Internet Archive scan of the University of Toronto copy. The letter recognition of this scan is poor in places.",
+      "derives_from_note": "The same work as liudprand-antapodosis, which was read in Becker's later edition through a database. This record is an older edition of the Latin text, used for book II.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://archive.org/details/liudprandiepisco00liuduoft",
+        "read_in": "Latin original, in the machine-read text of the Internet Archive scan. The letter recognition makes small slips, so Latin is quoted only where it reads cleanly. English renderings on this map are Claude's own and have not been compared with a published translation."
+      }
+    },
+    {
+      "id": "anonymus-rady",
+      "type": "primary text",
+      "reference": "Anonymus (the anonymous notary of King Béla), Gesta Hungarorum (Deeds of the Hungarians). English translation with an introduction: Martyn Rady, “The Gesta Hungarorum of Anonymus, the Anonymous Notary of King Béla: A Translation”, author's copy in UCL Discovery (eprint 18975), 71 pages. Its acknowledgements mention the Slavonic and East European Review; the volume and page numbers of the printed version have not been checked. Rady follows the Latin edition of E. Jakubovich and D. Pais in Scriptores Rerum Hungaricarum, vol. 1 (Budapest, 1937).",
+      "link": "https://discovery.ucl.ac.uk/id/eprint/18975/1/18975.pdf",
+      "language": "Latin (read in English translation)",
+      "status": "current",
+      "written": {
+        "from": 1200,
+        "to": 1220,
+        "precision": "approximate"
+      },
+      "distance": "later",
+      "distance_note": "Rady's introduction says the work “was most probably composed in the early years of the thirteenth century” and survives in a single copy of the late thirteenth century. It tells of the late ninth century, about three hundred years earlier. The end year 1220 here is Claude's reading of “early years”, not a date Rady gives.",
+      "edition_used": "Rady's English translation and introduction, in the PDF deposited at University College London. Page numbers are those printed in that PDF.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://discovery.ucl.ac.uk/id/eprint/18975/1/18975.pdf",
+        "read_in": "English translation and Rady's introduction. The Latin was not opened, apart from the words Rady gives in brackets."
+      }
+    },
+    {
+      "id": "gyuris-2025",
+      "type": "peer-reviewed study",
+      "reference": "Gyuris, Balázs; Vyazov, Leonid; Türk, Attila; Flegontov, Pavel; Szeifert, Bea; et al.; Reich, David; Szécsényi-Nagy, Anna (2025). Long shared haplotypes identify the southern Urals as a primary source for the 10th-century Hungarians. Cell 188(21), pp. 6064–6078.",
+      "doi": "10.1016/j.cell.2025.09.002",
+      "link": "https://doi.org/10.1016/j.cell.2025.09.002",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Shares authors with csaky-2020 and szeifert-2022 (Institute of Archaeogenomics, Budapest) and re-uses the conquest-period genomes of maroti-2022, whose ancestry models it criticises.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12711333/",
+        "read_in": "English, full text of the authors' accepted manuscript on PubMed Central (read through Europe PMC, which serves the same text). Wording may differ slightly from the printed article, and section names are those of the manuscript. The supplementary tables were not opened."
+      }
+    },
+    {
+      "id": "gerber-2024",
+      "type": "peer-reviewed study",
+      "reference": "Gerber, Dániel; Csáky, Veronika; Szeifert, Bea; Borbély, Noémi; et al.; Szőke, Béla Miklós; Szécsényi-Nagy, Anna (2024). Ancient genomes reveal Avar-Hungarian transformations in the 9th–10th centuries CE Carpathian Basin. Science Advances 10(51), article eadq5864.",
+      "doi": "10.1126/sciadv.adq5864",
+      "link": "https://doi.org/10.1126/sciadv.adq5864",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Same research group as csaky-2020, szeifert-2022 and gyuris-2025 (Institute of Archaeogenomics, Budapest).",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11654671/",
+        "read_in": "English original, full text of the open-access copy on PubMed Central (read through Europe PMC, which serves the same text). The supplementary tables and data files were not opened."
+      }
+    },
+    {
+      "id": "maar-2021",
+      "type": "peer-reviewed study",
+      "reference": "Maár, Kitti; Varga, Gergely I. B.; Kovács, Bence; Schütz, Oszkár; Maróti, Zoltán; et al.; Török, Tibor; Neparáczki, Endre (2021). Maternal Lineages from 10–11th Century Commoner Cemeteries of the Carpathian Basin. Genes 12(3), article 460.",
+      "doi": "10.3390/genes12030460",
+      "link": "https://doi.org/10.3390/genes12030460",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Same research group as neparaczki-2019 and maroti-2022 (Szeged).",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8005002/",
+        "read_in": "English original, full text of the open-access copy on PubMed Central (read through Europe PMC, which serves the same text). The supplementary tables and data files were not opened."
+      }
+    },
+    {
+      "id": "nagy-2020",
+      "type": "peer-reviewed study",
+      "reference": "Nagy, Péter L.; Olasz, Judit; Neparáczki, Endre; et al.; Underhill, Peter A.; Kásler, Miklós (2021, online 2020). Determination of the phylogenetic origins of the Árpád Dynasty based on Y chromosome sequencing of Béla the Third. European Journal of Human Genetics 29(1), pp. 164–172.",
+      "doi": "10.1038/s41431-020-0683-z",
+      "link": "https://doi.org/10.1038/s41431-020-0683-z",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7809292/",
+        "read_in": "English original, full text of the open-access copy on PubMed Central (read through Europe PMC, which serves the same text). The supplementary tables and data files were not opened."
+      }
+    },
+    {
+      "id": "wang-2021",
+      "type": "peer-reviewed study",
+      "reference": "Wang, Chuan-Chao; Posth, Cosimo; Furtwängler, Anja; Sümegi, Katalin; Bánfai, Zsolt; Kásler, Miklós; Krause, Johannes; Melegh, Béla (2021). Genome-wide autosomal, mtDNA, and Y chromosome analysis of King Bela III of the Hungarian Arpad dynasty. Scientific Reports 11, article 19210.",
+      "doi": "10.1038/s41598-021-98796-x",
+      "link": "https://doi.org/10.1038/s41598-021-98796-x",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Studies the same remains as nagy-2020 and shares one author with it (Kásler), so the two are not fully independent.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478946/",
+        "read_in": "English original, full text of the open-access copy on PubMed Central (read through Europe PMC, which serves the same text). The supplementary tables and data files were not opened."
+      }
+    },
+    {
+      "id": "gnecchi-ruscone-2025",
+      "type": "peer-reviewed study",
+      "reference": "Gnecchi-Ruscone, Guido Alberto; Rácz, Zsófia; Liccardo, Salvatore; et al.; Pohl, Walter; Krause, Johannes; Hofmanová, Zuzana (2025). Ancient genomes reveal trans-Eurasian connections between the European Huns and the Xiongnu Empire. Proceedings of the National Academy of Sciences 122(9), article e2418485122.",
+      "doi": "10.1073/pnas.2418485122",
+      "link": "https://doi.org/10.1073/pnas.2418485122",
+      "language": "English",
+      "status": "current",
+      "peer_review": "peer reviewed",
+      "derives_from_note": "Shares its first author and several others with gnecchi-ruscone-2022.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13",
+        "copy": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11892651/",
+        "read_in": "English original, full text of the open-access copy on PubMed Central (read through Europe PMC, which serves the same text). The supplementary tables and data files were not opened."
+      }
     }
   ]
 }

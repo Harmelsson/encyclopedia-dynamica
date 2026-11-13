@@ -1,0 +1,124 @@
+{
+  "id": "arnulf",
+  "title": "Arnulf, king and emperor",
+  "kind": "person",
+  "aliases": [
+    "King Arnulf",
+    "Emperor Arnulf"
+  ],
+  "fact_summary": "East Frankish king, later emperor, in whose reign the Hungarians first appear in Bavarian annals, at first on his side.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Annals of Fulda say that Hungarians came with an army to join the king's campaign in Moravia in July 892.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 892 (Kurze ed., p. 121)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "They record that in 896 “the emperor” entrusted Pannonia to his duke Brazlavo, and under 900 that the emperor died at Regensburg and was buried there in the house of St Emmeram.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 896 and 900 (Kurze ed., pp. 130 and 133)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Widukind, about seventy years later, says that Charlemagne had shut the Avars in behind a great rampart, and that under Arnulf “the work was destroyed and the way to do harm opened to them”, because the emperor was angry with Zwentibald, king of the Moravians.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.19 (Waitz ed., p. 17)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The belief that Charlemagne had walled the Avars in was a common opinion of the tenth century.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.19 (Waitz ed., p. 17, note 1)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Georg Waitz, editor (1882)",
+          "source": "widukind-res-gestae-latin"
+        }
+      ],
+      "rests_on": [
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "An editor's note, which points to the same idea in Liudprand.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c1",
+        "c3"
+      ],
+      "what_differs": "How the Hungarians came to be let loose. The Bavarian annal of the time simply records them fighting beside the king in 892; Widukind, two generations later, tells of a barrier broken on his orders. The two may describe the same alliance in different ways."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Did Arnulf invite the Hungarians against Moravia, as later writers charged?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "entry": "ws-liudprand-unknown"
+    },
+    {
+      "concept": "moravians"
+    },
+    {
+      "concept": "annals-of-fulda"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

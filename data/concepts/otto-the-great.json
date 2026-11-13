@@ -6,7 +6,7 @@
     "Otto",
     "King Otto"
   ],
-  "fact_summary": "The king whose army defeated the Hungarians in 955. The sources on this map disagree on whether to call him king or emperor for that year.",
+  "fact_summary": "The king whose army defeated the Hungarians in 955 and who was crowned emperor at Rome in 962. The sources on this map differ on what to call him for 955.",
   "claims": [
     {
       "id": "c1",
@@ -58,6 +58,40 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The continuation of Regino's chronicle says under 962 that at Rome, by acclamation of the whole Roman people and clergy, he “is called and ordained emperor and augustus” (imperator et augustus vocatur et ordinatur) by Pope John. The editor's margin gives the day as 2 February.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 962 (Kurze ed., p. 171)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "Widukind says that after the victory of 955 the king “was hailed by the army as father of the fatherland and emperor”.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "III.49 (Waitz ed., p. 74)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "contradictions": [
@@ -67,12 +101,15 @@
         "c2",
         "c3"
       ],
-      "what_differs": "His title in 955: the Metz annal calls him emperor, Widukind calls him king. This may only show when each was written, not a disagreement about events."
+      "what_differs": "His title in 955: the Metz annal calls him emperor, Widukind calls him king. He was crowned emperor in 962 (claim c4), so the Metz wording suggests that entry was written or reworded later; Widukind also says the army hailed him emperor on the battlefield (claim c5)."
     }
   ],
   "open_questions": [
     {
-      "text": "When was Otto crowned emperor, and was the Metz entry written after that?"
+      "text": "When was the Metz entry for 955 written? It calls Otto emperor seven years before his crowning."
+    },
+    {
+      "text": "What did being “hailed emperor” by an army mean in 955? Widukind uses the same words for Otto's father in 933."
     }
   ],
   "links": [
@@ -84,12 +121,34 @@
     },
     {
       "concept": "hungarian-raids"
+    },
+    {
+      "concept": "battle-on-the-lech"
+    },
+    {
+      "concept": "henry-the-fowler"
+    },
+    {
+      "concept": "widukind-of-corvey"
+    },
+    {
+      "concept": "adalbert-of-magdeburg"
+    },
+    {
+      "concept": "otto-iii"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
-  }
+  },
+  "change_notes": [
+    {
+      "on": "2026-11-13",
+      "by": "Claude",
+      "note": "The open question “When was Otto crowned emperor?” is answered from Regino's continuator: 962 (claim c4)."
+    }
+  ]
 }

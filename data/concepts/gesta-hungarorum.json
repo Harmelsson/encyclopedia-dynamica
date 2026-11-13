@@ -1,0 +1,139 @@
+{
+  "id": "gesta-hungarorum",
+  "title": "Gesta Hungarorum (Anonymus)",
+  "kind": "document",
+  "aliases": [
+    "Gesta Hungarorum",
+    "Anonymus"
+  ],
+  "fact_summary": "The Deeds of the Hungarians, by a notary known only as Anonymus: the oldest surviving Hungarian chronicle, written about three hundred years after the events it describes.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Its translator calls it “the oldest extant chronicle of the history of the Hungarians”, surviving in a single manuscript of 24 leaves, first noted near Innsbruck in the seventeenth century, moved to Vienna in 1665 and to Budapest in 1928, and first printed in 1746.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (pp. 1–2)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The translator's account in a scholarly introduction; the manuscript's history has not been checked elsewhere.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The translator says of the author: “The most that can be said about him is that his name began with a P.”",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (p. 4)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The translator's judgement.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The author says he writes because it would be unfitting for the Hungarians to learn of their origins from “the gabbling song of minstrels”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Prologue (Rady trans., p. 6)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The work is “at best an attempt to project contemporary conditions backwards”: its picture of who held power north of the Danube in the late ninth century “is not supported by any other account”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (p. 3)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Martyn Rady (translator)",
+          "source": "anonymus-rady"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The translator's judgement; other scholars' views have not been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "Readings of the Gesta were used in the twentieth century “to buttress historical claims to territories”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (p. 2)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Martyn Rady (translator)",
+          "source": "anonymus-rady"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The translator's account of how the text has been used.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Which parts of the Gesta can be checked against earlier sources, and which stand alone?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "concept": "attila"
+    },
+    {
+      "concept": "arpad"
+    },
+    {
+      "concept": "bela-iii"
+    },
+    {
+      "concept": "scythia"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

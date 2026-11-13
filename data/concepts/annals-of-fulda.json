@@ -1,0 +1,88 @@
+{
+  "id": "annals-of-fulda",
+  "title": "Annals of Fulda",
+  "kind": "document",
+  "aliases": [
+    "Annals of Fulda",
+    "Annales Fuldenses"
+  ],
+  "fact_summary": "Year-by-year annals of the East Frankish kingdom. Their last part, continued in Bavaria to 901, follows the Hungarians from allies of King Arnulf in 892 to invaders of Bavaria in 900.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The title page of the standard edition calls them the annals “of the kingdom of the eastern Franks”, written at Seligenstadt, Fulda and Mainz, “with the continuations of Regensburg and Altaich”.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "Kurze ed., title page"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "Read on the title page of the scanned edition linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The editor says the first Bavarian continuation was added at Regensburg from the year 882, and that at Altaich in 897, “as it seems”, a third version was put together and then extended by two short continuations.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "Kurze ed., preface"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "This records what the editor's preface says, read in Latin in the scanned edition linked under Sources. It is the editor's judgement, and the studies he cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "From 894 to 900 this continuation calls the Hungarians “Avari, qui dicuntur Ungari”, Avars who are called Hungarians; in 892 and 901 it writes simply “Ungari”.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 892, 894, 896, 900, 901 (Kurze ed., pp. 121–135)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "How soon after the events was each year's entry written down?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "entry": "ws-fulda-900"
+    },
+    {
+      "concept": "names-for-the-hungarians"
+    },
+    {
+      "concept": "hungarian-raids"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

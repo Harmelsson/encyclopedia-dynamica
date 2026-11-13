@@ -1,0 +1,120 @@
+{
+  "id": "attila",
+  "title": "Attila, in the Hungarian chronicle tradition",
+  "kind": "person",
+  "aliases": [
+    "Attila"
+  ],
+  "fact_summary": "King of the Huns. The Hungarian chronicle of Anonymus, written about 1200, makes him an ancestor of the Hungarian rulers. This page records that claim, not his life.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Anonymus writes that from the royal line of Magog “the most renowned and mighty King Attila descended”, who entered Pannonia in 451 and made his seat by the Danube.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 1 (Rady trans., pp. 6–7)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He says Pannonia “had been the land of King Attila, from whose line Duke Álmos, father of Árpád, descended”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 5 (Rady trans., p. 10)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Some 240 years before Anonymus, the Saxon monk Widukind wrote that the Avars, “whom we now call Hungarians”, were “as some think” the remnants of the Huns. He does not name Attila.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.17–18 (Waitz ed., p. 16)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Contradictory information in Anonymus's sources may explain “Álmos and Árpád's ambiguous relation to the line of Attila”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (p. 3)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Martyn Rady (translator)",
+          "source": "anonymus-rady"
+        }
+      ],
+      "rests_on": [
+        "c1",
+        "c2"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The translator's judgement.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Did the idea that Hungarians descend from the Huns start with outsiders like Widukind, or among the Hungarians themselves?"
+    },
+    {
+      "text": "What do sources from Attila's own century say about him? None has been read for this map yet."
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "concept": "huns"
+    },
+    {
+      "concept": "gesta-hungarorum"
+    },
+    {
+      "concept": "arpad"
+    },
+    {
+      "concept": "widukind-of-corvey"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

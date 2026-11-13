@@ -6,7 +6,7 @@
     "Árpád",
     "Álmos"
   ],
-  "fact_summary": "The Hungarian prince named in the Byzantine chapter, elected in Etelköz and driven out with his people by the Pechenegs.",
+  "fact_summary": "The Hungarian prince named in the Byzantine chapter, elected in Etelköz and driven out with his people by the Pechenegs. Later Hungarian tradition makes him the son of Álmos and ancestor of the kings.",
   "claims": [
     {
       "id": "c1",
@@ -102,11 +102,48 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "The Gesta Hungarorum, about 1200, calls Álmos the “father of Árpád” and has the seven leaders swear always to have a duke from the line of Álmos.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "chs. 5–6 (Rady trans., pp. 10–11)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "A 2021 genetic study gives his dates as “Árpád (845–907 AD)” and calls him “the Great Prince of the Hungarians who started the so-called Árpád Dynasty”. It also notes that the name of the dynasty was coined in the eighteenth century.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Results; Discussion"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Stated in passing by a genetics paper. No source for the dates has been read, and they should be treated as traditional.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
     {
-      "text": "Which source first names Árpád as the founder of the royal house, and when was it written?"
+      "text": "Which source first makes Árpád the ancestor of the kings? The Gesta Hungarorum (about 1200) is the oldest read so far, three centuries after his time."
+    },
+    {
+      "text": "Where do the dates 845–907 come from? No source for them has been read."
     }
   ],
   "links": [
@@ -121,12 +158,24 @@
     },
     {
       "concept": "pechenegs"
+    },
+    {
+      "concept": "arpad-dynasty"
+    },
+    {
+      "concept": "gesta-hungarorum"
+    },
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "entry": "dna-bela-iii"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

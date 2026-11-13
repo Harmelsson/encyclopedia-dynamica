@@ -1,0 +1,158 @@
+{
+  "id": "battle-on-the-lech",
+  "title": "Battle on the Lech, 955",
+  "kind": "concept",
+  "aliases": [
+    "battle on the Lech",
+    "Battle of Lechfeld",
+    "Lechfeld"
+  ],
+  "fact_summary": "The defeat of a Hungarian army by King Otto in August 955, near Augsburg. The sources read so far name the river Lech; the usual name “Lechfeld” was already doubted by a 19th-century editor.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Widukind says the Hungarians “crossed the river Lech” (Lech fluvium transierunt), went round the army and attacked its rear legion with arrows, taking all the baggage.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "III.44 (Waitz ed., p. 72)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He says the king, after a speech, took his shield and the holy lance and was the first to turn his horse on the enemy. The bolder Hungarians resisted and were killed; others were burned in the villages they fled to, or drowned crossing the river.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "III.46 (Waitz ed., p. 74)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "He says the camp was taken that day and all the captives freed, and that on the second and third day the rest were so destroyed from the neighbouring towns “that none or few escaped”. He adds that the victory over so fierce a people was not bloodless.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "III.46 (Waitz ed., p. 74)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The continuation of Regino says the Hungarians came out in such numbers that they said they could not be beaten unless the earth swallowed them or the sky fell on them, and that they were laid low by the king's army “apud Lichum fluvium”, at the river Lech.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 955 (Kurze ed., p. 168)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "A Metz annal says only that the Hungarians, having entered Lothar's kingdom for the fourth time, were defeated by Otto.",
+      "sources": [
+        {
+          "id": "annales-s-vincentii-mettenses",
+          "locator": "s.a. 955"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The battle is “commonly, but less rightly, as it seems” placed on the Lechfeld.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "Waitz ed., p. 72, note 1"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Georg Waitz, editor (1882), citing Wyneken",
+          "source": "widukind-res-gestae-latin"
+        }
+      ],
+      "rests_on": [
+        "c1"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "An editor's note of 1882, worded as “it seems”. The study by Wyneken that it cites, and later work on the battlefield, have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where exactly was the fighting? Neither Widukind nor Regino's continuator names a field, only the river and Augsburg."
+    },
+    {
+      "text": "What has research since 1882 concluded about the battlefield, and have any finds been made?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-widukind-955"
+    },
+    {
+      "entry": "ws-metz-955"
+    },
+    {
+      "concept": "otto-the-great"
+    },
+    {
+      "concept": "widukind-of-corvey"
+    },
+    {
+      "concept": "adalbert-of-magdeburg"
+    },
+    {
+      "concept": "hungarian-raids"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

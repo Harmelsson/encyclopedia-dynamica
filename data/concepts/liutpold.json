@@ -1,0 +1,102 @@
+{
+  "id": "liutpold",
+  "title": "Liutpold of Bavaria",
+  "kind": "person",
+  "aliases": [
+    "Liutpold",
+    "Liutbald",
+    "Liutbold"
+  ],
+  "fact_summary": "A Bavarian count who beat a Hungarian army north of the Danube in 900 and, as duke, was killed fighting the Hungarians in 907 or 908.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The Annals of Fulda say that in 900 Count Liutpold, with the bishop of Passau, crossed the Danube and beat a Hungarian force; 1,200 pagans were counted dead.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., pp. 134–135)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The continuation of Regino says under 907 that the Bavarians were laid low by the Hungarians with great slaughter, that “Duke Liutbald was killed” there, and that his son Arnolf succeeded him in the duchy.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 907 (Kurze ed., p. 154)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "A twelfth-century note in one manuscript puts it a year later: 908, “Duke Liutbold was killed by the Hungarians”.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "Kurze ed., p. 153, note *"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c2",
+        "c3"
+      ],
+      "what_differs": "The year of his death: 907 in the continuation of Regino, 908 in a later manuscript note."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "That the count of 900 and the duke of 907 are one man is how the editions' indexes treat them. What do the charters say about his career?"
+    },
+    {
+      "text": "Where was the battle of 907 fought? The sources read so far do not say."
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-900"
+    },
+    {
+      "entry": "ws-adalbert-907"
+    },
+    {
+      "concept": "hungarian-raids"
+    },
+    {
+      "concept": "annals-of-fulda"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

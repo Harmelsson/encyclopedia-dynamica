@@ -5,7 +5,7 @@
   "layer": "dig site",
   "fact_summary": "A cemetery of the late Kushnarenkovo culture in the Trans-Ural region, used from about the end of the 8th century to the 11th.",
   "place": {
-    "lon": 61.0,
+    "lon": 61,
     "lat": 55.5,
     "precision": "approximate",
     "label": "Trans-Ural region (east of the Ural mountains)",
@@ -69,6 +69,23 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A 2025 study calls Uyelgi, “near Chelyabinsk”, a reference cemetery of what it names the Karayakupovo Horizon, east of the Urals.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "dating_methods": [
@@ -114,12 +131,18 @@
     },
     {
       "concept": "kushnarenkovo-culture"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "concept": "karayakupovo-horizon"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

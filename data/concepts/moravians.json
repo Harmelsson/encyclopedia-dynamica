@@ -1,0 +1,89 @@
+{
+  "id": "moravians",
+  "title": "Moravians",
+  "kind": "people",
+  "aliases": [
+    "Moravians",
+    "Moravia",
+    "Zwentibald"
+  ],
+  "fact_summary": "A people and realm on the eastern border of Bavaria, ruled by Zwentibald until 894. The Frankish annals show the Hungarians first as allies against them.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Under 892 the Annals of Fulda say Duke Zwentibald refused to come to the king, who then invaded “the land of the Moravians” with three armies, joined by Hungarians.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 892 (Kurze ed., p. 121)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "Under 894 they record Zwentibald's death, calling him “duke of the Moravians and sheath of all treachery”, and a peace between Bavarians and Moravians that autumn.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 894 (Kurze ed., p. 125)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Under 900 the Bavarians raid the Moravian kingdom for three weeks; under 901 Moravian envoys make peace at Regensburg.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900–901 (Kurze ed., pp. 134–135)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "What became of the Moravian realm after 901? The annals read so far stop there."
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "entry": "ws-fulda-900"
+    },
+    {
+      "concept": "arnulf"
+    },
+    {
+      "concept": "pannonia"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

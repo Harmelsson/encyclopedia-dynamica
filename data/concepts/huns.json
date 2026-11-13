@@ -92,11 +92,86 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A 2025 genetic study says the Huns “appeared in Europe in the 370s”, that the Xiongnu empire dissolved about 300 years before that, and that there is “little archaeological and historical evidence of Huns in the steppe during this time gap”.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the background, not its own finding; the works it cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "Around 968 Widukind of Corvey wrote that the Avars, by which he means the Hungarians, were “as some think” what was left of the Huns (ut quidam putant, reliquiae erant Hunorum).",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.18 (Waitz ed., p. 16)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "The oldest Hungarian history read so far, written about 1200, says that King Attila descended from the royal line of the Magyars' forefather, and that Álmos, father of Árpád, descended from Attila's line.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "chs. 1 and 5 (Rady trans., pp. 7, 10)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "“Some European Huns descended” from the Xiongnu-period elite, but the newcomers were of “mixed origin” and left no large community of eastern descent.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Abstract"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gnecchi-Ruscone et al. (2025)",
+          "source": "gnecchi-ruscone-2025"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study; see the Hun-period DNA card for its evidence.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
     {
-      "text": "Medieval Hungarian chronicles claim descent from the Huns. Where does that claim first appear?"
+      "text": "Where does the claim of Hungarian descent from the Huns first appear? The oldest texts read so far are Widukind (about 968), who reports it of the “Avars” as other people's opinion, and the Gesta Hungarorum (about 1200), which claims it for the ruling family. Older texts may exist."
     }
   ],
   "links": [
@@ -111,12 +186,31 @@
     },
     {
       "concept": "avars"
+    },
+    {
+      "concept": "attila"
+    },
+    {
+      "concept": "gesta-hungarorum"
+    },
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "concept": "widukind-of-corvey"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
-  }
+  },
+  "change_notes": [
+    {
+      "on": "2026-11-13",
+      "by": "Claude",
+      "note": "The open question on where the Hun descent claim first appears has been narrowed with two texts read in this batch (claims c5 and c6)."
+    }
+  ]
 }

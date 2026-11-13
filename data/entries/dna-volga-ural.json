@@ -5,8 +5,8 @@
   "layer": "ancient DNA",
   "fact_summary": "A 2022 study of 6th–14th century cemeteries in the Volga-Ural region reports paternal and maternal lineages shared with Hungarian conquerors.",
   "place": {
-    "lon": 50.0,
-    "lat": 55.0,
+    "lon": 50,
+    "lat": 55,
     "precision": "approximate",
     "label": "Volga region",
     "note": "Pin placed by Claude in the region the study names ('Russia (Volga)'). The cemetery's exact position has not been checked."
@@ -156,6 +156,9 @@
     },
     {
       "concept": "ancient-dna"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
     }
   ],
   "review": {

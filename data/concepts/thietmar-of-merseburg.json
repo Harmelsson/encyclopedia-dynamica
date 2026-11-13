@@ -1,0 +1,85 @@
+{
+  "id": "thietmar-of-merseburg",
+  "title": "Thietmar of Merseburg",
+  "kind": "person",
+  "aliases": [
+    "Thietmar of Merseburg",
+    "Thietmar"
+  ],
+  "fact_summary": "Bishop of Merseburg, who wrote his chronicle between 1012 and 1018. It holds an early notice of the first crowned king of the Hungarians.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "His editor says Thietmar began writing the history of his own time in 1012 and died on 1 December 1018.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "Kurze ed., preface"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "This records what the editor's preface says, read in Latin in the scanned edition linked under Sources. It is the editor's judgement, and the studies he cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The editor says the chronicle was reworked from 1016, when Thietmar gained a new source, the Annals of Quedlinburg, and that chapters 55–69 of book IV were written in 1017.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "Kurze ed., preface"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "This records what the editor's preface says, read in Latin in the scanned edition linked under Sources. It is the editor's judgement, and the studies he cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "In book IV he records that Waic, son-in-law of the duke of the Bavarians, received a crown and blessing by the emperor's favour.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "IV.59 (Kurze ed., p. 97)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where did a bishop in Saxony get his news of Hungary?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-thietmar-stephen"
+    },
+    {
+      "concept": "stephen-of-hungary"
+    },
+    {
+      "concept": "otto-iii"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

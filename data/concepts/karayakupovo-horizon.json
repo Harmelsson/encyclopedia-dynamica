@@ -1,0 +1,141 @@
+{
+  "id": "karayakupovo-horizon",
+  "title": "Karayakupovo Horizon",
+  "kind": "concept",
+  "aliases": [
+    "Karayakupovo Horizon",
+    "Karayakupovo"
+  ],
+  "fact_summary": "A name proposed in 2025 for the burial traditions of the southern Urals between about 750 and 1000, which archaeologists connect with the early Hungarians.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2025 study writes: “We hereafter introduce the term ‘Karayakupovo Horizon’ (KH) to cover the diversity of the burial traditions and artefactual assemblages of the Southern Urals, including the Cis- and Trans-Urals, dated to 750–1000 CE and associated with putative Early Medieval Magyars”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The study names Uyelgi, near Chelyabinsk, as a reference cemetery of this horizon east of the Urals, and Bolshie Tigany in Tatarstan as “a key site” on the European side.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "It says the people of this horizon “lived in a multilingual and multiethnic context in the Circum-Uralic region, surrounded by Turkic, Finno-Permic, and Ugric-speaking people”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the background, not its own finding; the works it cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "An earlier study used the name differently, describing Bolshie Tigani and Tankeevka as Kushnarenkovo/Karayakupovo culture mixed with early Bulgars.",
+      "sources": [
+        {
+          "id": "szeifert-2022",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read in the study when the Kushnarenkovo page was written; it shows the older use of the name as an archaeological culture.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The ancestry best seen among these people and later found among the 10th-century Hungarians should be called “Karayakupovo-type”; the evidence “supports the hypothesis of a Trans-Uralian origin” for it.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [
+        "c1",
+        "c2"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A name and a reading proposed in one tier B study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "The name groups cemeteries by their date and region. Did the people buried in them see themselves as one people?"
+    },
+    {
+      "text": "How does the new name relate to the older terms Kushnarenkovo culture and Karayakupovo culture? The archaeological works behind them have not been opened."
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "entry": "site-uyelgi"
+    },
+    {
+      "entry": "site-bolshie-tigani"
+    },
+    {
+      "concept": "kushnarenkovo-culture"
+    },
+    {
+      "concept": "chiyalik-culture"
+    },
+    {
+      "concept": "magna-hungaria"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

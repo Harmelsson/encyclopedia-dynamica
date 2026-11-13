@@ -1,0 +1,276 @@
+{
+  "id": "ws-widukind-933",
+  "title": "Widukind of Corvey: King Henry refuses tribute and meets the Hungarians at Riade, 933",
+  "short_title": "Widukind on Riade, 933",
+  "layer": "written source",
+  "fact_summary": "Widukind tells how King Henry persuaded the Saxons to stop paying the Hungarians, how the Hungarian army that came in answer was split and beaten, and how the rest fled when the king's army appeared near a place called Riade.",
+  "place": {
+    "lon": 9.41,
+    "lat": 51.78,
+    "precision": "approximate",
+    "role": "written at",
+    "label": "Corvey abbey, where Widukind was a monk",
+    "note": "Pinned by Claude at Corvey on the river Weser; the edition's preface calls Widukind a monk of Corvey. The pin marks where the text comes from. Riade itself is not located: the editor only suggests a place on the river Unstrut."
+  },
+  "time": {
+    "from": 933,
+    "to": 933,
+    "precision": "approximate"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Widukind says that the king, now having horsemen tested in battle, resolved to fight “the old enemies, namely the Hungarians”. He told the assembled people that until now he had stripped them and their sons and daughters to fill the enemy's treasury, and that next he would have to strip the churches; the people raised their right hands and pledged their help.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.38 (Waitz ed., pp. 31–32)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He says Hungarian envoys then came to the king for the usual gifts, were turned away, and went home empty-handed.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.38 (Waitz ed., p. 32)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The Hungarians, whom he here calls Avars, hurried towards Saxony through the land of the Dalaminzi, their old friends, who, knowing the Saxons were ready, threw them a very fat dog instead of a gift.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.38 (Waitz ed., p. 32)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "In Thuringia the army divided. The part that went west was met by Saxons and Thuringians together; its leaders were killed, and the rest, he says, died of hunger or cold, or were killed or captured.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.38 (Waitz ed., p. 32)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "The part that stayed in the east was besieging a town when it heard of its companions' fate and of the king's approach with a strong army, “for the king had pitched camp near a place called Riade”; it left its camp in fear.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.38 (Waitz ed., pp. 32–33)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "Next day the king sent ahead a Thuringian unit with few armoured men to draw the enemy on. But on seeing the armoured army the Hungarians fled, “so that over eight miles scarcely a few were killed or captured”. Their camp was taken and all the captives freed.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.38 (Waitz ed., p. 33)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "Afterwards, Widukind says, the king gave the tribute he used to pay the enemy to the service of God and to the poor, and the army hailed him “father of the fatherland, lord of affairs and emperor” (pater patriae, rerum dominus imperatorque).",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.39 (Waitz ed., p. 33)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c8",
+      "kind": "evidence",
+      "text": "Liudprand of Cremona tells of the same king meeting the Hungarians near the fortress of Merseburg, “on the border of Saxons, Thuringians and Slavs”. In his account the Saxons keep an even line, take the first arrows on their shields and charge; the Hungarians are “cut down and put to flight”, and a great crowd of captives is freed. He adds that the king had the victory painted in the upper hall of a house at Merseburg.",
+      "sources": [
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Antapodosis II.28–31 (Dümmler ed., pp. 39–40)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c9",
+      "kind": "evidence",
+      "text": "The continuation of Regino's chronicle has one sentence: “King Henry laid the Hungarians low with great slaughter and captured many of them.”",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 934 (Kurze ed., p. 159)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Widukind gives no year. The editor's margin puts the assembly at “932?” and the campaign at 933.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "Waitz ed., pp. 31–32 (margins)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "An editor's dates in a scholarly edition; the reasoning behind them has not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "d2",
+      "kind": "evidence",
+      "text": "The continuation of Regino places King Henry's victory under the year 934. The editor's margin marks the entry as taken from older annals (Annales Augienses) and corrects the year to 933.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 934 (Kurze ed., p. 159)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c6",
+        "c9"
+      ],
+      "what_differs": "How bloody it was. Widukind says the Hungarians fled so fast that scarcely any were killed or captured over eight miles; the continuation of Regino speaks of “great slaughter” and many prisoners, and Liudprand of men cut down. Widukind does describe heavy losses, but for the other half of the army, days earlier."
+    },
+    {
+      "id": "x2",
+      "claims": [
+        "c5",
+        "c8"
+      ],
+      "what_differs": "The place. Widukind names a camp “near a place called Riade”; Liudprand puts the battle near Merseburg. The two may be compatible, since Riade has not been located."
+    },
+    {
+      "id": "x3",
+      "claims": [
+        "d1",
+        "d2"
+      ],
+      "what_differs": "The year: 933 according to the editors, 934 in the text of the continuation of Regino."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Where was Riade? The editor suggests, with a “perhaps”, a place on the river Unstrut."
+    },
+    {
+      "text": "Widukind wrote more than thirty years later and, his editor says, had only tradition for these years. How much of the king's speech is Widukind's own?"
+    },
+    {
+      "text": "How long had the Saxons been paying, and how much?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-widukind-955"
+    },
+    {
+      "entry": "ws-adalbert-907"
+    },
+    {
+      "concept": "henry-the-fowler"
+    },
+    {
+      "concept": "widukind-of-corvey"
+    },
+    {
+      "concept": "hungarian-raids"
+    },
+    {
+      "concept": "liudprand-of-cremona"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

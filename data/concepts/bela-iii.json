@@ -1,0 +1,119 @@
+{
+  "id": "bela-iii",
+  "title": "Béla III",
+  "kind": "person",
+  "aliases": [
+    "Béla III",
+    "Bela III",
+    "King Béla"
+  ],
+  "fact_summary": "King of Hungary from 1172 to 1196. His skeleton is the only one of an Árpád king whose DNA has been read, and the author of the oldest Hungarian history says he served a King Béla as notary.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Two genetic studies give his reign as 1172–1196.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Abstract"
+        },
+        {
+          "id": "wang-2021",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Stated in passing by genetics papers; no historical source for the dates has been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "One study says he was first buried with his wife Anna in the Royal Basilica of Székesfehérvár and “later reburied in the Matthias church in Budapest”.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the background, not its own finding; the works it cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The author of the Gesta Hungarorum calls himself “P. the said master and notary of the late most glorious Béla, king of Hungary”. He does not say which Béla.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Prologue (Rady trans., p. 5)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The notary's King Béla was Béla III: the Gesta “was most probably composed in the early years of the thirteenth century by a chancellery clerk who had formerly been in the service of King Béla III of Hungary (1172-1196)”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (p. 1)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Martyn Rady (translator)",
+          "source": "anonymus-rady"
+        }
+      ],
+      "rests_on": [
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One scholar's judgement, worded as “most probably”. Hungary had four kings named Béla, and the arguments for each have not been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "On what grounds was the skeleton found in 1848 identified as his?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-bela-iii"
+    },
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "concept": "arpad-dynasty"
+    },
+    {
+      "concept": "gesta-hungarorum"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

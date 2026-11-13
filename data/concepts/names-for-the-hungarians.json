@@ -8,7 +8,7 @@
     "Hungarium",
     "Magyars"
   ],
-  "fact_summary": "The written sources on this map call the Hungarians by several names: Ungri, Hungarii, Ungarii, and in Greek “Turks”. They call themselves Magyars.",
+  "fact_summary": "The written sources on this map call the Hungarians by several names: Ungri, Hungarii, Ungarii, in Bavaria and Saxony also “Avars”, and in Greek “Turks”. They call themselves Magyars.",
   "claims": [
     {
       "id": "c1",
@@ -124,6 +124,57 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "The Bavarian continuation of the Annals of Fulda calls them “Avari, qui dicuntur Ungari”, Avars who are called Hungarians, from 894 to 900.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 894, 896, 900 (Kurze ed., pp. 125–134)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "Widukind of Corvey, in the 960s, writes “Avares, quos modo Ungarios vocamus”, the Avars whom we now call Hungarians, and uses both names.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.17 (Waitz ed., p. 16)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c8",
+      "kind": "evidence",
+      "text": "The Gesta Hungarorum, about 1200, promises to explain why the people “are called Hungarians in the speech of foreigners but Magyars [Mogerii] in their own”. Its answer for the first name is the castle of Ung; for the second, Magog, first king of Scythia.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Prologue; chs. 1–2 (Rady trans., pp. 5–8)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
@@ -131,7 +182,7 @@
       "text": "Where do the Latin names Ungri and Hungarii come from, and why did a Greek writer call the Hungarians Turks?"
     },
     {
-      "text": "When is the name Magyar first written down?"
+      "text": "When is the name Magyar first written down? The oldest text read so far that gives it is the Gesta Hungarorum of about 1200 (as Moger, Mogerii). Earlier witnesses, such as Arabic geographers, have not been read."
     }
   ],
   "links": [
@@ -146,12 +197,27 @@
     },
     {
       "entry": "ws-dai-38"
+    },
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "entry": "ws-widukind-933"
+    },
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "concept": "avars"
+    },
+    {
+      "concept": "gesta-hungarorum"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

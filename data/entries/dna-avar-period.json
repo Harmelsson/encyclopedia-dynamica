@@ -5,7 +5,7 @@
   "layer": "ancient DNA",
   "fact_summary": "Two genetic studies by different teams report that elite Avar-period burials in the Carpathian Basin (7th century) belonged to people with mainly East or Northeast Asian ancestry.",
   "place": {
-    "lon": 20.0,
+    "lon": 20,
     "lat": 46.9,
     "precision": "approximate",
     "label": "Great Hungarian Plain",
@@ -169,6 +169,9 @@
     },
     {
       "concept": "ancient-dna"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
     }
   ],
   "review": {

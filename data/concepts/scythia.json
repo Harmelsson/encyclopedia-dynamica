@@ -84,6 +84,23 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The Gesta Hungarorum, about 1200, still starts the Hungarians in Scythia, “a very great land, called Dentumoger”, whose first king it says was Magog, son of Japhet.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 1 (Rady trans., pp. 6–7)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
@@ -97,12 +114,18 @@
     },
     {
       "concept": "regino-of-prum"
+    },
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "concept": "gesta-hungarorum"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }
