@@ -1,0 +1,68 @@
+{
+  "id": "otto-iii",
+  "title": "Otto III",
+  "kind": "person",
+  "aliases": [
+    "Otto III",
+    "third Otto"
+  ],
+  "fact_summary": "The emperor in whose time, according to Thietmar of Merseburg, the Hungarian ruler Waic received his crown.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Thietmar dates an event of 992 by “the reign of the third Otto”.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "IV.58 (Kurze ed., p. 96)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "In the next chapter he says Waic received a crown and blessing “by the favour and urging of the aforesaid emperor”, and goes on to tell of a wonder at Rome “in the times of the aforesaid Caesar”.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "IV.59 (Kurze ed., p. 97)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read in Latin. That “the aforesaid emperor” is Otto III is Claude's reading of the surrounding chapters; the sentence does not name him.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "When did Otto III become emperor, and when did he die? No source for his dates has been read yet."
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-thietmar-stephen"
+    },
+    {
+      "concept": "stephen-of-hungary"
+    },
+    {
+      "concept": "otto-the-great"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

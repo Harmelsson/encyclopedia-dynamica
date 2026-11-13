@@ -106,6 +106,18 @@
     {
       "concept": "radiocarbon-dating",
       "label": "Radiocarbon dating"
+    },
+    {
+      "concept": "shared-dna-segments"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "entry": "dna-bela-iii"
     }
   ],
   "review": {

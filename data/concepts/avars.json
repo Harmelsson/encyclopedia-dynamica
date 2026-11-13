@@ -112,11 +112,52 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "Long after the Avar empire, writers in Bavaria and Saxony used its name for the Hungarians: “Avars, who are called Hungarians” (Annals of Fulda, 894–900) and “the Avars, whom we now call Hungarians” (Widukind, 960s).",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 894 (Kurze ed., p. 125)"
+        },
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.17 (Waitz ed., p. 16)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "A 2024 genome study of western Hungary finds “predominant discontinuity” between the eastern-ancestry families of the Avar period and those of the 10th century.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Results, “Genomic haplotype segment sharing within the Carpathian Basin”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
     {
       "text": "Was the Avar elite a small ruling group over a mostly local population, as the genome studies suggest?"
+    },
+    {
+      "text": "Why did Bavarian and Saxon writers call the Hungarians Avars: because they lived where the Avars had, or because they thought them the same people?"
     }
   ],
   "links": [
@@ -128,12 +169,24 @@
     },
     {
       "concept": "carpathian-basin"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "concept": "names-for-the-hungarians"
+    },
+    {
+      "concept": "pannonia"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

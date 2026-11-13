@@ -59,6 +59,23 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "In book II he tells of the Hungarians' victory over King Berengar's army on the river Brenta, and of King Henry's victory over them near Merseburg.",
+      "sources": [
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Antapodosis II.9–15 and II.28–31 (Dümmler ed., pp. 32–35, 39–40)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
@@ -75,12 +92,18 @@
     },
     {
       "concept": "hungarian-raids"
+    },
+    {
+      "entry": "ws-liudprand-brenta-899"
+    },
+    {
+      "entry": "ws-widukind-933"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

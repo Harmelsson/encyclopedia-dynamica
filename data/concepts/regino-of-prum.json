@@ -41,6 +41,23 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "His chronicle was continued from 907 to 967 by another writer at Trier, whom its editor identifies as Adalbert, later archbishop of Magdeburg.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "Kurze ed., preface, pp. IX–X"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "This records what the editor's preface says, read in Latin in the scanned edition linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
@@ -54,12 +71,21 @@
     },
     {
       "concept": "pechenegs"
+    },
+    {
+      "concept": "adalbert-of-magdeburg"
+    },
+    {
+      "entry": "ws-adalbert-907"
+    },
+    {
+      "concept": "gesta-hungarorum"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

@@ -1,0 +1,243 @@
+{
+  "id": "ws-fulda-900",
+  "title": "Annals of Fulda, 900: Italy laid waste and the first invasion of Bavaria",
+  "short_title": "Annals of Fulda, 900",
+  "layer": "written source",
+  "fact_summary": "Under the year 900 the Annals of Fulda report that the Hungarians devastated Italy, came home through Pannonia, crossed the river Enns into Bavaria, and lost part of their army to Count Liutpold north of the Danube.",
+  "place": {
+    "lon": 13.03,
+    "lat": 48.77,
+    "precision": "approximate",
+    "role": "written at",
+    "label": "Altaich on the Danube, where the editor thinks this last part of the annals was written",
+    "note": "Pinned by Claude at Niederaltaich abbey. Kurze's preface says the final version was put together at “Altaha”, “as it seems”; taking that to be today's Niederaltaich is Claude's reading. The pin marks where the text comes from, not where the events happened."
+  },
+  "time": {
+    "from": 899,
+    "to": 901,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The entry says the “Avars, who are called Hungarians” had devastated all Italy, that very many bishops were killed, and that the Italians who fought them lost 20,000 men in one battle on one day.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 134)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "It says they went back the way they had come, laying waste the greater part of Pannonia.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 134)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "It says they sent envoys to the Bavarians, asking for peace as a trick to spy out the land, then crossed the river Enns with a great army and in a single day laid waste fifty miles in length and breadth with fire and sword. The annalist calls it a loss to the Bavarian kingdom not seen in all the days before.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 134)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "When Bavarians from further off hurried to meet them, the Hungarians went back with their plunder “to their own, into Pannonia” (ad sua in Pannoniam).",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 134)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "Another part of their army raided north of the Danube. Count Liutpold, with the bishop of Passau, crossed the river and beat them; 1,200 pagans were counted among the killed and those drowned in the Danube, and, the annalist says, scarcely one Christian was found dead.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., pp. 134–135)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "Afterwards the Bavarians quickly built a very strong fortress on the bank of the Enns to protect the kingdom.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 135)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "Under 901 the annals add that the Hungarians invaded and devastated Carinthia, the southern part of the kingdom.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 901 (Kurze ed., p. 135)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The battle in Italy was fought on 24 September 899, and the Bavarian victory on 20 November 900. For the second date the editor quotes a calendar from Freising: “XII. Kal. Dec. Ungarii a Baioariis perempti sunt” (on 20 November the Hungarians were destroyed by the Bavarians).",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "Kurze ed., p. 134 (margin) and p. 135 (margin and note 1)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Friedrich Kurze, editor (1891), citing Dümmler",
+          "source": "annales-fuldenses"
+        }
+      ],
+      "rests_on": [
+        "c1",
+        "c5"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Editor's dates in a scholarly edition. The Freising calendar and Dümmler's study have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The entry stands under the year heading “DCCCC” (900), which opens with the death of the emperor at Regensburg; the next heading is “DCCCCI” (901).",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "Kurze ed., pp. 133–135"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "d2",
+      "kind": "evidence",
+      "text": "On the page before this entry, the editor notes that a different writer continued the annals from there on.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "Kurze ed., p. 133, note 3"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "An editor's judgement from the handwriting of the manuscript, which has not been seen here.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "By 900 the annalist writes that the Hungarians went home “into Pannonia”. Six years earlier the same annals had them destroying it. When did Pannonia become their base?"
+    },
+    {
+      "text": "1,200 enemies dead and scarcely one Christian: is that a count, or a way of praising a victory?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "entry": "ws-liudprand-brenta-899"
+    },
+    {
+      "entry": "ws-adalbert-907"
+    },
+    {
+      "concept": "annals-of-fulda"
+    },
+    {
+      "concept": "liutpold"
+    },
+    {
+      "concept": "pannonia"
+    },
+    {
+      "concept": "hungarian-raids"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

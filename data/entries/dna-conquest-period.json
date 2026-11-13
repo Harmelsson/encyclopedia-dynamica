@@ -5,7 +5,7 @@
   "layer": "ancient DNA",
   "fact_summary": "Genetic studies of 10th-century graves in the Carpathian Basin find that most people were local, while an immigrant group carried ancestry the authors call Mansi-like, alongside Sarmatian and other components.",
   "place": {
-    "lon": 20.0,
+    "lon": 20,
     "lat": 46.9,
     "precision": "approximate",
     "label": "Great Hungarian Plain",
@@ -174,6 +174,66 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "A 2021 study of maternal lineages from ordinary 10th–11th-century cemeteries found that these people differ significantly from the elite and group with European populations.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "3.5 Population Genetic Analysis; 4. Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c8",
+      "kind": "evidence",
+      "text": "A 2025 study with new genomes from the Urals finds that many 10th-century Hungarians share long DNA segments with people buried in the southern Urals in the 8th–10th centuries.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, “Early Medieval Magyars Fall within the Genetic Diversity of the Volga-Ural Region”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "interpretation",
+      "text": "The reference groups of the 2022 study (“modern Mansis, early/late Sarmatians, and Xiongnu”) are poor stand-ins for the conquerors' ancestors; groups from the Ural region itself are “much closer to the actual sources”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion; also Introduction"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [
+        "c8"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A criticism of method made in one tier B study. No reply from the criticised group has been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "dating_methods": [
@@ -214,7 +274,7 @@
   ],
   "open_questions": [
     {
-      "text": "The sampled graves are mostly elite. What did ordinary 10th-century people of the Carpathian Basin look like genetically?"
+      "text": "The first studies sampled mostly elite graves. A 2021 study of maternal lines from ordinary cemeteries now exists (see the linked card); whole genomes from those cemeteries are still to be read."
     },
     {
       "text": "How should a genetic ancestry share be read against the language the conquerors spoke?"
@@ -238,12 +298,44 @@
     },
     {
       "concept": "ancient-dna"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "entry": "dna-commoners-2021"
+    },
+    {
+      "entry": "dna-bela-iii"
+    },
+    {
+      "concept": "shared-dna-segments"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
-  }
+  },
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "i1",
+        "i3"
+      ],
+      "what_differs": "How to describe the conquerors' eastern ancestry. The 2022 study reads it as Ugric ancestry later mixed with Sarmatians and Huns, using living Mansi and ancient Sarmatian and Xiongnu groups as references. The 2025 study rejects those references and derives the same people from early medieval groups of the southern Urals."
+    }
+  ],
+  "change_notes": [
+    {
+      "on": "2026-11-13",
+      "by": "Claude",
+      "note": "Added a 2025 study that disputes the reference groups used here, shown as a contradiction, and a 2021 study that speaks to the open question about ordinary people."
+    }
+  ]
 }

@@ -58,11 +58,45 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A 2025 study calls the Xiongnu “the founders of the first nomadic empire of the Mongolian steppe” and says their empire dissolved about 300 years before the Huns appeared in Europe.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the background, not its own finding; the works it cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "The same study finds many long shared DNA segments between 5th–6th-century people of the Carpathian Basin and people of the late Xiongnu period, and concludes that the ancestors of the Hun-period group “are at most a few hundred years away from the late Xiongnu group”.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Materials and Methods, “IBD Modeling Analyses”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
     {
-      "text": "When and where do the Chinese sources stop mentioning the Xiongnu?"
+      "text": "When and where do the Chinese sources stop mentioning the Xiongnu? A 2025 study speaks of a gap of about 300 years before the Huns appear in Europe; the Chinese sources themselves have not been read."
     }
   ],
   "links": [
@@ -74,12 +108,15 @@
     },
     {
       "entry": "dna-conquest-period"
+    },
+    {
+      "concept": "shared-dna-segments"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

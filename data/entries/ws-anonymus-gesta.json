@@ -1,0 +1,356 @@
+{
+  "id": "ws-anonymus-gesta",
+  "title": "Anonymus, Gesta Hungarorum: the Hungarians' own origin story, written about 1200",
+  "short_title": "Anonymus, Gesta Hungarorum",
+  "layer": "written source",
+  "fact_summary": "The oldest surviving Hungarian chronicle, by an unnamed notary of a King Béla, traces the Hungarian rulers from Magog and Attila through Álmos and Árpád, and dates the departure from Scythia to 884. Its translator calls it a romance built around place-names.",
+  "place": {
+    "precision": "unknown",
+    "label": "Where the notary wrote is not stated in the introduction read"
+  },
+  "time": {
+    "from": 1200,
+    "to": 1220,
+    "precision": "approximate"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The author introduces himself as “P. the said master and notary of the late most glorious Béla, king of Hungary”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Prologue (Rady trans., p. 5)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He sets out to tell “how the seven leading persons, who are called the Hetumoger, came down from the Scythian land” and “why the people coming forth from the Scythian land are called Hungarians in the speech of foreigners but Magyars [Mogerii] in their own”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Prologue (Rady trans., p. 5)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "He says it would be unfitting for the Hungarians to learn of their beginnings “from the false stories of countryfolk and the gabbling song of minstrels”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Prologue (Rady trans., p. 6)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "He writes that “the first king of Scythia was Magog, son of Japhet, and this people were called after him Moger, from whose royal line the most renowned and mighty King Attila descended”, and that Attila entered Pannonia “in the 451st year of Our Lord's birth”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 1 (Rady trans., pp. 6–7)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "He says the seven leaders chose Pannonia because they “had heard from rumour” that it “had been the land of King Attila, from whose line Duke Álmos, father of Árpád, descended”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 5 (Rady trans., p. 10)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "He describes the seven leaders choosing Álmos as duke with an oath “confirmed in pagan manner with their own blood spilled in a single vessel”, whose first part was that “they and their descendants would always have a duke from the line of Duke Álmos”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "chs. 5–6 (Rady trans., pp. 10–11)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "He dates the departure: “In the 884th year of Our Lord's birth, as is contained in the yearly chronicles, the seven leading persons who are called the Hetumoger set forth from the Scythian land towards the west.”",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 7 (Rady trans., p. 12)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c8",
+      "kind": "evidence",
+      "text": "He explains the name: “The Hungarians are so called from the castle of Ung [Hungu]”, where the seven leaders stayed for a time on entering Pannonia.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 2 (Rady trans., p. 8)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c9",
+      "kind": "evidence",
+      "text": "Regino of Prüm, writing 900–908, sets the Hungarians' coming out of Scythia under the year 889.",
+      "sources": [
+        {
+          "id": "regino-chronicon",
+          "locator": "s.a. 889"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c10",
+      "kind": "evidence",
+      "text": "The Annals of St-Bertin already name raiders “who are called Ungri” under the year 862.",
+      "sources": [
+        {
+          "id": "annales-bertiniani",
+          "locator": "s.a. 862"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The Gesta “is essentially a ‘toponymic romance’ that seeks to explain place-names by reference to imagined events and persons”. Its author “gets the names of the earliest Hungarian rulers right”, but has the Hungarians defeat leaders “whose names are not attested to anywhere else”, and fight Cumans and Romans.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (pp. 2–3)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Martyn Rady (translator)",
+          "source": "anonymus-rady"
+        }
+      ],
+      "rests_on": [
+        "c8"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The judgement of the translator, a historian, in a scholarly introduction. Other scholars' views have not been read.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "Anonymus “borrows, extensively in places, from Regino of Prum and his continuator”, and contradictions in his sources may explain “Álmos and Árpád's ambiguous relation to the line of Attila”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (p. 3)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Martyn Rady (translator)",
+          "source": "anonymus-rady"
+        }
+      ],
+      "rests_on": [
+        "c4",
+        "c5"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The translator's judgement. The borrowed passages have not been compared here.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "interpretation",
+      "text": "How far the author relied on oral tradition “cannot, however, be tested”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (p. 3)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Martyn Rady (translator)",
+          "source": "anonymus-rady"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The translator's judgement.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Rady says the work “was most probably composed in the early years of the thirteenth century by a chancellery clerk who had formerly been in the service of King Béla III of Hungary (1172-1196)”, and that it survives in a single copy of the late thirteenth century.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "Introduction (p. 1)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One scholar's dating, worded by him as “most probably”. The author names only “Béla”; which King Béla is a judgement.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c7",
+        "c9"
+      ],
+      "what_differs": "The year the Hungarians left Scythia: 884 in Anonymus, who appeals to “the yearly chronicles”; 889 in Regino, a chronicle Anonymus is said to have borrowed from."
+    },
+    {
+      "id": "x2",
+      "claims": [
+        "c8",
+        "c10"
+      ],
+      "what_differs": "Where the name comes from. Anonymus derives “Hungarian” from a castle the leaders reached after setting out in 884; a Frankish annal already uses the name Ungri for 862."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Which King Béla did the notary serve? Rady says Béla III, “most probably”."
+    },
+    {
+      "text": "How much, if anything, came down by word of mouth from the ninth century?"
+    },
+    {
+      "text": "Anonymus makes Attila the ancestor of the Hungarian kings. Does any Hungarian text before him say so?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-regino-889"
+    },
+    {
+      "entry": "ws-dai-38"
+    },
+    {
+      "entry": "ws-annales-bertiniani-862"
+    },
+    {
+      "entry": "dna-bela-iii"
+    },
+    {
+      "concept": "gesta-hungarorum"
+    },
+    {
+      "concept": "attila"
+    },
+    {
+      "concept": "arpad"
+    },
+    {
+      "concept": "huns"
+    },
+    {
+      "concept": "scythia"
+    },
+    {
+      "concept": "names-for-the-hungarians"
+    },
+    {
+      "concept": "bela-iii"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

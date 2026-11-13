@@ -1,0 +1,95 @@
+{
+  "id": "stephen-of-hungary",
+  "title": "Stephen (Waic), king of the Hungarians",
+  "kind": "person",
+  "aliases": [
+    "King Stephen",
+    "Stephen I",
+    "Waic"
+  ],
+  "fact_summary": "The ruler whom Thietmar of Merseburg calls Waic and says received a crown and blessing. The sources read so far give neither the year nor the place.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Thietmar calls him Waic, “son-in-law of Henry, duke of the Bavarians”, and says he set up bishops' sees in his kingdom and “received a crown and blessing”.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "IV.59 (Kurze ed., p. 97)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The edition of Thietmar identifies Waic with Stephen and calls him king of Pannonia: “Waic (= Stephanus) rex Pannonicus”.",
+      "sources": [
+        {
+          "id": "thietmar-chronicon",
+          "locator": "Kurze ed., index of names"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the edition's index says, read in the scanned edition linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "A 2024 genetic study, in its historical introduction, says Székesfehérvár “became the royal center of the Hungarian Kingdom”, and that the conquerors and the local people “were ultimately Christianized during the Árpádian era (11th to 13th centuries CE)”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the history, not its own finding.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "When and where was he crowned, and by whose authority? No source giving the date has been read yet."
+    },
+    {
+      "text": "What do the Hungarian lives of Stephen say, and when were they written?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-thietmar-stephen"
+    },
+    {
+      "concept": "thietmar-of-merseburg"
+    },
+    {
+      "concept": "arpad-dynasty"
+    },
+    {
+      "concept": "otto-iii"
+    },
+    {
+      "concept": "pannonia"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

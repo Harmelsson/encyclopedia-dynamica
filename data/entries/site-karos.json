@@ -69,6 +69,23 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A 2024 study of shared DNA segments calls Karos “the only systematic exception” among conquest-period cemeteries: it “shows the strongest IBD connections” to the earlier, Avar-period group of relatives.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, “Dynamics of the communities with East-Eurasian ancestry”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "dating_methods": [
@@ -93,6 +110,9 @@
   "open_questions": [
     {
       "text": "The excavation reports have not been opened yet: how many graves are there, what was in them, and how are they dated?"
+    },
+    {
+      "text": "Why does Karos, of all conquest-period cemeteries, have the most family ties to people of the Avar period?"
     }
   ],
   "links": [
@@ -101,12 +121,18 @@
     },
     {
       "entry": "dna-uyelgi"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "entry": "dna-commoners-2021"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

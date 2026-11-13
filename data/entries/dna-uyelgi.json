@@ -5,7 +5,7 @@
   "layer": "ancient DNA",
   "fact_summary": "A 2020 study of maternal and paternal lineages from early medieval cemeteries on both sides of the Urals reports genetic links between those regions and 10th-century conquerors in Hungary.",
   "place": {
-    "lon": 61.0,
+    "lon": 61,
     "lat": 55.5,
     "precision": "approximate",
     "label": "Trans-Ural region (east of the Ural mountains)",
@@ -154,6 +154,9 @@
     },
     {
       "concept": "ancient-dna"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
     }
   ],
   "review": {

@@ -91,6 +91,40 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "A 2025 study finds that the Chiyalik group of the lower Kama “shows strong continuity” within the cluster of relatives that joins the southern Urals and the 10th-century Carpathian Basin, while Chiyalik people of the Belaya river basin “are more diverse genetically and fall outside” it.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The same study “did not detect widespread Central European ancestry” among Chiyalik-period people, which the authors take to mean there was no migration back from the Carpathian Basin.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
@@ -110,12 +144,21 @@
     },
     {
       "entry": "site-bolshie-tigani"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "concept": "karayakupovo-horizon"
+    },
+    {
+      "concept": "bashkirs"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

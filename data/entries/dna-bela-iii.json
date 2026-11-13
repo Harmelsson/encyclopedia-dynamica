@@ -1,0 +1,321 @@
+{
+  "id": "dna-bela-iii",
+  "title": "DNA of King Béla III and the paternal line of the Árpád kings",
+  "short_title": "Béla III's DNA",
+  "layer": "ancient DNA",
+  "fact_summary": "Two studies of the skeleton held to be King Béla III (reigned 1172–1196) agree that his paternal line belongs to a branch found today mainly in Central Asia and among Bashkirs, while the rest of his genome looks like that of present-day east-central Europeans.",
+  "place": {
+    "lon": 18.41,
+    "lat": 47.19,
+    "precision": "approximate",
+    "label": "Székesfehérvár, site of the royal basilica where Béla III was first buried",
+    "note": "Pin placed by Claude at the city of Székesfehérvár. The studies say the remains were found there in 1848 and now lie in the Matthias Church in Budapest."
+  },
+  "time": {
+    "from": 1172,
+    "to": 1196,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "One team sequenced DNA from the remains of “Hungarian King Béla III (1172–1196) and eight additional individuals (six males, two females) originally interred at the Royal Basilica of Székesfehérvár”.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The study says the basilica was destroyed after 1543, that “the only royal graves left undisturbed” were those of Béla III and his first wife Anna of Antioch, and that these were discovered in 1848 by János Érdy and later reburied in the Matthias Church of Buda.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's account of the excavation; the excavation report itself has not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Béla III and one other skeleton (HU52) share a paternal lineage within haplogroup R-Z2125, which the authors name R-ARP; the other men tested “are not related to the royals or to each other along paternal lineages”.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Results; Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "Among 4,340 living men tested from the Volga-Ural region, the Caucasus and Central Asia, the closest paternal relatives were Bashkirs, mainly from two districts of Bashkortostan. The authors estimate the two lines separated “about 2000 years ago”, and add: “Of course these numbers are estimates”.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Results; Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "A second team, working from bone fragments of the same tomb, also found the paternal lineage R1a-Z2123, “consistent with the result reported in previous studies”.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Results, “Mitochondrial DNA and Y chromosomal analysis”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "In that study the rest of the genome “falls in close proximity to present-day populations from Croatia and Hungary”, and the maternal lineage is H1b, of a group common in Europe.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Results"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "“The ancestry of the first Hungarian royal dynasty traces to the region centering near Northern Afghanistan about 4500 years ago and identifies the Bashkirs as their closest kin.”",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Abstract"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Nagy et al. (2020)",
+          "source": "nagy-2020"
+        }
+      ],
+      "rests_on": [
+        "c3",
+        "c4"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study. It follows a single paternal line and infers its past from where related lines are found among living men.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "A group made up of “a Turkic (R-SUR51) component and a Finno-Ugric (N-B539) component left the Volga Ural region about 2000 years ago and started a migration that eventually culminated in settlement in the Carpathian Basin”.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Nagy et al. (2020)",
+          "source": "nagy-2020"
+        }
+      ],
+      "rests_on": [
+        "c4"
+      ],
+      "certainty": "speculative",
+      "certainty_reason": "The authors call this a hypothesis and say more data “are needed to test” it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "interpretation",
+      "text": "The king's largely European genome “might be best explained by consecutive intermarriage with local European ruling families”; it is “possible that Great Prince Árpád and later family members had much larger proportions of Eastern Eurasian ancestry than Bela III”. The link back to Árpád holds only “if there was no hidden paternity” along the line.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Abstract; Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Wang et al. (2021)",
+          "source": "wang-2021"
+        }
+      ],
+      "rests_on": [
+        "c5",
+        "c6"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study, worded by its authors as a possibility; no earlier member of the family has been sequenced.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "interpretation",
+      "text": "The eastern paternal lineage “could, however, been also acquired locally”, since men of the Hun and early Avar periods in the Carpathian Basin carried the same broad lineage; “alternatively” it arrived with the conquering Hungarians.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Wang et al. (2021)",
+          "source": "wang-2021"
+        }
+      ],
+      "rests_on": [
+        "c5"
+      ],
+      "certainty": "speculative",
+      "certainty_reason": "The authors set out two possibilities and do not choose between them.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Both studies give Béla III's reign as 1172–1196. The skeleton is dated by its identification as the king, which rests on the 1848 excavation, not on a laboratory date reported in the papers read.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Abstract; Introduction"
+        },
+        {
+          "id": "wang-2021",
+          "locator": "Abstract"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The identification is reported by the studies; how it was made in 1848 has not been checked.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "d2",
+      "kind": "evidence",
+      "text": "The “years ago” figures are worked out by counting mutations along the paternal line, anchored on a date from earlier work.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Results, “High resolution characterization of the R-Z2123 haplogroup”; Discussion"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The authors themselves stress that the figures are estimates and depend on which mutations are counted.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "i2",
+        "i4"
+      ],
+      "what_differs": "How the royal paternal line reached the Carpathian Basin: with a migration from the Volga-Ural region (the first study's hypothesis), or possibly from men already living there in Hun or Avar times (one of two options the second study leaves open)."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "How was the skeleton identified as Béla III in 1848? The excavation report has not been opened."
+    },
+    {
+      "text": "Do any 10th-century graves carry the royal paternal lineage? The first study calls for exactly that test."
+    }
+  ],
+  "links": [
+    {
+      "concept": "bela-iii"
+    },
+    {
+      "concept": "arpad-dynasty"
+    },
+    {
+      "concept": "arpad"
+    },
+    {
+      "concept": "bashkirs"
+    },
+    {
+      "concept": "ancient-dna"
+    },
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "entry": "ws-thietmar-stephen"
+    },
+    {
+      "entry": "dna-conquest-period"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

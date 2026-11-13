@@ -1,0 +1,148 @@
+{
+  "id": "shared-dna-segments",
+  "title": "Shared DNA segments (IBD)",
+  "kind": "method",
+  "aliases": [
+    "shared DNA segments",
+    "identical-by-descent",
+    "identity-by-descent",
+    "IBD"
+  ],
+  "fact_summary": "A method that finds long stretches of DNA two people both inherited from a recent common ancestor. Since about 2023 it has been used on ancient genomes to find distant relatives across centuries and continents.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2025 study explains that “recent methodological developments have made it possible to detect long shared autosomal haplotypes between pairs of ancient genomes”, “often termed identical-by-descent (IBD) segments”, and that the method was previously usable only on high-quality data from living people.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, opening paragraphs"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The same study says the method “is particularly useful for detecting distant relatives”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, opening paragraphs"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "It works on incomplete ancient genomes because missing parts are filled in statistically: “genotypes can be statistically imputed with high confidence” from incomplete data.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, opening paragraphs"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The authors' description of the method. The methods paper they cite has not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "Studies set thresholds for what counts. One counts pairs “sharing more than two genome segments of 12 cM or longer”; another speaks of “long IBD segments (>12 cM) that indicate recent genealogical connections”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Results, “Early Medieval Magyars Fall within the Genetic Diversity of the Volga-Ural Region”"
+        },
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Materials and Methods, “IBD Modeling Analyses”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "Not every genome is good enough: of 370 ancient people gathered for one study, 275 “met the criteria” for this analysis.",
+      "sources": [
+        {
+          "id": "gnecchi-ruscone-2025",
+          "locator": "Results, “Description of the Sites and Individuals Selected”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "One study warns that the share of a population estimated in this way “is not necessarily indicative for census population sizes”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Results, “Genomic haplotype segment sharing within the Carpathian Basin”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "How reliable is the statistical filling-in of missing DNA for poorly preserved genomes? The methods papers have not been read yet."
+    },
+    {
+      "text": "A shared segment proves a common ancestor. It does not say where that ancestor lived, or which way people moved."
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "entry": "dna-hun-period"
+    },
+    {
+      "concept": "ancient-dna"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "id": "ws-liudprand-brenta-899",
+  "title": "Liudprand of Cremona: the battle on the river Brenta",
+  "short_title": "Liudprand on the Brenta",
+  "layer": "written source",
+  "fact_summary": "Liudprand tells how a Hungarian army in Italy, cornered at the river Brenta, offered to give up everything in return for a safe way home, was refused, and then destroyed King Berengar's army in a surprise attack.",
+  "place": {
+    "lon": 11.75,
+    "lat": 45.6,
+    "precision": "approximate",
+    "label": "The river Brenta, north-east Italy",
+    "note": "Pinned by Claude on the river Brenta, which Liudprand names. He names no spot on the river, so the pin's position along it is arbitrary. Unlike most written sources on this map, this pin marks the event, because where Liudprand wrote is not fixed in the sources read."
+  },
+  "time": {
+    "from": 899,
+    "to": 899,
+    "precision": "approximate"
+  },
+  "min_zoom": 2,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Liudprand says the Hungarians gathered a vast army and made for “wretched Italy”, pitched their tents by the river Brenta and sent out scouts for three days.",
+      "sources": [
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Antapodosis II.9 (Dümmler ed., p. 32)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "He says that when they saw the size of King Berengar's army they fled, swimming the river Adda in such haste that many drowned.",
+      "sources": [
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Antapodosis II.10 (Dümmler ed., p. 33)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "When both armies stood at the Brenta, parted only by the river bed, the Hungarians, he says, offered to hand over all their baggage, captives, weapons and horses, keeping one horse each to ride home, and to promise never to enter Italy again, giving their sons as hostages. The Christians refused.",
+      "sources": [
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Antapodosis II.13 (Dümmler ed., p. 33)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "He says the Hungarians then laid ambushes in three places, crossed the river and fell on the Christians, many of whom had got down from their horses across the camp to eat. He adds that there was discord among the Christians, some hoping their neighbours would fall. The Christians fled, and the Hungarians overran the kingdom.",
+      "sources": [
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Antapodosis II.15 (Dümmler ed., pp. 34–35)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "The Annals of Fulda, written at the time in Bavaria, say only that the Italians lost 20,000 men in one battle on one day and that very many bishops were killed.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 134)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The defeat was a punishment for pride: King Berengar credited the coming triumph to his numbers rather than to God, and the Christians were “deceived by the swelling of pride” when they refused the Hungarians' offer.",
+      "sources": [
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Antapodosis II.10 and II.13 (Dümmler ed., p. 33)"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Liudprand of Cremona (writing about 958–962)",
+          "source": "liudprand-opera-1877"
+        }
+      ],
+      "rests_on": [
+        "c2",
+        "c3"
+      ],
+      "certainty": "speculative",
+      "certainty_reason": "A moral explanation given by a churchman about sixty years later. It tells us how he read the event, not what caused it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Liudprand gives no year. The editor's margin dates the battle to 24 September 899.",
+      "sources": [
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Dümmler ed., p. 34 (margin)"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "An editor's date; the evidence for the day has not been opened. The printed margin was read in a poor machine-read scan.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "d2",
+      "kind": "evidence",
+      "text": "The Annals of Fulda tell of the Italian defeat within their entry for the year 900.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 134)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "d1",
+        "d2"
+      ],
+      "what_differs": "The year. The Fulda annals tell of the defeat in their entry for 900; the editors of both texts date the battle to September 899. The annal may simply be reporting news that reached Bavaria the following year."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Liudprand wrote about sixty years later and loved a good story. Who told him about the offers made across the river?"
+    },
+    {
+      "text": "Is there an Italian source from the time itself?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-fulda-900"
+    },
+    {
+      "entry": "ws-liudprand-unknown"
+    },
+    {
+      "entry": "ws-liudprand-943"
+    },
+    {
+      "concept": "liudprand-of-cremona"
+    },
+    {
+      "concept": "hungarian-raids"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

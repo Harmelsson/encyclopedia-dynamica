@@ -1,0 +1,122 @@
+{
+  "id": "adalbert-of-magdeburg",
+  "title": "Adalbert, continuator of Regino",
+  "kind": "person",
+  "aliases": [
+    "Adalbert of Magdeburg",
+    "continuation of Regino",
+    "Regino's continuator"
+  ],
+  "fact_summary": "A monk of Trier, later archbishop of Magdeburg, held to be the author of the continuation of Regino's chronicle for 907–967. It records the Hungarian wars year by year, from the Bavarian defeat of 907 to the battle on the Lech.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The editor says the continuation runs from 907 to the end of 967 and was written by a monk of St Maximin at Trier, as an earlier editor had already shown.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "Kurze ed., preface, pp. IX–X"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "This records what the editor's preface says, read in Latin in the scanned edition linked under Sources. It is the editor's judgement, and the studies he cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The editor gives Adalbert's career: monk of St Maximin until 961, ordained bishop for the Rus in 961, soon back, abbot of Weissenburg in 966, archbishop of Magdeburg in 968, died 981.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "Kurze ed., preface, pp. IX–X"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "This records what the editor's preface says, read in Latin in the scanned edition linked under Sources. It is the editor's judgement, and the studies he cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The continuation itself reports that Adalbert, ordained bishop for the Rus, came back having achieved nothing, some of his companions killed on the way, and that in 966 the emperor set him over the monastery of Weissenburg.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 962 and 966 (Kurze ed., pp. 172, 177)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Adalbert himself wrote the continuation. Giesebrecht “so proved it to everyone that today, as it seems, almost no one doubts it”.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "Kurze ed., preface, p. X"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Friedrich Kurze, editor (1890), following W. von Giesebrecht",
+          "source": "adalbert-continuatio"
+        }
+      ],
+      "rests_on": [
+        "c1",
+        "c3"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The state of opinion as an editor described it in 1890. Giesebrecht's argument and later work have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "For the early years the continuator copied older annals. From which year does he write from his own knowledge?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "ws-adalbert-907"
+    },
+    {
+      "entry": "ws-widukind-933"
+    },
+    {
+      "entry": "ws-widukind-955"
+    },
+    {
+      "concept": "regino-of-prum"
+    },
+    {
+      "concept": "battle-on-the-lech"
+    },
+    {
+      "concept": "otto-the-great"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

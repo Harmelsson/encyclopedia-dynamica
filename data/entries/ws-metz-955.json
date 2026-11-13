@@ -32,6 +32,23 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The continuation of Regino's chronicle places the same defeat “apud Lichum fluvium”, at the river Lech.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 955 (Kurze ed., p. 168)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "dating_methods": [
@@ -58,18 +75,37 @@
       "text": "When, and by whom, was this entry written?"
     },
     {
-      "text": "Where was the battle? Other sources still need to be opened for this."
+      "text": "The Metz annal names no place. Two other sources name the river Lech; where on the river was it?"
     }
   ],
   "links": [
     {
       "entry": "ws-regino-889"
+    },
+    {
+      "entry": "ws-widukind-955"
+    },
+    {
+      "concept": "battle-on-the-lech"
+    },
+    {
+      "concept": "otto-the-great"
+    },
+    {
+      "concept": "hungarian-raids"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
-  }
+  },
+  "change_notes": [
+    {
+      "on": "2026-11-13",
+      "by": "Claude",
+      "note": "An earlier open question asked where the battle was. Regino's continuator has now been read, and names the river Lech (claim c2)."
+    }
+  ]
 }

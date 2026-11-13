@@ -1,0 +1,378 @@
+{
+  "id": "dna-transdanubia-2024",
+  "title": "Genomes from western Hungary, 5th–11th centuries: Avar-period and conquest-period groups barely connect",
+  "short_title": "Western Hungary DNA, 2024",
+  "layer": "ancient DNA",
+  "fact_summary": "A 2024 study of 296 people from western Hungary finds that people of eastern ancestry before and after the 890s form two separate groups of relatives, that the newcomers mixed with locals at once, and that one man buried at Zalavár before 890 was already related to them.",
+  "place": {
+    "lon": 17.16,
+    "lat": 46.67,
+    "precision": "approximate",
+    "label": "Zalavár (Mosaburg), western Hungary",
+    "note": "Pin placed by Claude at the village of Zalavár, one of the study's three focus areas. The study also sampled the Székesfehérvár area, Visegrád and Himod."
+  },
+  "time": {
+    "from": 700,
+    "to": 1100,
+    "precision": "range"
+  },
+  "min_zoom": 2,
+  "importance": 4,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "The study analyses 296 ancient samples from present-day western Hungary, including 103 shotgun-sequenced genomes; together with published data, 416 genomes could be compared for shared segments.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Abstract; Results, opening paragraph"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "People with mostly East Eurasian ancestry form two clusters of relatives, which largely follow the calendar, “separated by the event of the Hungarian conquest approximately during the 890s CE”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Results, “Genomic haplotype segment sharing within the Carpathian Basin”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Between the earlier and later cluster the authors “find predominant discontinuity”. The few links gather in cemeteries of the second half of the 10th century, which they read as “limited local survival” of the earlier lineages.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Results, same section; Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A man from the Uyelgi cemetery in the Urals (Uyelgi21), sequenced again for this study, “shows extensive connections” to the later cluster and only one to the earlier.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Results, same section"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "Links to local people of European ancestry are far commoner in the later cluster than the earlier (on average 1.39 against 0.54 per person). The authors say both men and women of the newcomers mixed with locals, “apparently in equal proportions”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Results, same section"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "By a genetic estimate, about 20.82% of the breeding population of the Avar period belonged to the earlier eastern cluster, and about 13.01% of that of the 10th–11th centuries to the later one. The authors warn that this measure “is not necessarily indicative for census population sizes”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Results, same section"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "An adult man buried at Zalavár in a phase dated 850–890 (AHP21) has a genome “highly similar to Uyelgi21” and is a fifth-degree relative of a man buried at Kenézlő in north-east Hungary about 900–960. The authors say this burial and one other “firmly predate the Hungarian conquest based on archaeological stratigraphy”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, “Changing communities in the late 9th to early 10th century Carpathian Basin”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c8",
+      "kind": "evidence",
+      "text": "The Karos cemetery is “the only systematic exception”: it “shows the strongest IBD connections” to the earlier, Avar-period cluster.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, “Dynamics of the communities with East-Eurasian ancestry”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c9",
+      "kind": "evidence",
+      "text": "After the conquest, relatives turn up far apart: a father and son were buried at Himod in the west and Tiszanána on the Great Plain.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, “Changing communities”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c10",
+      "kind": "evidence",
+      "text": "The authors report that, “contrary to the suggested continuity of 5th century CE Hun period East-Eurasian genetic ancestry into the conquerors by Maróti et al.”, their data “indicate an absence or loss of this ancestry” among the later cluster in the region studied. They add that the long gap and the few Hun-period samples “may obscure distant and sporadic genetic connections”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, “Dynamics of the communities with East-Eurasian ancestry”"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The group the conquerors' ancestors mixed with “could be identified with ancestors of European Huns”.",
+      "sources": [
+        {
+          "id": "maroti-2022",
+          "locator": "p. 2859 and p. 2867"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maróti et al. (2022)",
+          "source": "maroti-2022"
+        }
+      ],
+      "rests_on": [],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "The authors themselves word it as a possibility, and the 2024 study reports not finding it.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "The two early burials “signal sporadic appearances of Hungarians in Transdanubia before 890 CE”; the men “likely served as mercenaries at the court of Priwina, according to historical records”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, “Changing communities”"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gerber et al. (2024)",
+          "source": "gerber-2024"
+        }
+      ],
+      "rests_on": [
+        "c7"
+      ],
+      "certainty": "disputed or uncertain",
+      "certainty_reason": "Rests on two burials, and “Hungarians” is a name given to a genetic profile. The historical records are cited from the study's supplement, which was not opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i3",
+      "kind": "interpretation",
+      "text": "The earlier cluster “mostly represents the East-Eurasian core and genetically related individuals of the Avars”, and the later one “can be strongly associated with the Hungarian conquerors and their descendants”, although “the ethnic identities and genetic categories used do not correspond directly”.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, same section"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gerber et al. (2024)",
+          "source": "gerber-2024"
+        }
+      ],
+      "rests_on": [
+        "c2",
+        "c4"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study; the authors state the limit of the labels themselves.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i4",
+      "kind": "interpretation",
+      "text": "“The relative isolation found among the Avars … may explain their eventual disappearance and the subsequent genetic and cultural succession by the Hungarians.”",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, same section"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gerber et al. (2024)",
+          "source": "gerber-2024"
+        }
+      ],
+      "rests_on": [
+        "c3",
+        "c5"
+      ],
+      "certainty": "speculative",
+      "certainty_reason": "Offered by the authors with “may”; a suggestion, not a tested result.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "Graves are dated by archaeology and, for some, radiocarbon; the study mentions a new radiocarbon date for the Zalavár man AHP21 in its supplementary table, with the stratigraphy described in its supplement.",
+      "sources": [
+        {
+          "id": "gerber-2024",
+          "locator": "Discussion, “Changing communities”"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Read in the study. The supplement holding the dates was not opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c10",
+        "i1"
+      ],
+      "what_differs": "Whether Hun-period eastern ancestry carried on into the conquerors. A 2022 study suggested it could have; this study does not find it in its region, while admitting the Hun-period sample is small."
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Who were the men buried at Zalavár before 890? Written sources record Hungarians in the West from 862, and beside King Arnulf in 892."
+    },
+    {
+      "text": "The study compares only graves from Hungary. The authors say a fuller description of the later cluster needs data from neighbouring countries."
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-avar-period"
+    },
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "entry": "dna-hun-period"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "entry": "dna-commoners-2021"
+    },
+    {
+      "entry": "site-karos"
+    },
+    {
+      "entry": "site-uyelgi"
+    },
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "entry": "ws-annales-bertiniani-862"
+    },
+    {
+      "concept": "shared-dna-segments"
+    },
+    {
+      "concept": "avars"
+    },
+    {
+      "concept": "pannonia"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

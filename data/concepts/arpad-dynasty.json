@@ -1,0 +1,163 @@
+{
+  "id": "arpad-dynasty",
+  "title": "Árpád dynasty",
+  "kind": "concept",
+  "aliases": [
+    "Árpád dynasty",
+    "Árpád Dynasty",
+    "Arpad family",
+    "Árpádian",
+    "Árpáds"
+  ],
+  "fact_summary": "The family that ruled the Hungarians from the conquest to the early 14th century. The name is modern; the oldest Hungarian history says the dukes were to come from the line of Álmos.",
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "A 2021 genetic study, in its historical summary, says that from the time of the conquest “to the early fourteenth century” the Hungarians “were ruled by descendants of the Arpad family”.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the background, not its own finding; the works it cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The same study notes that the term Árpád Dynasty “was initiated in the eighteenth century for the first royal house of Hungary”, when scholars named it after Álmos's son Árpád.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Results"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the background, not its own finding; the works it cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "The Gesta Hungarorum, written about 1200, has the seven leaders swear that “they and their descendants would always have a duke from the line of Duke Álmos”.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 6 (Rady trans., p. 11)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "The same work says Álmos, father of Árpád, descended from the line of King Attila.",
+      "sources": [
+        {
+          "id": "anonymus-rady",
+          "locator": "ch. 5 (Rady trans., p. 10)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says, read in Martyn Rady's English translation in the open copy linked under Sources. The Latin has not been compared.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "A 2020 study found that King Béla III and one other skeleton from the royal basilica share a paternal lineage, which it named R-ARP.",
+      "sources": [
+        {
+          "id": "nagy-2020",
+          "locator": "Results; Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "The paternal lineage “provides a direct link between Bela III and his ancestor Árpád”, “if there was no hidden paternity” along the line.",
+      "sources": [
+        {
+          "id": "wang-2021",
+          "locator": "Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Wang et al. (2021)",
+          "source": "wang-2021"
+        }
+      ],
+      "rests_on": [
+        "c5"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Rests on the written genealogy being right at every generation, as the authors themselves say. No earlier member of the family has been sequenced.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "The oath in the Gesta was written down three hundred years after the events it describes. Is it a memory, or a later justification of the dynasty's right to rule?"
+    },
+    {
+      "text": "Which written sources give the genealogy between Árpád and Stephen? None has been read yet."
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-bela-iii"
+    },
+    {
+      "entry": "ws-anonymus-gesta"
+    },
+    {
+      "entry": "ws-thietmar-stephen"
+    },
+    {
+      "concept": "arpad"
+    },
+    {
+      "concept": "stephen-of-hungary"
+    },
+    {
+      "concept": "bela-iii"
+    },
+    {
+      "concept": "gesta-hungarorum"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

@@ -5,8 +5,8 @@
   "layer": "dig site",
   "fact_summary": "A 9th–10th century cemetery in the Volga region where archaeologists identified a Hungarian component in the burial customs and grave goods.",
   "place": {
-    "lon": 50.0,
-    "lat": 55.0,
+    "lon": 50,
+    "lat": 55,
     "precision": "approximate",
     "label": "Volga region",
     "note": "Pin placed by Claude in the region the study names ('Russia (Volga)'). The cemetery's exact position has not been checked."
@@ -78,6 +78,23 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "A 2025 study calls Bolshie Tigany “a key site” on the European side of the Urals, and says that in recent decades “it was understood as a 9–10th century cemetery of Magyar groups that remained in the Volga-Urals”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the background, not its own finding; the works it cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "dating_methods": [
@@ -108,12 +125,18 @@
     },
     {
       "concept": "kushnarenkovo-culture"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
+    },
+    {
+      "concept": "karayakupovo-horizon"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

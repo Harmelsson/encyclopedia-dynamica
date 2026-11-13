@@ -61,6 +61,49 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "A 2025 study finds “a low level of IBD connection” between the early medieval people of the southern Urals linked to the Hungarians and medieval groups on the river Ob, which it calls “possibly proto-Ob-Ugric”, “despite their close geographical proximity”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "Living Mansi are a poor stand-in for the conquerors' ancestors; ancient groups from the Ural region are “much closer to the actual sources”.",
+      "sources": [
+        {
+          "id": "gyuris-2025",
+          "locator": "Discussion; also Introduction"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Gyuris et al. (2025)",
+          "source": "gyuris-2025"
+        }
+      ],
+      "rests_on": [
+        "c4"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "A criticism of method made in one tier B study against the 2022 study cited above.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
@@ -74,12 +117,25 @@
     },
     {
       "entry": "dna-conquest-period"
+    },
+    {
+      "entry": "dna-southern-urals-2025"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
-  }
+  },
+  "contradictions": [
+    {
+      "id": "x1",
+      "claims": [
+        "c3",
+        "i1"
+      ],
+      "what_differs": "Whether living Mansi are a fair reference for the conquerors' eastern ancestry. The 2022 study uses them; the 2025 study says older groups from the Urals fit better and finds few family ties between its Ural groups and the Ob region."
+    }
+  ]
 }

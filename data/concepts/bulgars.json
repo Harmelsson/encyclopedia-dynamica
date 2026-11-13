@@ -77,6 +77,23 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "The Annals of Fulda say that in 895 the “Avars” (Hungarians) invaded the Bulgars' borders and lost a great part of their army, and under 896 that the Greeks ferried them over the Danube into the Bulgar kingdom, where the Bulgars finally won a bloody victory.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 895–896 (Kurze ed., pp. 126, 129–130)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
@@ -93,12 +110,15 @@
     },
     {
       "concept": "kushnarenkovo-culture"
+    },
+    {
+      "entry": "ws-fulda-894"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }

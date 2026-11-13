@@ -1,0 +1,250 @@
+{
+  "id": "dna-commoners-2021",
+  "title": "Maternal lineages from ordinary 10th–11th-century cemeteries",
+  "short_title": "Commoner cemeteries DNA",
+  "layer": "ancient DNA",
+  "fact_summary": "A 2021 study of maternal lineages from large, poorly furnished 10th–11th-century cemeteries finds that these people differ markedly from the rich conqueror graves and group with European populations, with some sharing between the two.",
+  "place": {
+    "lon": 21.19,
+    "lat": 47.24,
+    "precision": "approximate",
+    "label": "Sárrétudvari, eastern Hungary",
+    "note": "Pin placed by Claude at the village of Sárrétudvari, site of the largest 10th-century commoner cemetery in the study. The other cemeteries sampled lie elsewhere in Hungary; their positions are on the study's map, which was not seen."
+  },
+  "time": {
+    "from": 900,
+    "to": 1100,
+    "precision": "range"
+  },
+  "min_zoom": 3,
+  "importance": 3,
+  "claims": [
+    {
+      "id": "c1",
+      "kind": "evidence",
+      "text": "Archaeologists class small 10th-century cemeteries with characteristic grave goods as the conquering elite, and “large 10–11th century cemeteries containing poor grave goods” as commoners.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "2.1 Archeological Background"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c2",
+      "kind": "evidence",
+      "text": "The study obtained 202 new mitochondrial genomes; with 13 published earlier, it analysed 182 commoner lineages.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "3.1; 3.3; Table 1 caption"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c3",
+      "kind": "evidence",
+      "text": "Of the 182 commoner lineages, “23 were unequivocally derived from east Eurasia and 107 were derived from west Eurasia, while 52 are widespread throughout Eurasia”.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "3.3 Phylogenetic Analysis"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c4",
+      "kind": "evidence",
+      "text": "Counted by major lineage groups, “the ratio of east Eurasian major-Hgs in the commoners is 7.69%, contrary to the 19.64% of the elite”.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "3.5 Population Genetic Analysis"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "In comparisons with 87 ancient populations the commoners sit with European and Near Eastern groups, and differ significantly from the elite.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "3.5 Population Genetic Analysis"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "The two groups still share lineages: the authors estimate “a 14% common gene pool”, and add that this “cannot be interpreted as a headcount proportion of immigrants and local people”.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "4. Discussion"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the study reports, read in the open copy linked under Sources.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "The study notes that for fifty years these village cemeteries were assigned to “the Bijelo Brdo culture of the local Slavic people, until their relation to the Conquerors was recognized in 1962”.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "1. Introduction"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "The study's summary of the history of research; the works it cites have not been opened.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i1",
+      "kind": "interpretation",
+      "text": "“The majority of the 10–11th century commoners most likely represent local populations of the Carpathian Basin, which admixed with the eastern immigrant groups (which included conquering Hungarians).”",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "Abstract"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maár et al. (2021)",
+          "source": "maar-2021"
+        }
+      ],
+      "rests_on": [
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "One tier B study of maternal lines only. The authors themselves call for whole-genome work before firmer conclusions.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "i2",
+      "kind": "interpretation",
+      "text": "East Eurasian lineages found among the commoners but not shared with the elite “are potential candidates for Avar heritage”.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "4. Discussion"
+        }
+      ],
+      "held_by": [
+        {
+          "who": "Maár et al. (2021)",
+          "source": "maar-2021"
+        }
+      ],
+      "rests_on": [
+        "c3"
+      ],
+      "certainty": "speculative",
+      "certainty_reason": "Offered by the authors as a possibility only.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "dating_methods": [
+    {
+      "id": "d1",
+      "kind": "evidence",
+      "text": "The cemeteries are dated to the 10th–11th centuries (some to the 11th–12th) by the archaeologists who excavated them, as listed in the study's table. How each grave was dated has not been checked here.",
+      "sources": [
+        {
+          "id": "maar-2021",
+          "locator": "Table 1; 2.1"
+        }
+      ],
+      "certainty": "reasonably supported",
+      "certainty_reason": "Period labels reported by one study.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Maternal lines are one thread of ancestry. What do whole genomes from the same cemeteries show?"
+    },
+    {
+      "text": "Rich and poor graves are sorted by what was buried in them. Is that the same as sorting people by where their families came from?"
+    }
+  ],
+  "links": [
+    {
+      "entry": "dna-conquest-period"
+    },
+    {
+      "entry": "dna-transdanubia-2024"
+    },
+    {
+      "entry": "site-karos"
+    },
+    {
+      "concept": "ancient-dna"
+    },
+    {
+      "concept": "avars"
+    },
+    {
+      "concept": "carpathian-basin"
+    }
+  ],
+  "review": {
+    "status": "checked",
+    "by": "Claude",
+    "on": "2026-11-13",
+    "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
+  }
+}

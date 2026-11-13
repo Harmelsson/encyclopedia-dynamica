@@ -5,7 +5,7 @@
   "aliases": [
     "Hungarian raids"
   ],
-  "fact_summary": "From the 860s to the 950s, Latin writers record Hungarian armies raiding Frankish lands, Italy and beyond. The written sources on this map follow them from first appearance to defeat.",
+  "fact_summary": "From the 860s to the 950s, Latin writers record Hungarian armies raiding Frankish lands, Italy and beyond, sometimes as allies or paid to leave. The written sources on this map follow them from first appearance to defeat.",
   "claims": [
     {
       "id": "c1",
@@ -74,6 +74,95 @@
         "by": "Claude",
         "on": "2026-11-05"
       }
+    },
+    {
+      "id": "c5",
+      "kind": "evidence",
+      "text": "In 892 the Hungarians came with an army to join King Arnulf's campaign against the Moravians.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 892 (Kurze ed., p. 121)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c6",
+      "kind": "evidence",
+      "text": "In 899–900 they beat an Italian army on the Brenta and then crossed the Enns into Bavaria, laying waste fifty miles in a day.",
+      "sources": [
+        {
+          "id": "annales-fuldenses",
+          "locator": "s.a. 900 (Kurze ed., p. 134)"
+        },
+        {
+          "id": "liudprand-opera-1877",
+          "locator": "Antapodosis II.9–15 (Dümmler ed., pp. 32–35)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c7",
+      "kind": "evidence",
+      "text": "From 907 to 910 Regino's continuator lists a defeat every year or two: the Bavarians and their duke in 907, Saxony and Thuringia in 908, Alamannia in 909, the Franks in 910.",
+      "sources": [
+        {
+          "id": "adalbert-continuatio",
+          "locator": "s.a. 907–910 (Kurze ed., p. 154)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c8",
+      "kind": "evidence",
+      "text": "Widukind says King Henry bought nine years of peace by giving back a captured Hungarian leader “with other gifts”, and later speaks of “the usual gifts” that Hungarian envoys came to collect.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "I.32 and I.38 (Waitz ed., pp. 26, 32)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
+    },
+    {
+      "id": "c9",
+      "kind": "evidence",
+      "text": "He says that in 955 the Hungarian army was destroyed over three days, and three of its leaders hanged.",
+      "sources": [
+        {
+          "id": "widukind-res-gestae-latin",
+          "locator": "III.46 and III.48 (Waitz ed., p. 74)"
+        }
+      ],
+      "certainty": "well established",
+      "certainty_reason": "This records what the source says. The passage was read in Latin in the scanned edition linked under Sources; the English is Claude's own rendering.",
+      "checked": {
+        "by": "Claude",
+        "on": "2026-11-13"
+      }
     }
   ],
   "open_questions": [
@@ -99,12 +188,36 @@
     },
     {
       "entry": "ws-widukind-955"
+    },
+    {
+      "entry": "ws-fulda-894"
+    },
+    {
+      "entry": "ws-fulda-900"
+    },
+    {
+      "entry": "ws-liudprand-brenta-899"
+    },
+    {
+      "entry": "ws-adalbert-907"
+    },
+    {
+      "entry": "ws-widukind-933"
+    },
+    {
+      "concept": "battle-on-the-lech"
+    },
+    {
+      "concept": "henry-the-fowler"
+    },
+    {
+      "concept": "arnulf"
     }
   ],
   "review": {
     "status": "checked",
     "by": "Claude",
-    "on": "2026-11-05",
+    "on": "2026-11-13",
     "note": "Checked by Claude against open copies of every source. Marc spot-checks a sample."
   }
 }
