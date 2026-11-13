@@ -17,7 +17,7 @@ import { imageFigures } from './images.mjs?v=2026-11-05g';
 
 const params = new URLSearchParams(location.search);
 const EXAMPLE_MODE = params.has('examples');
-const YEAR_MIN = 400, YEAR_MAX = 1000;
+const YEAR_MIN = 400, YEAR_MAX = 1300;
 const MAX_ZOOM = 9;
 
 const KIND_LABEL = {
